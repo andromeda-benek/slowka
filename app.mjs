@@ -10,7 +10,7 @@ import {
   unassignTile,
   validateExerciseBank,
   validateImportedState,
-} from './logic.mjs?v=1.0.3';
+} from './logic.mjs?v=1.0.4';
 
 const STORAGE_KEY = 'slowka-progress-v1';
 const MAX_HISTORY = 100;
@@ -144,16 +144,6 @@ function appendFeedback(container, exercise, correct) {
   sentence.lang = 'ru';
   sentence.textContent = exercise.sentenceRu;
   feedback.append(sentence);
-
-  const translation = document.createElement('span');
-  translation.className = 'translation';
-  translation.textContent = exercise.translationPl;
-  feedback.append(translation);
-
-  const lemma = document.createElement('span');
-  lemma.className = 'translation';
-  lemma.textContent = `${exercise.lemma} — ${exercise.lemmaTranslation}`;
-  feedback.append(lemma);
   container.append(feedback);
 }
 
@@ -172,10 +162,6 @@ function renderChoice() {
   question.lang = 'ru';
   question.textContent = task.sentenceGap;
   card.append(question);
-  const hint = document.createElement('p');
-  hint.className = 'prompt-translation';
-  hint.textContent = task.translationPl;
-  card.append(hint);
 
   const options = document.createElement('div');
   options.className = 'option-grid';
@@ -250,10 +236,6 @@ function renderMatching() {
       renderMatching();
     });
     card.append(sentenceButton);
-    const translation = document.createElement('p');
-    translation.className = 'prompt-translation matching-translation';
-    translation.textContent = exercise.translationPl;
-    card.append(translation);
 
     const assignedId = activeSession.assignments[exercise.id];
     if (assignedId) {

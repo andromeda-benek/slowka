@@ -110,14 +110,12 @@ button:disabled { cursor: default; opacity: 0.55; }
 #session-progress { padding: 9px 12px; border-radius: 999px; background: var(--violet-soft); color: var(--violet-dark); }
 .question-card { padding: 24px; border-radius: 24px; }
 .question { margin: 0; font: 700 clamp(1.25rem, 5.5vw, 1.7rem)/1.55 Georgia, serif; }
-.prompt-translation { margin: 10px 0 0; color: var(--muted); line-height: 1.5; }
 .option-grid { display: grid; gap: 10px; margin-top: 22px; }
 .option { padding: 13px 16px; min-height: 58px; border: 1px solid var(--line); background: white; color: var(--ink); text-align: left; line-height: 1.35; }
 .option.correct { border-color: var(--green); background: var(--green-soft); color: #175540; }
 .option.wrong { border-color: var(--coral); background: var(--coral-soft); color: #8b3024; }
 .feedback { margin-top: 18px; padding: 16px; border-radius: 16px; background: var(--violet-soft); line-height: 1.5; }
 .feedback strong, .feedback span { display: block; }
-.feedback .translation { margin-top: 8px; color: var(--muted); }
 .next-button { width: 100%; margin-top: 14px; }
 
 .matching-intro { margin: -5px 0 14px; color: var(--muted); }
@@ -125,7 +123,6 @@ button:disabled { cursor: default; opacity: 0.55; }
 .matching-card-item { position: relative; padding: 15px; border-radius: 16px; }
 .matching-card-item.selected { border: 2px solid var(--violet); padding: 14px; }
 .sentence-select { width: 100%; min-height: 0; padding: 0; background: transparent; color: var(--ink); text-align: left; line-height: 1.55; font-family: Georgia, serif; font-weight: 600; }
-.matching-translation { margin-top: 6px; font-size: .86rem; }
 .assigned-answer { display: inline-flex; min-height: 36px; margin-top: 10px; padding: 8px 11px; background: var(--violet-soft); color: var(--violet-dark); border-radius: 10px; font-weight: 800; }
 .tile-tray { position: fixed; z-index: 10; left: 0; right: 0; bottom: 0; padding: 12px max(14px, env(safe-area-inset-left)) max(14px, env(safe-area-inset-bottom)); background: rgba(248,244,236,.96); border-top: 1px solid var(--line); backdrop-filter: blur(12px); }
 .tile-tray-inner { width: min(100%, 860px); margin: auto; }
