@@ -121,7 +121,7 @@ button:disabled { cursor: default; opacity: 0.55; }
 .next-button { width: 100%; margin-top: 14px; }
 
 .matching-intro { margin: -5px 0 14px; color: var(--muted); }
-.sentence-list { display: grid; gap: 10px; padding-bottom: 260px; }
+.sentence-list { display: grid; gap: 10px; padding-bottom: 430px; }
 .matching-card-item { position: relative; padding: 15px; border-radius: 16px; }
 .matching-card-item.selected { border: 2px solid var(--violet); padding: 14px; }
 .sentence-select { width: 100%; min-height: 0; padding: 0; background: transparent; color: var(--ink); text-align: left; line-height: 1.55; font-family: Georgia, serif; font-weight: 600; }
@@ -130,8 +130,8 @@ button:disabled { cursor: default; opacity: 0.55; }
 .tile-tray { position: fixed; z-index: 10; left: 0; right: 0; bottom: 0; padding: 12px max(14px, env(safe-area-inset-left)) max(14px, env(safe-area-inset-bottom)); background: rgba(248,244,236,.96); border-top: 1px solid var(--line); backdrop-filter: blur(12px); }
 .tile-tray-inner { width: min(100%, 860px); margin: auto; }
 .tile-tray-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; font-size: .78rem; color: var(--muted); }
-.tile-bank { display: flex; gap: 8px; overflow-x: auto; padding: 2px 2px 10px; scrollbar-width: thin; }
-.phrase-tile { flex: 0 0 auto; max-width: 260px; min-height: 44px; padding: 8px 12px; background: white; color: var(--violet-dark); border: 1px solid var(--line); white-space: normal; }
+.tile-bank { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; padding: 2px 0 8px; }
+.phrase-tile { width: 100%; min-width: 0; min-height: 42px; padding: 6px 7px; background: white; color: var(--violet-dark); border: 1px solid var(--line); white-space: normal; overflow-wrap: anywhere; font-size: .76rem; line-height: 1.2; }
 .phrase-tile.used { background: var(--green-soft); border-color: var(--green); color: var(--green); }
 .check-matching { width: 100%; min-height: 44px; }
 
@@ -154,7 +154,8 @@ footer { display: flex; justify-content: space-between; padding: 18px 0 max(24px
 @media (min-width: 700px) {
   .mode-grid { grid-template-columns: 1fr 1fr; }
   .option-grid { grid-template-columns: 1fr 1fr; }
-  .sentence-list { padding-bottom: 220px; }
+  .sentence-list { padding-bottom: 225px; }
+  .tile-bank { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 }
 
 @media (prefers-reduced-motion: no-preference) {

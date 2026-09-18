@@ -10,7 +10,7 @@ import {
   unassignTile,
   validateExerciseBank,
   validateImportedState,
-} from './logic.mjs?v=1.0.2';
+} from './logic.mjs?v=1.0.3';
 
 const STORAGE_KEY = 'slowka-progress-v1';
 const MAX_HISTORY = 100;
@@ -221,8 +221,6 @@ function renderChoice() {
 }
 
 function renderMatching() {
-  const previousBank = elements.practiceContent.querySelector('.tile-bank');
-  if (previousBank) activeSession.bankScrollLeft = previousBank.scrollLeft;
   elements.sessionKind.textContent = 'Połącz 10 × 10';
   elements.sessionTitle.textContent = 'Dobierz frazy';
   elements.sessionProgress.textContent = `${Object.keys(activeSession.assignments).length}/10`;
@@ -307,10 +305,6 @@ function renderMatching() {
     });
     bank.append(tile);
   });
-  const desiredBankScroll = activeSession.bankScrollLeft || 0;
-  bank.addEventListener('scroll', () => {
-    activeSession.bankScrollLeft = bank.scrollLeft;
-  }, { passive: true });
   inner.append(bank);
 
   const check = document.createElement('button');
@@ -331,9 +325,6 @@ function renderMatching() {
   inner.append(check);
   tray.append(inner);
   elements.practiceContent.append(tray);
-  requestAnimationFrame(() => {
-    bank.scrollLeft = desiredBankScroll;
-  });
   const focusId = activeSession.selectedSentenceId
     || activeSession.exercises.find((exercise) => !activeSession.assignments[exercise.id])?.id;
   if (focusId) {
