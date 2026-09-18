@@ -1,0 +1,18 @@
+# Domyślnie nie publikuj żadnych nowych plików.
+*
+
+# Jawna lista zasobów wymaganych przez GitHub Pages.
+!.gitignore
+!.nojekyll
+!index.html
+!styles.css
+!app.mjs
+!logic.mjs
+!sw.js
+!manifest.webmanifest
+!icon.svg
+!icon-192.png
+!icon-512.png
+!data/
+data/*
+!data/content.json

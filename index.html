@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#5b3f8c">
+  <meta name="description" content="Prywatne rosyjskie powtórki na poziomie B1">
+  <title>Słówka · rosyjski B1</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icon-192.png">
+  <link rel="stylesheet" href="./styles.css?v=1.0.2">
+  <script type="module" src="./app.mjs?v=1.0.2"></script>
+</head>
+<body>
+  <header class="topbar">
+    <button class="ghost icon-button hidden" id="home-button" type="button" aria-label="Wróć do strony głównej">←</button>
+    <div>
+      <p class="eyebrow">Rosyjski · B1</p>
+      <h1 lang="ru">Сло́ва</h1>
+    </div>
+    <span class="status-pill" id="online-status">online</span>
+  </header>
+
+  <main>
+    <div class="notice error hidden" id="error-message" role="alert"></div>
+
+    <section id="home-screen" aria-labelledby="home-title">
+      <div class="hero-card">
+        <div>
+          <p class="eyebrow">Twoje powtórki</p>
+          <h2 id="home-title" tabindex="-1">Ćwicz słowa w kontekście</h2>
+          <p>Naturalne zdania, pełne akcenty i polskie wskazówki przed wyborem.</p>
+        </div>
+        <div class="hero-stat">
+          <strong id="due-count">0</strong>
+          <span>na dziś</span>
+        </div>
+      </div>
+
+      <div class="stats-grid" aria-label="Statystyki nauki">
+        <div class="stat"><strong id="learned-count">0</strong><span>rozpoczęte</span></div>
+        <div class="stat"><strong id="accuracy-value">—</strong><span>skuteczność</span></div>
+        <div class="stat"><strong id="mistake-count">0</strong><span>ostatnie błędy</span></div>
+      </div>
+
+      <label class="field-label" for="session-mode">Zakres sesji</label>
+      <select id="session-mode">
+        <option value="mixed">Tryb mieszany</option>
+        <option value="reviews">Powtórki na dziś</option>
+        <option value="new">Nowe słowa</option>
+        <option value="mistakes">Ostatnie błędy</option>
+      </select>
+
+      <div class="mode-grid">
+        <article class="mode-card choice-card">
+          <span class="mode-number">01</span>
+          <h3>Wybierz odpowiedź</h3>
+          <p>Jedno zdanie i cztery możliwości. Po błędzie od razu zobaczysz prawidłową odpowiedź.</p>
+          <button class="primary" id="start-choice" type="button">Rozpocznij · 10 pytań</button>
+        </article>
+
+        <article class="mode-card matching-card">
+          <span class="mode-number">02</span>
+          <h3>Połącz 10 × 10</h3>
+          <p>Wybierz zdanie, a potem właściwy kafelek. Każdej frazy można użyć tylko raz.</p>
+          <button class="primary" id="start-matching" type="button">Rozpocznij dopasowanie</button>
+        </article>
+      </div>
+
+      <details class="data-tools">
+        <summary>Dane i kopia zapasowa</summary>
+        <p>Postępy są zapisane wyłącznie w tej przeglądarce.</p>
+        <div class="button-row">
+          <button class="secondary" id="export-progress" type="button">Eksportuj postępy</button>
+          <button class="secondary" id="import-progress" type="button">Importuj postępy</button>
+          <input class="hidden" id="import-file" type="file" accept="application/json">
+        </div>
+      </details>
+
+      <button class="install-button hidden" id="install-app" type="button">Dodaj aplikację do ekranu głównego</button>
+      <p class="source-note" id="source-stats">Ładowanie słownika…</p>
+    </section>
+
+    <section class="hidden" id="practice-screen" aria-live="polite">
+      <div class="session-head">
+        <div>
+          <p class="eyebrow" id="session-kind">Ćwiczenie</p>
+          <h2 id="session-title" tabindex="-1">Powtórka</h2>
+        </div>
+        <strong id="session-progress">1/10</strong>
+      </div>
+      <div id="practice-content"></div>
+    </section>
+
+    <section class="hidden" id="result-screen" aria-labelledby="result-title">
+      <div class="result-hero">
+        <p class="eyebrow">Koniec sesji</p>
+        <h2 id="result-title" tabindex="-1">Twój wynik</h2>
+        <strong id="result-score">0/10</strong>
+        <p id="result-message"></p>
+      </div>
+      <div class="review-list" id="review-list"></div>
+      <button class="primary full-width" id="finish-session" type="button">Wróć do startu</button>
+    </section>
+  </main>
+
+  <footer>
+    <span>Słówka · wersja lokalna</span>
+    <span id="offline-ready">PWA</span>
+  </footer>
+</body>
+</html>

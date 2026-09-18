@@ -1,0 +1,3127 @@
+{
+  "stats": {
+    "words": 63,
+    "examples": 189,
+    "exercises": 20
+  },
+  "dictionary": [
+    {
+      "id": "cherta",
+      "haslo": "черта",
+      "akcent": "черта́",
+      "tlumaczenia": [
+        "cecha",
+        "rys",
+        "linia"
+      ],
+      "gramatyka": "rzeczownik rodzaju żeńskiego",
+      "rodzina": [],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "uroven",
+      "haslo": "уровень",
+      "akcent": "у́ровень",
+      "tlumaczenia": [
+        "poziom"
+      ],
+      "gramatyka": "rzeczownik rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "уровневый",
+          "pl": "poziomowy"
+        }
+      ],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "otritsatelnyy",
+      "haslo": "отрицательный",
+      "akcent": "отрица́тельный",
+      "tlumaczenia": [
+        "negatywny",
+        "ujemny",
+        "przeczący"
+      ],
+      "gramatyka": "przymiotnik; forma podstawowa rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "отрица́ть",
+          "pl": "zaprzeczać; negować"
+        },
+        {
+          "ru": "отрица́тельно",
+          "pl": "negatywnie; przecząco"
+        }
+      ],
+      "tagi": [
+        "przymiotnik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "obmanut",
+      "haslo": "обмануть",
+      "akcent": "обману́ть",
+      "tlumaczenia": [
+        "oszukać"
+      ],
+      "gramatyka": "czasownik dokonany",
+      "rodzina": [
+        {
+          "ru": "обма́нывать",
+          "pl": "oszukiwać"
+        },
+        {
+          "ru": "обма́н",
+          "pl": "oszustwo; podstęp"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt dokonany"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "otritsat",
+      "haslo": "отрицать",
+      "akcent": "отрица́ть",
+      "tlumaczenia": [
+        "zaprzeczać",
+        "negować"
+      ],
+      "gramatyka": "czasownik niedokonany",
+      "rodzina": [
+        {
+          "ru": "отрица́тельный",
+          "pl": "negatywny; przeczący"
+        },
+        {
+          "ru": "отрица́ние",
+          "pl": "zaprzeczenie; negacja"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt niedokonany"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "proshchenie",
+      "haslo": "прощение",
+      "akcent": "проще́ние",
+      "tlumaczenia": [
+        "przebaczenie",
+        "wybaczenie"
+      ],
+      "gramatyka": "rzeczownik rodzaju nijakiego",
+      "rodzina": [
+        {
+          "ru": "проща́ть",
+          "pl": "wybaczać"
+        },
+        {
+          "ru": "прости́ть",
+          "pl": "wybaczyć"
+        }
+      ],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "protivnyy",
+      "haslo": "противный",
+      "akcent": "проти́вный",
+      "tlumaczenia": [
+        "nieprzyjemny",
+        "wstrętny",
+        "odrażający"
+      ],
+      "gramatyka": "przymiotnik; forma podstawowa rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "проти́вно",
+          "pl": "nieprzyjemnie; wstrętnie"
+        }
+      ],
+      "tagi": [
+        "przymiotnik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "razodrat",
+      "haslo": "разодрать",
+      "akcent": "разодра́ть",
+      "tlumaczenia": [
+        "rozerwać",
+        "podrzeć",
+        "rozdrapać"
+      ],
+      "gramatyka": "czasownik dokonany",
+      "rodzina": [
+        {
+          "ru": "раздира́ть",
+          "pl": "rozrywać; rozdzierać; rozdrapywać"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt dokonany"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "portit",
+      "haslo": "портить",
+      "akcent": "по́ртить",
+      "tlumaczenia": [
+        "psuć",
+        "niszczyć"
+      ],
+      "gramatyka": "czasownik niedokonany",
+      "rodzina": [
+        {
+          "ru": "испо́ртить",
+          "pl": "zepsuć; zniszczyć"
+        },
+        {
+          "ru": "по́рча",
+          "pl": "zepsucie; uszkodzenie"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt niedokonany"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "razdrazhat",
+      "haslo": "раздражать",
+      "akcent": "раздража́ть",
+      "tlumaczenia": [
+        "drażnić",
+        "irytować"
+      ],
+      "gramatyka": "czasownik niedokonany",
+      "rodzina": [
+        {
+          "ru": "раздраже́ние",
+          "pl": "irytacja; rozdrażnienie"
+        },
+        {
+          "ru": "раздражи́тельный",
+          "pl": "drażliwy; irytujący"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt niedokonany"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "chaevye",
+      "haslo": "чаевые",
+      "akcent": "чаевы́е",
+      "tlumaczenia": [
+        "napiwek",
+        "napiwki"
+      ],
+      "gramatyka": "rzeczownik używany tylko w liczbie mnogiej",
+      "rodzina": [],
+      "tagi": [
+        "rzeczownik",
+        "pluralia tantum"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "zhadnyy",
+      "haslo": "жадный",
+      "akcent": "жа́дный",
+      "tlumaczenia": [
+        "chciwy",
+        "skąpy",
+        "zachłanny"
+      ],
+      "gramatyka": "przymiotnik; forma podstawowa rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "жа́дность",
+          "pl": "chciwość; skąpstwo"
+        },
+        {
+          "ru": "жа́дно",
+          "pl": "chciwie; zachłannie"
+        }
+      ],
+      "tagi": [
+        "przymiotnik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "skupoy",
+      "haslo": "скупой",
+      "akcent": "скупо́й",
+      "tlumaczenia": [
+        "skąpy",
+        "oszczędny w czymś"
+      ],
+      "gramatyka": "przymiotnik; forma podstawowa rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "ску́пость",
+          "pl": "skąpstwo"
+        },
+        {
+          "ru": "ску́по",
+          "pl": "skąpo; oszczędnie"
+        }
+      ],
+      "tagi": [
+        "przymiotnik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "prilagatelnoe",
+      "haslo": "прилагательное",
+      "akcent": "прилага́тельное",
+      "tlumaczenia": [
+        "przymiotnik"
+      ],
+      "gramatyka": "rzeczownik rodzaju nijakiego; skrócona nazwa terminu имя прилагательное",
+      "rodzina": [
+        {
+          "ru": "и́мя прилага́тельное",
+          "pl": "przymiotnik"
+        }
+      ],
+      "tagi": [
+        "rzeczownik",
+        "gramatyka"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "vsyo-taki",
+      "haslo": "всё-таки",
+      "akcent": "всё-таки",
+      "tlumaczenia": [
+        "jednak",
+        "mimo wszystko",
+        "ostatecznie"
+      ],
+      "gramatyka": "partykuła; zapis z łącznikiem",
+      "rodzina": [],
+      "tagi": [
+        "partykuła"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "zhest",
+      "haslo": "жесть",
+      "akcent": "же́сть",
+      "tlumaczenia": [
+        "blacha",
+        "masakra (potocznie)",
+        "coś strasznego (potocznie)"
+      ],
+      "gramatyka": "rzeczownik rodzaju żeńskiego; w języku potocznym także wykrzyknienie",
+      "rodzina": [],
+      "tagi": [
+        "rzeczownik",
+        "potoczne"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "zhestokiy",
+      "haslo": "жестокий",
+      "akcent": "жесто́кий",
+      "tlumaczenia": [
+        "okrutny",
+        "brutalny",
+        "bezlitosny"
+      ],
+      "gramatyka": "przymiotnik; forma podstawowa rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "жесто́кость",
+          "pl": "okrucieństwo"
+        },
+        {
+          "ru": "жесто́ко",
+          "pl": "okrutnie; brutalnie"
+        }
+      ],
+      "tagi": [
+        "przymiotnik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "revnivyy",
+      "haslo": "ревнивый",
+      "akcent": "ревни́вый",
+      "tlumaczenia": [
+        "zazdrosny"
+      ],
+      "gramatyka": "przymiotnik; forma podstawowa rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "ревнова́ть",
+          "pl": "być zazdrosnym; być zazdrosnym o kogoś"
+        },
+        {
+          "ru": "ре́вность",
+          "pl": "zazdrość"
+        }
+      ],
+      "tagi": [
+        "przymiotnik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "zavistlivyy",
+      "haslo": "завистливый",
+      "akcent": "зави́стливый",
+      "tlumaczenia": [
+        "zawistny",
+        "zazdrosny o cudze powodzenie"
+      ],
+      "gramatyka": "przymiotnik; forma podstawowa rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "за́висть",
+          "pl": "zawiść; zazdrość"
+        },
+        {
+          "ru": "зави́довать",
+          "pl": "zazdrościć"
+        }
+      ],
+      "tagi": [
+        "przymiotnik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "obida",
+      "haslo": "обида",
+      "akcent": "оби́да",
+      "tlumaczenia": [
+        "uraza",
+        "żal",
+        "krzywda"
+      ],
+      "gramatyka": "rzeczownik rodzaju żeńskiego",
+      "rodzina": [
+        {
+          "ru": "обижа́ть",
+          "pl": "krzywdzić; obrażać"
+        },
+        {
+          "ru": "оби́деться",
+          "pl": "obrazić się; poczuć się dotkniętym"
+        }
+      ],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "pravitel",
+      "haslo": "правитель",
+      "akcent": "прави́тель",
+      "tlumaczenia": [
+        "władca",
+        "rządzący"
+      ],
+      "gramatyka": "rzeczownik rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "пра́вить",
+          "pl": "rządzić"
+        },
+        {
+          "ru": "правле́ние",
+          "pl": "rządy; panowanie"
+        }
+      ],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "v-tselom",
+      "haslo": "в целом",
+      "akcent": "в це́лом",
+      "tlumaczenia": [
+        "ogólnie",
+        "ogólnie rzecz biorąc",
+        "jako całość"
+      ],
+      "gramatyka": "wyrażenie przysłówkowe",
+      "rodzina": [],
+      "tagi": [
+        "wyrażenie"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "stepen",
+      "haslo": "степень",
+      "akcent": "сте́пень",
+      "tlumaczenia": [
+        "stopień",
+        "poziom",
+        "zakres"
+      ],
+      "gramatyka": "rzeczownik rodzaju żeńskiego",
+      "rodzina": [],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "prevoskhodnyy",
+      "haslo": "превосходный",
+      "akcent": "превосхо́дный",
+      "tlumaczenia": [
+        "doskonały",
+        "znakomity",
+        "wspaniały"
+      ],
+      "gramatyka": "przymiotnik; forma podstawowa rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "превосхо́дно",
+          "pl": "doskonale; znakomicie"
+        }
+      ],
+      "tagi": [
+        "przymiotnik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "kushat",
+      "haslo": "кушать",
+      "akcent": "ку́шать",
+      "tlumaczenia": [
+        "jeść"
+      ],
+      "gramatyka": "czasownik niedokonany; użycie potoczne, grzecznościowe lub dziecięce",
+      "rodzina": [
+        {
+          "ru": "есть",
+          "pl": "jeść; forma neutralna"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt niedokonany"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "pobeg-escape",
+      "haslo": "побег",
+      "akcent": "побе́г",
+      "tlumaczenia": [
+        "ucieczka",
+        "zbiegnięcie"
+      ],
+      "gramatyka": "rzeczownik rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "бежа́ть",
+          "pl": "biec; uciekać"
+        },
+        {
+          "ru": "сбежа́ть",
+          "pl": "uciec; zbiec"
+        }
+      ],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "moryak",
+      "haslo": "моряк",
+      "akcent": "моря́к",
+      "tlumaczenia": [
+        "marynarz"
+      ],
+      "gramatyka": "rzeczownik rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "мо́ре",
+          "pl": "morze"
+        },
+        {
+          "ru": "морско́й",
+          "pl": "morski"
+        }
+      ],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "ustroitsya",
+      "haslo": "устроиться",
+      "akcent": "устро́иться",
+      "tlumaczenia": [
+        "zatrudnić się",
+        "urządzić się",
+        "ulokować się"
+      ],
+      "gramatyka": "czasownik zwrotny, dokonany",
+      "rodzina": [
+        {
+          "ru": "устра́иваться",
+          "pl": "zatrudniać się; urządzać się"
+        },
+        {
+          "ru": "устро́ить",
+          "pl": "urządzić; zorganizować"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt dokonany",
+        "zwrotny"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "techenie",
+      "haslo": "течение",
+      "akcent": "тече́ние",
+      "tlumaczenia": [
+        "prąd",
+        "bieg",
+        "przebieg"
+      ],
+      "gramatyka": "rzeczownik rodzaju nijakiego",
+      "rodzina": [
+        {
+          "ru": "те́чь",
+          "pl": "płynąć"
+        },
+        {
+          "ru": "теку́щий",
+          "pl": "bieżący; płynący"
+        }
+      ],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "issledovanie",
+      "haslo": "исследование",
+      "akcent": "иссле́дование",
+      "tlumaczenia": [
+        "badanie",
+        "analiza"
+      ],
+      "gramatyka": "rzeczownik rodzaju nijakiego",
+      "rodzina": [
+        {
+          "ru": "иссле́довать",
+          "pl": "badać; analizować"
+        },
+        {
+          "ru": "иссле́дователь",
+          "pl": "badacz"
+        }
+      ],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "zakrytsya",
+      "haslo": "закрыться",
+      "akcent": "закры́ться",
+      "tlumaczenia": [
+        "zamknąć się",
+        "zostać zamkniętym"
+      ],
+      "gramatyka": "czasownik zwrotny, dokonany",
+      "rodzina": [
+        {
+          "ru": "закрыва́ться",
+          "pl": "zamykać się"
+        },
+        {
+          "ru": "закры́ть",
+          "pl": "zamknąć"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt dokonany",
+        "zwrotny"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "zakrepitsya",
+      "haslo": "закрепиться",
+      "akcent": "закрепи́ться",
+      "tlumaczenia": [
+        "umocnić się",
+        "utrwalić się",
+        "zadomowić się"
+      ],
+      "gramatyka": "czasownik zwrotny, dokonany",
+      "rodzina": [
+        {
+          "ru": "закрепля́ться",
+          "pl": "umacniać się; utrwalać się"
+        },
+        {
+          "ru": "закрепи́ть",
+          "pl": "umocować; utrwalić"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt dokonany",
+        "zwrotny"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "zapreshchennyy",
+      "haslo": "запрещённый",
+      "akcent": "запрещённый",
+      "tlumaczenia": [
+        "zabroniony",
+        "zakazany"
+      ],
+      "gramatyka": "imiesłów przymiotnikowy bierny; forma podstawowa rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "запреща́ть",
+          "pl": "zabraniać"
+        },
+        {
+          "ru": "запрети́ть",
+          "pl": "zabronić"
+        },
+        {
+          "ru": "запре́т",
+          "pl": "zakaz"
+        }
+      ],
+      "tagi": [
+        "imiesłów",
+        "przymiotnik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "podpolnyy",
+      "haslo": "подпольный",
+      "akcent": "подпо́льный",
+      "tlumaczenia": [
+        "podziemny",
+        "nielegalny",
+        "konspiracyjny"
+      ],
+      "gramatyka": "przymiotnik; forma podstawowa rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "подпо́лье",
+          "pl": "podziemie; konspiracja"
+        }
+      ],
+      "tagi": [
+        "przymiotnik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "raschyot",
+      "haslo": "расчёт",
+      "akcent": "расчёт",
+      "tlumaczenia": [
+        "obliczenie",
+        "kalkulacja",
+        "rozliczenie"
+      ],
+      "gramatyka": "rzeczownik rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "рассчи́тывать",
+          "pl": "obliczać; kalkulować"
+        },
+        {
+          "ru": "рассчита́ть",
+          "pl": "obliczyć; rozliczyć"
+        }
+      ],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "akula",
+      "haslo": "акула",
+      "akcent": "аку́ла",
+      "tlumaczenia": [
+        "rekin"
+      ],
+      "gramatyka": "rzeczownik rodzaju żeńskiego",
+      "rodzina": [
+        {
+          "ru": "акулёнок",
+          "pl": "młody rekin"
+        },
+        {
+          "ru": "аку́лий",
+          "pl": "rekinowy"
+        }
+      ],
+      "tagi": [
+        "rzeczownik",
+        "zwierzęta"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "byt-v-bredu",
+      "haslo": "быть в бреду",
+      "akcent": "бы́ть в бреду́",
+      "tlumaczenia": [
+        "być w malignie",
+        "majaczyć",
+        "być w stanie majaczenia"
+      ],
+      "gramatyka": "wyrażenie czasownikowe",
+      "rodzina": [
+        {
+          "ru": "бре́д",
+          "pl": "majaczenie; brednie"
+        },
+        {
+          "ru": "бреди́ть",
+          "pl": "majaczyć"
+        }
+      ],
+      "tagi": [
+        "wyrażenie",
+        "czasownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "protivorechivo",
+      "haslo": "противоречиво",
+      "akcent": "противоре́чиво",
+      "tlumaczenia": [
+        "sprzecznie",
+        "niekonsekwentnie"
+      ],
+      "gramatyka": "przysłówek",
+      "rodzina": [
+        {
+          "ru": "противоре́чивый",
+          "pl": "sprzeczny; niekonsekwentny"
+        },
+        {
+          "ru": "противоре́чие",
+          "pl": "sprzeczność"
+        }
+      ],
+      "tagi": [
+        "przysłówek"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "podval",
+      "haslo": "подвал",
+      "akcent": "подва́л",
+      "tlumaczenia": [
+        "piwnica",
+        "podziemie budynku"
+      ],
+      "gramatyka": "rzeczownik rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "подва́льный",
+          "pl": "piwniczny"
+        }
+      ],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "obyknovenno",
+      "haslo": "обыкновенно",
+      "akcent": "обыкнове́нно",
+      "tlumaczenia": [
+        "zwykle",
+        "zazwyczaj",
+        "przeważnie"
+      ],
+      "gramatyka": "przysłówek; słowo nieco książkowe",
+      "rodzina": [
+        {
+          "ru": "обыкнове́нный",
+          "pl": "zwykły; pospolity"
+        },
+        {
+          "ru": "обы́чно",
+          "pl": "zwykle; neutralny odpowiednik"
+        }
+      ],
+      "tagi": [
+        "przysłówek"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "imenno",
+      "haslo": "именно",
+      "akcent": "и́менно",
+      "tlumaczenia": [
+        "właśnie",
+        "dokładnie",
+        "mianowicie"
+      ],
+      "gramatyka": "partykuła wzmacniająca lub wyjaśniająca",
+      "rodzina": [],
+      "tagi": [
+        "partykuła"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "obstanovka",
+      "haslo": "обстановка",
+      "akcent": "обстано́вка",
+      "tlumaczenia": [
+        "sytuacja",
+        "otoczenie",
+        "atmosfera",
+        "wyposażenie wnętrza"
+      ],
+      "gramatyka": "rzeczownik rodzaju żeńskiego",
+      "rodzina": [
+        {
+          "ru": "обста́вить",
+          "pl": "umeblować; wyposażyć"
+        },
+        {
+          "ru": "обставля́ть",
+          "pl": "umeblowywać; wyposażać"
+        }
+      ],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "rasformirovat",
+      "haslo": "расформировать",
+      "akcent": "расформирова́ть",
+      "tlumaczenia": [
+        "rozformować",
+        "rozwiązać"
+      ],
+      "gramatyka": "czasownik dokonany",
+      "rodzina": [
+        {
+          "ru": "расформиро́вывать",
+          "pl": "rozformowywać; rozwiązywać"
+        },
+        {
+          "ru": "формирова́ть",
+          "pl": "formować; tworzyć"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt dokonany"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "rabotat-na-zavode",
+      "haslo": "работать на заводе",
+      "akcent": "рабо́тать на заво́де",
+      "tlumaczenia": [
+        "pracować w fabryce",
+        "pracować w zakładzie przemysłowym"
+      ],
+      "gramatyka": "wyrażenie czasownikowe",
+      "rodzina": [
+        {
+          "ru": "рабо́та",
+          "pl": "praca"
+        },
+        {
+          "ru": "рабо́тник",
+          "pl": "pracownik"
+        },
+        {
+          "ru": "заво́д",
+          "pl": "fabryka; zakład przemysłowy"
+        }
+      ],
+      "tagi": [
+        "wyrażenie",
+        "praca"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "v-techenie",
+      "haslo": "в течение",
+      "akcent": "в тече́ние",
+      "tlumaczenia": [
+        "w ciągu",
+        "podczas"
+      ],
+      "gramatyka": "przyimek złożony łączący się z dopełniaczem",
+      "rodzina": [
+        {
+          "ru": "тече́ние",
+          "pl": "prąd; przebieg"
+        }
+      ],
+      "tagi": [
+        "wyrażenie",
+        "przyimek"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "obshchezhitie",
+      "haslo": "общежитие",
+      "akcent": "общежи́тие",
+      "tlumaczenia": [
+        "akademik",
+        "dom studencki",
+        "internat"
+      ],
+      "gramatyka": "rzeczownik rodzaju nijakiego",
+      "rodzina": [
+        {
+          "ru": "общежи́тский",
+          "pl": "akademikowy; związany z akademikiem"
+        }
+      ],
+      "tagi": [
+        "rzeczownik",
+        "mieszkanie"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "kastryulya",
+      "haslo": "кастрюля",
+      "akcent": "кастрю́ля",
+      "tlumaczenia": [
+        "garnek",
+        "rondel"
+      ],
+      "gramatyka": "rzeczownik rodzaju żeńskiego",
+      "rodzina": [],
+      "tagi": [
+        "rzeczownik",
+        "kuchnia"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "dobavlyat",
+      "haslo": "добавлять",
+      "akcent": "добавля́ть",
+      "tlumaczenia": [
+        "dodawać",
+        "dokładać",
+        "uzupełniać"
+      ],
+      "gramatyka": "czasownik niedokonany",
+      "rodzina": [
+        {
+          "ru": "доба́вить",
+          "pl": "dodać; dołożyć"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt niedokonany"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "dodavat",
+      "haslo": "додавать",
+      "akcent": "додава́ть",
+      "tlumaczenia": [
+        "dawać brakującą część",
+        "dawać resztę",
+        "dopłacać"
+      ],
+      "gramatyka": "czasownik niedokonany; słowo rzadkie",
+      "rodzina": [
+        {
+          "ru": "дода́ть",
+          "pl": "dać brakującą lub pozostałą część"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt niedokonany",
+        "rzadkie"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "popast",
+      "haslo": "попасть",
+      "akcent": "попа́сть",
+      "tlumaczenia": [
+        "trafić",
+        "dostać się",
+        "znaleźć się"
+      ],
+      "gramatyka": "czasownik dokonany",
+      "rodzina": [
+        {
+          "ru": "попада́ть",
+          "pl": "trafiać; dostawać się"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt dokonany"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "otkazat",
+      "haslo": "отказать",
+      "akcent": "отказа́ть",
+      "tlumaczenia": [
+        "odmówić",
+        "odrzucić",
+        "odmówić posłuszeństwa"
+      ],
+      "gramatyka": "czasownik dokonany",
+      "rodzina": [
+        {
+          "ru": "отка́зывать",
+          "pl": "odmawiać; odrzucać"
+        },
+        {
+          "ru": "отка́з",
+          "pl": "odmowa"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt dokonany"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "voennyy",
+      "haslo": "военный",
+      "akcent": "вое́нный",
+      "tlumaczenia": [
+        "wojskowy",
+        "żołnierz",
+        "wojskowy jako osoba"
+      ],
+      "gramatyka": "przymiotnik lub rzeczownik; forma podstawowa rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "война́",
+          "pl": "wojna"
+        },
+        {
+          "ru": "военнослужа́щий",
+          "pl": "żołnierz; wojskowy"
+        }
+      ],
+      "tagi": [
+        "przymiotnik",
+        "rzeczownik",
+        "wojsko"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "ryadom",
+      "haslo": "рядом",
+      "akcent": "ря́дом",
+      "tlumaczenia": [
+        "obok",
+        "w pobliżu",
+        "blisko"
+      ],
+      "gramatyka": "przysłówek",
+      "rodzina": [],
+      "tagi": [
+        "przysłówek"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "obitatel",
+      "haslo": "обитатель",
+      "akcent": "обита́тель",
+      "tlumaczenia": [
+        "mieszkaniec",
+        "lokator",
+        "istota zamieszkująca dane środowisko"
+      ],
+      "gramatyka": "rzeczownik rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "обита́ть",
+          "pl": "zamieszkiwać; bytować"
+        },
+        {
+          "ru": "обита́ние",
+          "pl": "zamieszkiwanie; bytowanie"
+        }
+      ],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "kabinet",
+      "haslo": "кабинет",
+      "akcent": "кабине́т",
+      "tlumaczenia": [
+        "gabinet",
+        "biuro",
+        "pracownia"
+      ],
+      "gramatyka": "rzeczownik rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "кабине́тный",
+          "pl": "gabinetowy"
+        }
+      ],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "besit",
+      "haslo": "бесить",
+      "akcent": "беси́ть",
+      "tlumaczenia": [
+        "wkurzać",
+        "doprowadzać do szału",
+        "irytować"
+      ],
+      "gramatyka": "czasownik niedokonany; potoczny",
+      "rodzina": [
+        {
+          "ru": "беси́ться",
+          "pl": "wściekać się; szaleć"
+        },
+        {
+          "ru": "взбеси́ть",
+          "pl": "doprowadzić do szału"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt niedokonany",
+        "potoczne"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "pryamo",
+      "haslo": "прямо",
+      "akcent": "пря́мо",
+      "tlumaczenia": [
+        "prosto",
+        "bezpośrednio",
+        "wprost",
+        "właśnie"
+      ],
+      "gramatyka": "przysłówek lub partykuła wzmacniająca",
+      "rodzina": [
+        {
+          "ru": "прямо́й",
+          "pl": "prosty; bezpośredni"
+        }
+      ],
+      "tagi": [
+        "przysłówek",
+        "partykuła"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "dalneyshaya-sudba",
+      "haslo": "дальнейшая судьба",
+      "akcent": "да́льнейшая судьба́",
+      "tlumaczenia": [
+        "dalszy los",
+        "przyszłe losy"
+      ],
+      "gramatyka": "wyrażenie rzeczownikowe",
+      "rodzina": [
+        {
+          "ru": "да́льнейший",
+          "pl": "dalszy"
+        },
+        {
+          "ru": "судьба́",
+          "pl": "los"
+        }
+      ],
+      "tagi": [
+        "wyrażenie"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "obratnaya-svyaz",
+      "haslo": "обратная связь",
+      "akcent": "обра́тная свя́зь",
+      "tlumaczenia": [
+        "informacja zwrotna",
+        "feedback"
+      ],
+      "gramatyka": "wyrażenie rzeczownikowe",
+      "rodzina": [
+        {
+          "ru": "обра́тный",
+          "pl": "zwrotny; odwrotny"
+        },
+        {
+          "ru": "свя́зь",
+          "pl": "związek; łączność"
+        }
+      ],
+      "tagi": [
+        "wyrażenie"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "estestvenno",
+      "haslo": "естественно",
+      "akcent": "есте́ственно",
+      "tlumaczenia": [
+        "naturalnie",
+        "oczywiście",
+        "rzecz jasna"
+      ],
+      "gramatyka": "przysłówek lub słowo predykatywne",
+      "rodzina": [
+        {
+          "ru": "есте́ственный",
+          "pl": "naturalny"
+        },
+        {
+          "ru": "естество́",
+          "pl": "natura; istota"
+        }
+      ],
+      "tagi": [
+        "przysłówek"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "zashibis",
+      "haslo": "зашибись",
+      "akcent": "зашиби́сь",
+      "tlumaczenia": [
+        "super",
+        "świetnie",
+        "zajebiście"
+      ],
+      "gramatyka": "potoczny wykrzyknik lub przysłówek; slang",
+      "rodzina": [],
+      "tagi": [
+        "slang",
+        "potoczne"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "khren",
+      "haslo": "хрен",
+      "akcent": "хре́н",
+      "tlumaczenia": [
+        "chrzan",
+        "cholera",
+        "guzik"
+      ],
+      "gramatyka": "rzeczownik rodzaju męskiego; także potoczne i dosadne wyrażenie",
+      "rodzina": [
+        {
+          "ru": "хре́новый",
+          "pl": "kiepski; cholerny"
+        }
+      ],
+      "tagi": [
+        "rzeczownik",
+        "slang",
+        "potoczne"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "fig",
+      "haslo": "фиг",
+      "akcent": "фи́г",
+      "tlumaczenia": [
+        "guzik",
+        "nic",
+        "akurat"
+      ],
+      "gramatyka": "potoczny rzeczownik i wykrzyknik; łagodnie dosadny",
+      "rodzina": [
+        {
+          "ru": "фигня́",
+          "pl": "bzdura; drobiazg"
+        }
+      ],
+      "tagi": [
+        "rzeczownik",
+        "slang",
+        "potoczne"
+      ],
+      "powtorki": []
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex0001",
+      "haslo_id": "cherta",
+      "haslo": "черта́",
+      "ru": "характе́рная черта́",
+      "pl": "cecha charakterystyczna"
+    },
+    {
+      "id": "ex0002",
+      "haslo_id": "cherta",
+      "haslo": "черта́",
+      "ru": "черта́ лица́",
+      "pl": "rys twarzy"
+    },
+    {
+      "id": "ex0003",
+      "haslo_id": "cherta",
+      "haslo": "черта́",
+      "ru": "провести́ черту́",
+      "pl": "narysować linię; wyznaczyć granicę"
+    },
+    {
+      "id": "ex0004",
+      "haslo_id": "uroven",
+      "haslo": "у́ровень",
+      "ru": "высо́кий у́ровень",
+      "pl": "wysoki poziom"
+    },
+    {
+      "id": "ex0005",
+      "haslo_id": "uroven",
+      "haslo": "у́ровень",
+      "ru": "у́ровень зна́ний",
+      "pl": "poziom wiedzy"
+    },
+    {
+      "id": "ex0006",
+      "haslo_id": "uroven",
+      "haslo": "у́ровень",
+      "ru": "повы́сить у́ровень",
+      "pl": "podnieść poziom"
+    },
+    {
+      "id": "ex0007",
+      "haslo_id": "otritsatelnyy",
+      "haslo": "отрица́тельный",
+      "ru": "отрица́тельный отве́т",
+      "pl": "odpowiedź przecząca"
+    },
+    {
+      "id": "ex0008",
+      "haslo_id": "otritsatelnyy",
+      "haslo": "отрица́тельный",
+      "ru": "отрица́тельный результа́т",
+      "pl": "wynik negatywny"
+    },
+    {
+      "id": "ex0009",
+      "haslo_id": "otritsatelnyy",
+      "haslo": "отрица́тельный",
+      "ru": "отрица́тельное число́",
+      "pl": "liczba ujemna"
+    },
+    {
+      "id": "ex0010",
+      "haslo_id": "obmanut",
+      "haslo": "обману́ть",
+      "ru": "обману́ть дру́га",
+      "pl": "oszukać przyjaciela"
+    },
+    {
+      "id": "ex0011",
+      "haslo_id": "obmanut",
+      "haslo": "обману́ть",
+      "ru": "меня́ обману́ли",
+      "pl": "oszukano mnie"
+    },
+    {
+      "id": "ex0012",
+      "haslo_id": "obmanut",
+      "haslo": "обману́ть",
+      "ru": "не пыта́йся меня́ обману́ть",
+      "pl": "nie próbuj mnie oszukać"
+    },
+    {
+      "id": "ex0013",
+      "haslo_id": "otritsat",
+      "haslo": "отрица́ть",
+      "ru": "отрица́ть свою́ вину́",
+      "pl": "zaprzeczać swojej winie"
+    },
+    {
+      "id": "ex0014",
+      "haslo_id": "otritsat",
+      "haslo": "отрица́ть",
+      "ru": "он отрица́ет всё",
+      "pl": "on wszystkiemu zaprzecza"
+    },
+    {
+      "id": "ex0015",
+      "haslo_id": "otritsat",
+      "haslo": "отрица́ть",
+      "ru": "тру́дно отрица́ть фа́кты",
+      "pl": "trudno negować fakty"
+    },
+    {
+      "id": "ex0016",
+      "haslo_id": "proshchenie",
+      "haslo": "проще́ние",
+      "ru": "проси́ть проще́ния",
+      "pl": "prosić o wybaczenie"
+    },
+    {
+      "id": "ex0017",
+      "haslo_id": "proshchenie",
+      "haslo": "проще́ние",
+      "ru": "получи́ть проще́ние",
+      "pl": "uzyskać przebaczenie"
+    },
+    {
+      "id": "ex0018",
+      "haslo_id": "proshchenie",
+      "haslo": "проще́ние",
+      "ru": "наде́яться на проще́ние",
+      "pl": "mieć nadzieję na wybaczenie"
+    },
+    {
+      "id": "ex0019",
+      "haslo_id": "protivnyy",
+      "haslo": "проти́вный",
+      "ru": "проти́вный за́пах",
+      "pl": "nieprzyjemny zapach"
+    },
+    {
+      "id": "ex0020",
+      "haslo_id": "protivnyy",
+      "haslo": "проти́вный",
+      "ru": "проти́вный челове́к",
+      "pl": "wstrętny człowiek"
+    },
+    {
+      "id": "ex0021",
+      "haslo_id": "protivnyy",
+      "haslo": "проти́вный",
+      "ru": "кака́я проти́вная пого́да!",
+      "pl": "co za okropna pogoda!"
+    },
+    {
+      "id": "ex0022",
+      "haslo_id": "razodrat",
+      "haslo": "разодра́ть",
+      "ru": "разодра́ть руба́шку",
+      "pl": "podrzeć koszulę"
+    },
+    {
+      "id": "ex0023",
+      "haslo_id": "razodrat",
+      "haslo": "разодра́ть",
+      "ru": "разодра́ть коле́но",
+      "pl": "rozdrapać kolano"
+    },
+    {
+      "id": "ex0024",
+      "haslo_id": "razodrat",
+      "haslo": "разодра́ть",
+      "ru": "ко́шка разодрала́ мне ру́ку",
+      "pl": "kotka podrapała mi rękę"
+    },
+    {
+      "id": "ex0025",
+      "haslo_id": "portit",
+      "haslo": "по́ртить",
+      "ru": "по́ртить настрое́ние",
+      "pl": "psuć nastrój"
+    },
+    {
+      "id": "ex0026",
+      "haslo_id": "portit",
+      "haslo": "по́ртить",
+      "ru": "по́ртить отноше́ния",
+      "pl": "psuć relacje"
+    },
+    {
+      "id": "ex0027",
+      "haslo_id": "portit",
+      "haslo": "по́ртить",
+      "ru": "не по́рть мне пра́здник",
+      "pl": "nie psuj mi święta"
+    },
+    {
+      "id": "ex0028",
+      "haslo_id": "razdrazhat",
+      "haslo": "раздража́ть",
+      "ru": "меня́ э́то раздража́ет",
+      "pl": "to mnie irytuje"
+    },
+    {
+      "id": "ex0029",
+      "haslo_id": "razdrazhat",
+      "haslo": "раздража́ть",
+      "ru": "гро́мкая му́зыка раздража́ет сосе́дей",
+      "pl": "głośna muzyka drażni sąsiadów"
+    },
+    {
+      "id": "ex0030",
+      "haslo_id": "razdrazhat",
+      "haslo": "раздража́ть",
+      "ru": "не на́до раздража́ть соба́ку",
+      "pl": "nie należy drażnić psa"
+    },
+    {
+      "id": "ex0031",
+      "haslo_id": "chaevye",
+      "haslo": "чаевы́е",
+      "ru": "оста́вить чаевы́е",
+      "pl": "zostawić napiwek"
+    },
+    {
+      "id": "ex0032",
+      "haslo_id": "chaevye",
+      "haslo": "чаевы́е",
+      "ru": "дать чаевы́е официа́нту",
+      "pl": "dać napiwek kelnerowi"
+    },
+    {
+      "id": "ex0033",
+      "haslo_id": "chaevye",
+      "haslo": "чаевы́е",
+      "ru": "чаевы́е включены́ в счёт",
+      "pl": "napiwek jest wliczony w rachunek"
+    },
+    {
+      "id": "ex0034",
+      "haslo_id": "zhadnyy",
+      "haslo": "жа́дный",
+      "ru": "жа́дный челове́к",
+      "pl": "chciwy człowiek"
+    },
+    {
+      "id": "ex0035",
+      "haslo_id": "zhadnyy",
+      "haslo": "жа́дный",
+      "ru": "он о́чень жа́дный",
+      "pl": "on jest bardzo skąpy"
+    },
+    {
+      "id": "ex0036",
+      "haslo_id": "zhadnyy",
+      "haslo": "жа́дный",
+      "ru": "не будь жа́дным",
+      "pl": "nie bądź skąpy"
+    },
+    {
+      "id": "ex0037",
+      "haslo_id": "skupoy",
+      "haslo": "скупо́й",
+      "ru": "скупо́й челове́к",
+      "pl": "skąpy człowiek"
+    },
+    {
+      "id": "ex0038",
+      "haslo_id": "skupoy",
+      "haslo": "скупо́й",
+      "ru": "он скуп на похвалу́",
+      "pl": "on jest oszczędny w pochwałach"
+    },
+    {
+      "id": "ex0039",
+      "haslo_id": "skupoy",
+      "haslo": "скупо́й",
+      "ru": "скупо́й пла́тит два́жды",
+      "pl": "skąpy płaci dwa razy"
+    },
+    {
+      "id": "ex0040",
+      "haslo_id": "prilagatelnoe",
+      "haslo": "прилага́тельное",
+      "ru": "ка́чественное прилага́тельное",
+      "pl": "przymiotnik jakościowy"
+    },
+    {
+      "id": "ex0041",
+      "haslo_id": "prilagatelnoe",
+      "haslo": "прилага́тельное",
+      "ru": "кра́ткая фо́рма прилага́тельного",
+      "pl": "krótka forma przymiotnika"
+    },
+    {
+      "id": "ex0042",
+      "haslo_id": "prilagatelnoe",
+      "haslo": "прилага́тельное",
+      "ru": "э́то прилага́тельное",
+      "pl": "to jest przymiotnik"
+    },
+    {
+      "id": "ex0043",
+      "haslo_id": "vsyo-taki",
+      "haslo": "всё-таки",
+      "ru": "он всё-таки пришёл",
+      "pl": "on jednak przyszedł"
+    },
+    {
+      "id": "ex0044",
+      "haslo_id": "vsyo-taki",
+      "haslo": "всё-таки",
+      "ru": "я всё-таки реши́л оста́ться",
+      "pl": "ostatecznie postanowiłem zostać"
+    },
+    {
+      "id": "ex0045",
+      "haslo_id": "vsyo-taki",
+      "haslo": "всё-таки",
+      "ru": "э́то всё-таки пра́вда",
+      "pl": "to mimo wszystko jest prawda"
+    },
+    {
+      "id": "ex0046",
+      "haslo_id": "zhest",
+      "haslo": "же́сть",
+      "ru": "Же́сть, Ка́й!",
+      "pl": "Masakra, Kai!"
+    },
+    {
+      "id": "ex0047",
+      "haslo_id": "zhest",
+      "haslo": "же́сть",
+      "ru": "Во́т э́то же́сть!",
+      "pl": "Ale masakra!"
+    },
+    {
+      "id": "ex0048",
+      "haslo_id": "zhest",
+      "haslo": "же́сть",
+      "ru": "По́лная же́сть.",
+      "pl": "Totalna masakra."
+    },
+    {
+      "id": "ex0049",
+      "haslo_id": "zhestokiy",
+      "haslo": "жесто́кий",
+      "ru": "жесто́кий челове́к",
+      "pl": "okrutny człowiek"
+    },
+    {
+      "id": "ex0050",
+      "haslo_id": "zhestokiy",
+      "haslo": "жесто́кий",
+      "ru": "жесто́кое обраще́ние",
+      "pl": "okrutne traktowanie"
+    },
+    {
+      "id": "ex0051",
+      "haslo_id": "zhestokiy",
+      "haslo": "жесто́кий",
+      "ru": "жесто́кий бой",
+      "pl": "brutalna walka"
+    },
+    {
+      "id": "ex0052",
+      "haslo_id": "revnivyy",
+      "haslo": "ревни́вый",
+      "ru": "ревни́вый челове́к",
+      "pl": "zazdrosny człowiek"
+    },
+    {
+      "id": "ex0053",
+      "haslo_id": "revnivyy",
+      "haslo": "ревни́вый",
+      "ru": "он о́чень ревни́вый",
+      "pl": "on jest bardzo zazdrosny"
+    },
+    {
+      "id": "ex0054",
+      "haslo_id": "revnivyy",
+      "haslo": "ревни́вый",
+      "ru": "не будь таки́м ревни́вым",
+      "pl": "nie bądź taki zazdrosny"
+    },
+    {
+      "id": "ex0055",
+      "haslo_id": "zavistlivyy",
+      "haslo": "зави́стливый",
+      "ru": "зави́стливый челове́к",
+      "pl": "zawistny człowiek"
+    },
+    {
+      "id": "ex0056",
+      "haslo_id": "zavistlivyy",
+      "haslo": "зави́стливый",
+      "ru": "зави́стливый взгляд",
+      "pl": "zawistne spojrzenie"
+    },
+    {
+      "id": "ex0057",
+      "haslo_id": "zavistlivyy",
+      "haslo": "зави́стливый",
+      "ru": "не будь зави́стливым",
+      "pl": "nie bądź zawistny"
+    },
+    {
+      "id": "ex0058",
+      "haslo_id": "obida",
+      "haslo": "оби́да",
+      "ru": "затаи́ть оби́ду",
+      "pl": "chować urazę"
+    },
+    {
+      "id": "ex0059",
+      "haslo_id": "obida",
+      "haslo": "оби́да",
+      "ru": "не держи́ на меня́ оби́ду",
+      "pl": "nie miej do mnie żalu"
+    },
+    {
+      "id": "ex0060",
+      "haslo_id": "obida",
+      "haslo": "оби́да",
+      "ru": "прости́ть оби́ду",
+      "pl": "wybaczyć krzywdę"
+    },
+    {
+      "id": "ex0061",
+      "haslo_id": "pravitel",
+      "haslo": "прави́тель",
+      "ru": "му́дрый прави́тель",
+      "pl": "mądry władca"
+    },
+    {
+      "id": "ex0062",
+      "haslo_id": "pravitel",
+      "haslo": "прави́тель",
+      "ru": "прави́тель страны́",
+      "pl": "władca kraju"
+    },
+    {
+      "id": "ex0063",
+      "haslo_id": "pravitel",
+      "haslo": "прави́тель",
+      "ru": "стать прави́телем",
+      "pl": "zostać władcą"
+    },
+    {
+      "id": "ex0064",
+      "haslo_id": "v-tselom",
+      "haslo": "в це́лом",
+      "ru": "в це́лом всё хорошо́",
+      "pl": "ogólnie wszystko jest dobrze"
+    },
+    {
+      "id": "ex0065",
+      "haslo_id": "v-tselom",
+      "haslo": "в це́лом",
+      "ru": "в це́лом я согла́сен",
+      "pl": "ogólnie rzecz biorąc, zgadzam się"
+    },
+    {
+      "id": "ex0066",
+      "haslo_id": "v-tselom",
+      "haslo": "в це́лом",
+      "ru": "оцени́ть прое́кт в це́лом",
+      "pl": "ocenić projekt jako całość"
+    },
+    {
+      "id": "ex0067",
+      "haslo_id": "stepen",
+      "haslo": "сте́пень",
+      "ru": "сте́пень сло́жности",
+      "pl": "stopień trudności"
+    },
+    {
+      "id": "ex0068",
+      "haslo_id": "stepen",
+      "haslo": "сте́пень",
+      "ru": "в како́й сте́пени?",
+      "pl": "w jakim stopniu?"
+    },
+    {
+      "id": "ex0069",
+      "haslo_id": "stepen",
+      "haslo": "сте́пень",
+      "ru": "учёная сте́пень",
+      "pl": "stopień naukowy"
+    },
+    {
+      "id": "ex0070",
+      "haslo_id": "prevoskhodnyy",
+      "haslo": "превосхо́дный",
+      "ru": "превосхо́дная иде́я",
+      "pl": "doskonały pomysł"
+    },
+    {
+      "id": "ex0071",
+      "haslo_id": "prevoskhodnyy",
+      "haslo": "превосхо́дный",
+      "ru": "превосхо́дный результа́т",
+      "pl": "znakomity wynik"
+    },
+    {
+      "id": "ex0072",
+      "haslo_id": "prevoskhodnyy",
+      "haslo": "превосхо́дный",
+      "ru": "превосхо́дное ка́чество",
+      "pl": "doskonała jakość"
+    },
+    {
+      "id": "ex0073",
+      "haslo_id": "kushat",
+      "haslo": "ку́шать",
+      "ru": "я хочу́ ку́шать",
+      "pl": "chcę jeść"
+    },
+    {
+      "id": "ex0074",
+      "haslo_id": "kushat",
+      "haslo": "ку́шать",
+      "ru": "са́дитесь ку́шать",
+      "pl": "proszę siadać do jedzenia"
+    },
+    {
+      "id": "ex0075",
+      "haslo_id": "kushat",
+      "haslo": "ку́шать",
+      "ru": "ку́шать по́дано",
+      "pl": "podano do stołu"
+    },
+    {
+      "id": "ex0076",
+      "haslo_id": "pobeg-escape",
+      "haslo": "побе́г",
+      "ru": "соверши́ть побе́г",
+      "pl": "dokonać ucieczki"
+    },
+    {
+      "id": "ex0077",
+      "haslo_id": "pobeg-escape",
+      "haslo": "побе́г",
+      "ru": "пла́н побе́га",
+      "pl": "plan ucieczki"
+    },
+    {
+      "id": "ex0078",
+      "haslo_id": "pobeg-escape",
+      "haslo": "побе́г",
+      "ru": "побе́г из тюрьмы́",
+      "pl": "ucieczka z więzienia"
+    },
+    {
+      "id": "ex0079",
+      "haslo_id": "moryak",
+      "haslo": "моря́к",
+      "ru": "о́пытный моря́к",
+      "pl": "doświadczony marynarz"
+    },
+    {
+      "id": "ex0080",
+      "haslo_id": "moryak",
+      "haslo": "моря́к",
+      "ru": "ста́ть моряко́м",
+      "pl": "zostać marynarzem"
+    },
+    {
+      "id": "ex0081",
+      "haslo_id": "moryak",
+      "haslo": "моря́к",
+      "ru": "моряки́ верну́лись домо́й",
+      "pl": "marynarze wrócili do domu"
+    },
+    {
+      "id": "ex0082",
+      "haslo_id": "ustroitsya",
+      "haslo": "устро́иться",
+      "ru": "устро́иться на рабо́ту",
+      "pl": "zatrudnić się; znaleźć pracę"
+    },
+    {
+      "id": "ex0083",
+      "haslo_id": "ustroitsya",
+      "haslo": "устро́иться",
+      "ru": "удо́бно устро́иться в кре́сле",
+      "pl": "wygodnie usadowić się w fotelu"
+    },
+    {
+      "id": "ex0084",
+      "haslo_id": "ustroitsya",
+      "haslo": "устро́иться",
+      "ru": "устро́иться в гости́нице",
+      "pl": "ulokować się w hotelu"
+    },
+    {
+      "id": "ex0085",
+      "haslo_id": "techenie",
+      "haslo": "тече́ние",
+      "ru": "тече́ние реки́",
+      "pl": "prąd rzeki"
+    },
+    {
+      "id": "ex0086",
+      "haslo_id": "techenie",
+      "haslo": "тече́ние",
+      "ru": "тече́ние боле́зни",
+      "pl": "przebieg choroby"
+    },
+    {
+      "id": "ex0087",
+      "haslo_id": "techenie",
+      "haslo": "тече́ние",
+      "ru": "в тече́ние дня́",
+      "pl": "w ciągu dnia"
+    },
+    {
+      "id": "ex0088",
+      "haslo_id": "issledovanie",
+      "haslo": "иссле́дование",
+      "ru": "проводи́ть иссле́дование",
+      "pl": "prowadzić badanie"
+    },
+    {
+      "id": "ex0089",
+      "haslo_id": "issledovanie",
+      "haslo": "иссле́дование",
+      "ru": "нау́чное иссле́дование",
+      "pl": "badanie naukowe"
+    },
+    {
+      "id": "ex0090",
+      "haslo_id": "issledovanie",
+      "haslo": "иссле́дование",
+      "ru": "результа́ты иссле́дования",
+      "pl": "wyniki badania"
+    },
+    {
+      "id": "ex0091",
+      "haslo_id": "zakrytsya",
+      "haslo": "закры́ться",
+      "ru": "магази́н закры́лся",
+      "pl": "sklep się zamknął"
+    },
+    {
+      "id": "ex0092",
+      "haslo_id": "zakrytsya",
+      "haslo": "закры́ться",
+      "ru": "он закры́лся в ко́мнате",
+      "pl": "on zamknął się w pokoju"
+    },
+    {
+      "id": "ex0093",
+      "haslo_id": "zakrytsya",
+      "haslo": "закры́ться",
+      "ru": "музе́й закры́лся на ремо́нт",
+      "pl": "muzeum zostało zamknięte na czas remontu"
+    },
+    {
+      "id": "ex0094",
+      "haslo_id": "zakrepitsya",
+      "haslo": "закрепи́ться",
+      "ru": "закрепи́ться на но́вом ме́сте",
+      "pl": "zadomowić się w nowym miejscu"
+    },
+    {
+      "id": "ex0095",
+      "haslo_id": "zakrepitsya",
+      "haslo": "закрепи́ться",
+      "ru": "закрепи́ться в па́мяти",
+      "pl": "utrwalić się w pamięci"
+    },
+    {
+      "id": "ex0096",
+      "haslo_id": "zakrepitsya",
+      "haslo": "закрепи́ться",
+      "ru": "про́чно закрепи́ться",
+      "pl": "mocno się umocnić"
+    },
+    {
+      "id": "ex0097",
+      "haslo_id": "zapreshchennyy",
+      "haslo": "запрещённый",
+      "ru": "зде́сь запрещено́ кури́ть",
+      "pl": "tutaj nie wolno palić"
+    },
+    {
+      "id": "ex0098",
+      "haslo_id": "zapreshchennyy",
+      "haslo": "запрещённый",
+      "ru": "вхо́д запрещён",
+      "pl": "wstęp wzbroniony"
+    },
+    {
+      "id": "ex0099",
+      "haslo_id": "zapreshchennyy",
+      "haslo": "запрещённый",
+      "ru": "э́то запрещено́ зако́ном",
+      "pl": "to jest zabronione przez prawo"
+    },
+    {
+      "id": "ex0100",
+      "haslo_id": "podpolnyy",
+      "haslo": "подпо́льный",
+      "ru": "подпо́льная организа́ция",
+      "pl": "organizacja podziemna"
+    },
+    {
+      "id": "ex0101",
+      "haslo_id": "podpolnyy",
+      "haslo": "подпо́льный",
+      "ru": "подпо́льное казино́",
+      "pl": "nielegalne kasyno"
+    },
+    {
+      "id": "ex0102",
+      "haslo_id": "podpolnyy",
+      "haslo": "подпо́льный",
+      "ru": "подпо́льная де́ятельность",
+      "pl": "działalność konspiracyjna"
+    },
+    {
+      "id": "ex0103",
+      "haslo_id": "raschyot",
+      "haslo": "расчёт",
+      "ru": "то́чный расчёт",
+      "pl": "dokładne obliczenie"
+    },
+    {
+      "id": "ex0104",
+      "haslo_id": "raschyot",
+      "haslo": "расчёт",
+      "ru": "расчёт сто́имости",
+      "pl": "kalkulacja kosztów"
+    },
+    {
+      "id": "ex0105",
+      "haslo_id": "raschyot",
+      "haslo": "расчёт",
+      "ru": "оконча́тельный расчёт",
+      "pl": "ostateczne rozliczenie"
+    },
+    {
+      "id": "ex0106",
+      "haslo_id": "akula",
+      "haslo": "аку́ла",
+      "ru": "бе́лая аку́ла",
+      "pl": "żarłacz biały"
+    },
+    {
+      "id": "ex0107",
+      "haslo_id": "akula",
+      "haslo": "аку́ла",
+      "ru": "аку́ла пла́вает в мо́ре",
+      "pl": "rekin pływa w morzu"
+    },
+    {
+      "id": "ex0108",
+      "haslo_id": "akula",
+      "haslo": "аку́ла",
+      "ru": "нападе́ние аку́лы",
+      "pl": "atak rekina"
+    },
+    {
+      "id": "ex0109",
+      "haslo_id": "byt-v-bredu",
+      "haslo": "бы́ть в бреду́",
+      "ru": "он бы́л в бреду́",
+      "pl": "on był w malignie"
+    },
+    {
+      "id": "ex0110",
+      "haslo_id": "byt-v-bredu",
+      "haslo": "бы́ть в бреду́",
+      "ru": "больно́й бы́л в бреду́",
+      "pl": "chory majaczył"
+    },
+    {
+      "id": "ex0111",
+      "haslo_id": "byt-v-bredu",
+      "haslo": "бы́ть в бреду́",
+      "ru": "ты говори́шь, бу́дто в бреду́",
+      "pl": "mówisz, jakbyś majaczył"
+    },
+    {
+      "id": "ex0112",
+      "haslo_id": "protivorechivo",
+      "haslo": "противоре́чиво",
+      "ru": "его́ слова́ звуча́т противоре́чиво",
+      "pl": "jego słowa brzmią sprzecznie"
+    },
+    {
+      "id": "ex0113",
+      "haslo_id": "protivorechivo",
+      "haslo": "противоре́чиво",
+      "ru": "о́н ведёт себя́ противоре́чиво",
+      "pl": "on zachowuje się niekonsekwentnie"
+    },
+    {
+      "id": "ex0114",
+      "haslo_id": "protivorechivo",
+      "haslo": "противоре́чиво",
+      "ru": "ситуа́ция вы́глядит противоре́чиво",
+      "pl": "sytuacja wygląda sprzecznie"
+    },
+    {
+      "id": "ex0115",
+      "haslo_id": "podval",
+      "haslo": "подва́л",
+      "ru": "тёмный подва́л",
+      "pl": "ciemna piwnica"
+    },
+    {
+      "id": "ex0116",
+      "haslo_id": "podval",
+      "haslo": "подва́л",
+      "ru": "спусти́ться в подва́л",
+      "pl": "zejść do piwnicy"
+    },
+    {
+      "id": "ex0117",
+      "haslo_id": "podval",
+      "haslo": "подва́л",
+      "ru": "храни́ть ве́щи в подва́ле",
+      "pl": "przechowywać rzeczy w piwnicy"
+    },
+    {
+      "id": "ex0118",
+      "haslo_id": "obyknovenno",
+      "haslo": "обыкнове́нно",
+      "ru": "о́н обыкнове́нно встаёт ра́но",
+      "pl": "on zwykle wstaje wcześnie"
+    },
+    {
+      "id": "ex0119",
+      "haslo_id": "obyknovenno",
+      "haslo": "обыкнове́нно",
+      "ru": "э́то обыкнове́нно случа́ется зимо́й",
+      "pl": "to zazwyczaj zdarza się zimą"
+    },
+    {
+      "id": "ex0120",
+      "haslo_id": "obyknovenno",
+      "haslo": "обыкнове́нно",
+      "ru": "обыкнове́нно лю́дей зде́сь ма́ло",
+      "pl": "zwykle jest tu mało ludzi"
+    },
+    {
+      "id": "ex0121",
+      "haslo_id": "imenno",
+      "haslo": "и́менно",
+      "ru": "и́менно э́то",
+      "pl": "właśnie to"
+    },
+    {
+      "id": "ex0122",
+      "haslo_id": "imenno",
+      "haslo": "и́менно",
+      "ru": "я и́менно э́то име́л в виду́",
+      "pl": "właśnie to miałem na myśli"
+    },
+    {
+      "id": "ex0123",
+      "haslo_id": "imenno",
+      "haslo": "и́менно",
+      "ru": "почему́ и́менно сейча́с?",
+      "pl": "dlaczego właśnie teraz?"
+    },
+    {
+      "id": "ex0124",
+      "haslo_id": "obstanovka",
+      "haslo": "обстано́вка",
+      "ru": "споко́йная обстано́вка",
+      "pl": "spokojna atmosfera"
+    },
+    {
+      "id": "ex0125",
+      "haslo_id": "obstanovka",
+      "haslo": "обстано́вка",
+      "ru": "полити́ческая обстано́вка",
+      "pl": "sytuacja polityczna"
+    },
+    {
+      "id": "ex0126",
+      "haslo_id": "obstanovka",
+      "haslo": "обстано́вка",
+      "ru": "дома́шняя обстано́вка",
+      "pl": "domowe otoczenie; wystrój domu"
+    },
+    {
+      "id": "ex0127",
+      "haslo_id": "rasformirovat",
+      "haslo": "расформирова́ть",
+      "ru": "расформирова́ть подразделе́ние",
+      "pl": "rozformować jednostkę"
+    },
+    {
+      "id": "ex0128",
+      "haslo_id": "rasformirovat",
+      "haslo": "расформирова́ть",
+      "ru": "расформирова́ть коми́ссию",
+      "pl": "rozwiązać komisję"
+    },
+    {
+      "id": "ex0129",
+      "haslo_id": "rasformirovat",
+      "haslo": "расформирова́ть",
+      "ru": "приказа́ли расформирова́ть отря́д",
+      "pl": "rozkazano rozformować oddział"
+    },
+    {
+      "id": "ex0130",
+      "haslo_id": "rabotat-na-zavode",
+      "haslo": "рабо́тать на заво́де",
+      "ru": "о́н рабо́тает на заво́де",
+      "pl": "on pracuje w fabryce"
+    },
+    {
+      "id": "ex0131",
+      "haslo_id": "rabotat-na-zavode",
+      "haslo": "рабо́тать на заво́де",
+      "ru": "я хочу́ рабо́тать на заво́де",
+      "pl": "chcę pracować w fabryce"
+    },
+    {
+      "id": "ex0132",
+      "haslo_id": "rabotat-na-zavode",
+      "haslo": "рабо́тать на заво́де",
+      "ru": "она́ мно́го ле́т рабо́тала на заво́де",
+      "pl": "ona przez wiele lat pracowała w fabryce"
+    },
+    {
+      "id": "ex0133",
+      "haslo_id": "v-techenie",
+      "haslo": "в тече́ние",
+      "ru": "в тече́ние часа́",
+      "pl": "w ciągu godziny"
+    },
+    {
+      "id": "ex0134",
+      "haslo_id": "v-techenie",
+      "haslo": "в тече́ние",
+      "ru": "в тече́ние неде́ли",
+      "pl": "w ciągu tygodnia"
+    },
+    {
+      "id": "ex0135",
+      "haslo_id": "v-techenie",
+      "haslo": "в тече́ние",
+      "ru": "в тече́ние го́да",
+      "pl": "w ciągu roku"
+    },
+    {
+      "id": "ex0136",
+      "haslo_id": "obshchezhitie",
+      "haslo": "общежи́тие",
+      "ru": "жи́ть в общежи́тии",
+      "pl": "mieszkać w akademiku"
+    },
+    {
+      "id": "ex0137",
+      "haslo_id": "obshchezhitie",
+      "haslo": "общежи́тие",
+      "ru": "студе́нческое общежи́тие",
+      "pl": "akademik; dom studencki"
+    },
+    {
+      "id": "ex0138",
+      "haslo_id": "obshchezhitie",
+      "haslo": "общежи́тие",
+      "ru": "ко́мната в общежи́тии",
+      "pl": "pokój w akademiku"
+    },
+    {
+      "id": "ex0139",
+      "haslo_id": "kastryulya",
+      "haslo": "кастрю́ля",
+      "ru": "больша́я кастрю́ля",
+      "pl": "duży garnek"
+    },
+    {
+      "id": "ex0140",
+      "haslo_id": "kastryulya",
+      "haslo": "кастрю́ля",
+      "ru": "вари́ть су́п в кастрю́ле",
+      "pl": "gotować zupę w garnku"
+    },
+    {
+      "id": "ex0141",
+      "haslo_id": "kastryulya",
+      "haslo": "кастрю́ля",
+      "ru": "набо́р кастрю́ль",
+      "pl": "zestaw garnków"
+    },
+    {
+      "id": "ex0142",
+      "haslo_id": "dobavlyat",
+      "haslo": "добавля́ть",
+      "ru": "добавля́ть са́хар в ча́й",
+      "pl": "dodawać cukier do herbaty"
+    },
+    {
+      "id": "ex0143",
+      "haslo_id": "dobavlyat",
+      "haslo": "добавля́ть",
+      "ru": "добавля́ть но́вые дета́ли",
+      "pl": "dodawać nowe szczegóły"
+    },
+    {
+      "id": "ex0144",
+      "haslo_id": "dobavlyat",
+      "haslo": "добавля́ть",
+      "ru": "добавля́ть со́ль по вку́су",
+      "pl": "dodawać sól do smaku"
+    },
+    {
+      "id": "ex0145",
+      "haslo_id": "dodavat",
+      "haslo": "додава́ть",
+      "ru": "додава́ть недостаю́щие де́ньги",
+      "pl": "dopłacać brakujące pieniądze"
+    },
+    {
+      "id": "ex0146",
+      "haslo_id": "dodavat",
+      "haslo": "додава́ть",
+      "ru": "додава́ть оста́вшуюся ча́сть",
+      "pl": "dawać pozostałą część"
+    },
+    {
+      "id": "ex0147",
+      "haslo_id": "dodavat",
+      "haslo": "додава́ть",
+      "ru": "постепе́нно додава́ть недостаю́щую су́мму",
+      "pl": "stopniowo dopłacać brakującą kwotę"
+    },
+    {
+      "id": "ex0148",
+      "haslo_id": "popast",
+      "haslo": "попа́сть",
+      "ru": "попа́сть в це́ль",
+      "pl": "trafić w cel"
+    },
+    {
+      "id": "ex0149",
+      "haslo_id": "popast",
+      "haslo": "попа́сть",
+      "ru": "попа́сть в ава́рию",
+      "pl": "mieć wypadek; ulec wypadkowi"
+    },
+    {
+      "id": "ex0150",
+      "haslo_id": "popast",
+      "haslo": "попа́сть",
+      "ru": "попа́сть на конце́рт",
+      "pl": "dostać się na koncert"
+    },
+    {
+      "id": "ex0151",
+      "haslo_id": "otkazat",
+      "haslo": "отказа́ть",
+      "ru": "отказа́ть в по́мощи",
+      "pl": "odmówić pomocy"
+    },
+    {
+      "id": "ex0152",
+      "haslo_id": "otkazat",
+      "haslo": "отказа́ть",
+      "ru": "ба́нк отказа́л в креди́те",
+      "pl": "bank odmówił udzielenia kredytu"
+    },
+    {
+      "id": "ex0153",
+      "haslo_id": "otkazat",
+      "haslo": "отказа́ть",
+      "ru": "дви́гатель отказа́л",
+      "pl": "silnik odmówił posłuszeństwa"
+    },
+    {
+      "id": "ex0154",
+      "haslo_id": "voennyy",
+      "haslo": "вое́нный",
+      "ru": "вое́нные уче́ния",
+      "pl": "ćwiczenia wojskowe"
+    },
+    {
+      "id": "ex0155",
+      "haslo_id": "voennyy",
+      "haslo": "вое́нный",
+      "ru": "вое́нные защища́ют грани́цу",
+      "pl": "wojskowi bronią granicy"
+    },
+    {
+      "id": "ex0156",
+      "haslo_id": "voennyy",
+      "haslo": "вое́нный",
+      "ru": "вое́нные го́ды",
+      "pl": "lata wojenne"
+    },
+    {
+      "id": "ex0157",
+      "haslo_id": "ryadom",
+      "haslo": "ря́дом",
+      "ru": "до́м ря́дом",
+      "pl": "dom jest blisko"
+    },
+    {
+      "id": "ex0158",
+      "haslo_id": "ryadom",
+      "haslo": "ря́дом",
+      "ru": "сиде́ть ря́дом со мно́й",
+      "pl": "siedzieć obok mnie"
+    },
+    {
+      "id": "ex0159",
+      "haslo_id": "ryadom",
+      "haslo": "ря́дом",
+      "ru": "магази́н нахо́дится ря́дом",
+      "pl": "sklep znajduje się w pobliżu"
+    },
+    {
+      "id": "ex0160",
+      "haslo_id": "obitatel",
+      "haslo": "обита́тель",
+      "ru": "обита́тель до́ма",
+      "pl": "mieszkaniec domu"
+    },
+    {
+      "id": "ex0161",
+      "haslo_id": "obitatel",
+      "haslo": "обита́тель",
+      "ru": "обита́тели ле́са",
+      "pl": "mieszkańcy lasu"
+    },
+    {
+      "id": "ex0162",
+      "haslo_id": "obitatel",
+      "haslo": "обита́тель",
+      "ru": "морски́е обита́тели",
+      "pl": "morskie stworzenia; mieszkańcy morza"
+    },
+    {
+      "id": "ex0163",
+      "haslo_id": "kabinet",
+      "haslo": "кабине́т",
+      "ru": "кабине́т врача́",
+      "pl": "gabinet lekarski"
+    },
+    {
+      "id": "ex0164",
+      "haslo_id": "kabinet",
+      "haslo": "кабине́т",
+      "ru": "рабо́чий кабине́т",
+      "pl": "gabinet do pracy"
+    },
+    {
+      "id": "ex0165",
+      "haslo_id": "kabinet",
+      "haslo": "кабине́т",
+      "ru": "кабине́т дире́ктора",
+      "pl": "gabinet dyrektora"
+    },
+    {
+      "id": "ex0166",
+      "haslo_id": "besit",
+      "haslo": "беси́ть",
+      "ru": "э́то меня́ бе́сит",
+      "pl": "to mnie wkurza"
+    },
+    {
+      "id": "ex0167",
+      "haslo_id": "besit",
+      "haslo": "беси́ть",
+      "ru": "не беси́ меня́",
+      "pl": "nie wkurzaj mnie"
+    },
+    {
+      "id": "ex0168",
+      "haslo_id": "besit",
+      "haslo": "беси́ть",
+      "ru": "его́ поведе́ние меня́ бе́сит",
+      "pl": "jego zachowanie mnie irytuje"
+    },
+    {
+      "id": "ex0169",
+      "haslo_id": "pryamo",
+      "haslo": "пря́мо",
+      "ru": "идти́ пря́мо",
+      "pl": "iść prosto"
+    },
+    {
+      "id": "ex0170",
+      "haslo_id": "pryamo",
+      "haslo": "пря́мо",
+      "ru": "сказа́ть пря́мо",
+      "pl": "powiedzieć wprost"
+    },
+    {
+      "id": "ex0171",
+      "haslo_id": "pryamo",
+      "haslo": "пря́мо",
+      "ru": "пря́мо сейча́с",
+      "pl": "właśnie teraz; natychmiast"
+    },
+    {
+      "id": "ex0172",
+      "haslo_id": "dalneyshaya-sudba",
+      "haslo": "да́льнейшая судьба́",
+      "ru": "да́льнейшая судьба́ прое́кта неизве́стна",
+      "pl": "dalszy los projektu jest nieznany"
+    },
+    {
+      "id": "ex0173",
+      "haslo_id": "dalneyshaya-sudba",
+      "haslo": "да́льнейшая судьба́",
+      "ru": "реши́ть да́льнейшую судьбу́ зда́ния",
+      "pl": "zdecydować o dalszym losie budynku"
+    },
+    {
+      "id": "ex0174",
+      "haslo_id": "dalneyshaya-sudba",
+      "haslo": "да́льнейшая судьба́",
+      "ru": "что́ изве́стно о да́льнейшей судьбе́ геро́я?",
+      "pl": "co wiadomo o dalszych losach bohatera?"
+    },
+    {
+      "id": "ex0175",
+      "haslo_id": "obratnaya-svyaz",
+      "haslo": "обра́тная свя́зь",
+      "ru": "получи́ть обра́тную свя́зь",
+      "pl": "otrzymać informację zwrotną"
+    },
+    {
+      "id": "ex0176",
+      "haslo_id": "obratnaya-svyaz",
+      "haslo": "обра́тная свя́зь",
+      "ru": "да́ть обра́тную свя́зь",
+      "pl": "przekazać informację zwrotną"
+    },
+    {
+      "id": "ex0177",
+      "haslo_id": "obratnaya-svyaz",
+      "haslo": "обра́тная свя́зь",
+      "ru": "спаси́бо за обра́тную свя́зь",
+      "pl": "dziękuję za informację zwrotną"
+    },
+    {
+      "id": "ex0178",
+      "haslo_id": "estestvenno",
+      "haslo": "есте́ственно",
+      "ru": "э́то есте́ственно",
+      "pl": "to naturalne"
+    },
+    {
+      "id": "ex0179",
+      "haslo_id": "estestvenno",
+      "haslo": "есте́ственно",
+      "ru": "о́н ведёт себя́ есте́ственно",
+      "pl": "on zachowuje się naturalnie"
+    },
+    {
+      "id": "ex0180",
+      "haslo_id": "estestvenno",
+      "haslo": "есте́ственно",
+      "ru": "есте́ственно, я согласи́лся",
+      "pl": "oczywiście, zgodziłem się"
+    },
+    {
+      "id": "ex0181",
+      "haslo_id": "zashibis",
+      "haslo": "зашиби́сь",
+      "ru": "во́т э́то зашиби́сь!",
+      "pl": "ale super!"
+    },
+    {
+      "id": "ex0182",
+      "haslo_id": "zashibis",
+      "haslo": "зашиби́сь",
+      "ru": "всё прошло́ зашиби́сь",
+      "pl": "wszystko poszło świetnie"
+    },
+    {
+      "id": "ex0183",
+      "haslo_id": "zashibis",
+      "haslo": "зашиби́сь",
+      "ru": "ну́, зашиби́сь!",
+      "pl": "no świetnie!; no zajebiście!"
+    },
+    {
+      "id": "ex0184",
+      "haslo_id": "khren",
+      "haslo": "хре́н",
+      "ru": "тёртый хре́н",
+      "pl": "tarty chrzan"
+    },
+    {
+      "id": "ex0185",
+      "haslo_id": "khren",
+      "haslo": "хре́н",
+      "ru": "хре́н зна́ет",
+      "pl": "cholera wie"
+    },
+    {
+      "id": "ex0186",
+      "haslo_id": "khren",
+      "haslo": "хре́н",
+      "ru": "я ни хрена́ не понима́ю",
+      "pl": "nic a nic nie rozumiem; dosłownie i dosadnie: ni cholery nie rozumiem"
+    },
+    {
+      "id": "ex0187",
+      "haslo_id": "fig",
+      "haslo": "фи́г",
+      "ru": "фи́г зна́ет",
+      "pl": "licho wie; kto wie"
+    },
+    {
+      "id": "ex0188",
+      "haslo_id": "fig",
+      "haslo": "фи́г",
+      "ru": "я ни фига́ не по́нял",
+      "pl": "nic a nic nie zrozumiałem"
+    },
+    {
+      "id": "ex0189",
+      "haslo_id": "fig",
+      "haslo": "фи́г",
+      "ru": "фи́г тебе́!",
+      "pl": "guzik dostaniesz!; akurat!"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-uroven-001",
+      "lemmaId": "uroven",
+      "sourceExampleId": "ex0006",
+      "level": "B1",
+      "sentenceRu": "Что́бы лу́чше понима́ть ле́кции, студе́нт реши́л повы́сить у́ровень зна́ний.",
+      "sentenceGap": "Что́бы лу́чше понима́ть ле́кции, студе́нт реши́л _____ зна́ний.",
+      "translationPl": "Żeby lepiej rozumieć wykłady, student postanowił podnieść poziom wiedzy.",
+      "answer": "повы́сить у́ровень",
+      "lemma": "у́ровень",
+      "lemmaTranslation": "poziom",
+      "matchingSet": "set-a",
+      "choiceDistractorIds": [
+        "b1-chaevye-001",
+        "b1-podval-001",
+        "b1-obratnaya-svyaz-001"
+      ]
+    },
+    {
+      "id": "b1-obmanut-001",
+      "lemmaId": "obmanut",
+      "sourceExampleId": "ex0010",
+      "level": "B1",
+      "sentenceRu": "Я доверя́ла ему́ и не ду́мала, что он спосо́бен обману́ть дру́га ра́ди де́нег.",
+      "sentenceGap": "Я доверя́ла ему́ и не ду́мала, что он спосо́бен _____ ра́ди де́нег.",
+      "translationPl": "Ufałam mu i nie sądziłam, że jest zdolny oszukać przyjaciela dla pieniędzy.",
+      "answer": "обману́ть дру́га",
+      "lemma": "обману́ть",
+      "lemmaTranslation": "oszukać",
+      "matchingSet": "set-a",
+      "choiceDistractorIds": [
+        "b1-dobavlyat-001",
+        "b1-podval-001",
+        "b1-obratnaya-svyaz-001"
+      ]
+    },
+    {
+      "id": "b1-otritsat-001",
+      "lemmaId": "otritsat",
+      "sourceExampleId": "ex0013",
+      "level": "B1",
+      "sentenceRu": "Несмотря́ на все доказа́тельства, подозрева́емый продолжа́л отрица́ть свою́ вину́.",
+      "sentenceGap": "Несмотря́ на все доказа́тельства, подозрева́емый продолжа́л _____.",
+      "translationPl": "Pomimo wszystkich dowodów podejrzany nadal zaprzeczał swojej winie.",
+      "answer": "отрица́ть свою́ вину́",
+      "lemma": "отрица́ть",
+      "lemmaTranslation": "zaprzeczać, negować",
+      "matchingSet": "set-a",
+      "choiceDistractorIds": [
+        "b1-uroven-001",
+        "b1-chaevye-001",
+        "b1-ustroitsya-001"
+      ]
+    },
+    {
+      "id": "b1-proshchenie-001",
+      "lemmaId": "proshchenie",
+      "sourceExampleId": "ex0016",
+      "level": "B1",
+      "sentenceRu": "По́сле ссо́ры он до́лго не реша́лся проси́ть проще́ния у сестры́.",
+      "sentenceGap": "По́сле ссо́ры он до́лго не реша́лся _____ у сестры́.",
+      "translationPl": "Po kłótni długo nie mógł się zdecydować, by prosić siostrę o wybaczenie.",
+      "answer": "проси́ть проще́ния",
+      "lemma": "проще́ние",
+      "lemmaTranslation": "przebaczenie, wybaczenie",
+      "matchingSet": "set-a",
+      "choiceDistractorIds": [
+        "b1-issledovanie-001",
+        "b1-popast-001",
+        "b1-obratnaya-svyaz-001"
+      ]
+    },
+    {
+      "id": "b1-portit-001",
+      "lemmaId": "portit",
+      "sourceExampleId": "ex0025",
+      "level": "B1",
+      "sentenceRu": "Да́же пло́хие но́вости не должны́ по́ртить настрое́ние на весь день.",
+      "sentenceGap": "Да́же пло́хие но́вости не должны́ _____ на весь день.",
+      "translationPl": "Nawet złe wiadomości nie powinny psuć nastroju na cały dzień.",
+      "answer": "по́ртить настрое́ние",
+      "lemma": "по́ртить",
+      "lemmaTranslation": "psuć, niszczyć",
+      "matchingSet": "set-a",
+      "choiceDistractorIds": [
+        "b1-ustroitsya-001",
+        "b1-podval-001",
+        "b1-obratnaya-svyaz-001"
+      ]
+    },
+    {
+      "id": "b1-razdrazhat-001",
+      "lemmaId": "razdrazhat",
+      "sourceExampleId": "ex0030",
+      "level": "B1",
+      "sentenceRu": "Ветерина́р объясни́л ребёнку, что не на́до раздража́ть соба́ку, когда́ она́ ест.",
+      "sentenceGap": "Ветерина́р объясни́л ребёнку, что _____, когда́ она́ ест.",
+      "translationPl": "Weterynarz wyjaśnił dziecku, że nie należy drażnić psa, kiedy je.",
+      "answer": "не на́до раздража́ть соба́ку",
+      "lemma": "раздража́ть",
+      "lemmaTranslation": "drażnić, irytować",
+      "matchingSet": "set-a",
+      "choiceDistractorIds": [
+        "b1-dalneyshaya-sudba-001",
+        "b1-ryadom-001",
+        "b1-obratnaya-svyaz-001"
+      ]
+    },
+    {
+      "id": "b1-chaevye-001",
+      "lemmaId": "chaevye",
+      "sourceExampleId": "ex0031",
+      "level": "B1",
+      "sentenceRu": "По́сле хоро́шего обслу́живания мы реши́ли оста́вить чаевы́е.",
+      "sentenceGap": "По́сле хоро́шего обслу́живания мы реши́ли _____.",
+      "translationPl": "Po dobrej obsłudze postanowiliśmy zostawić napiwek.",
+      "answer": "оста́вить чаевы́е",
+      "lemma": "чаевы́е",
+      "lemmaTranslation": "napiwek, napiwki",
+      "matchingSet": "set-a",
+      "choiceDistractorIds": [
+        "b1-otritsat-001",
+        "b1-issledovanie-001",
+        "b1-popast-001"
+      ]
+    },
+    {
+      "id": "b1-obida-001",
+      "lemmaId": "obida",
+      "sourceExampleId": "ex0058",
+      "level": "B1",
+      "sentenceRu": "Хотя́ разгово́р был неприя́тным, она́ не хоте́ла затаи́ть оби́ду.",
+      "sentenceGap": "Хотя́ разгово́р был неприя́тным, она́ не хоте́ла _____.",
+      "translationPl": "Chociaż rozmowa była nieprzyjemna, nie chciała chować urazy.",
+      "answer": "затаи́ть оби́ду",
+      "lemma": "оби́да",
+      "lemmaTranslation": "uraza, żal, krzywda",
+      "matchingSet": "set-a",
+      "choiceDistractorIds": [
+        "b1-dobavlyat-001",
+        "b1-podval-001",
+        "b1-obratnaya-svyaz-001"
+      ]
+    },
+    {
+      "id": "b1-v-tselom-001",
+      "lemmaId": "v-tselom",
+      "sourceExampleId": "ex0066",
+      "level": "B1",
+      "sentenceRu": "Пе́ред выделе́нием де́нег коми́ссия должна́ оцени́ть прое́кт в це́лом.",
+      "sentenceGap": "Пе́ред выделе́нием де́нег коми́ссия должна́ _____.",
+      "translationPl": "Przed przyznaniem pieniędzy komisja powinna ocenić projekt jako całość.",
+      "answer": "оцени́ть прое́кт в це́лом",
+      "lemma": "в це́лом",
+      "lemmaTranslation": "ogólnie, jako całość",
+      "matchingSet": "set-a",
+      "choiceDistractorIds": [
+        "b1-proshchenie-001",
+        "b1-razdrazhat-001",
+        "b1-ryadom-001"
+      ]
+    },
+    {
+      "id": "b1-issledovanie-001",
+      "lemmaId": "issledovanie",
+      "sourceExampleId": "ex0088",
+      "level": "B1",
+      "sentenceRu": "Университе́т плани́рует проводи́ть иссле́дование в тече́ние двух лет.",
+      "sentenceGap": "Университе́т плани́рует _____ в тече́ние двух лет.",
+      "translationPl": "Uniwersytet planuje prowadzić badanie przez dwa lata.",
+      "answer": "проводи́ть иссле́дование",
+      "lemma": "иссле́дование",
+      "lemmaTranslation": "badanie, analiza",
+      "matchingSet": "set-a",
+      "choiceDistractorIds": [
+        "b1-obida-001",
+        "b1-popast-001",
+        "b1-ryadom-001"
+      ]
+    },
+    {
+      "id": "b1-ustroitsya-001",
+      "lemmaId": "ustroitsya",
+      "sourceExampleId": "ex0082",
+      "level": "B1",
+      "sentenceRu": "По́сле око́нчания университе́та она́ наде́ется устро́иться на рабо́ту в ба́нке.",
+      "sentenceGap": "По́сле око́нчания университе́та она́ наде́ется _____ в ба́нке.",
+      "translationPl": "Po ukończeniu uniwersytetu ma nadzieję znaleźć pracę w banku.",
+      "answer": "устро́иться на рабо́ту",
+      "lemma": "устро́иться",
+      "lemmaTranslation": "zatrudnić się, urządzić się",
+      "matchingSet": "set-b",
+      "choiceDistractorIds": [
+        "b1-otritsat-001",
+        "b1-dobavlyat-001",
+        "b1-obratnaya-svyaz-001"
+      ]
+    },
+    {
+      "id": "b1-zakrepitsya-001",
+      "lemmaId": "zakrepitsya",
+      "sourceExampleId": "ex0094",
+      "level": "B1",
+      "sentenceRu": "По́сле переезда́ семье́ потре́бовалось вре́мя, что́бы закрепи́ться на но́вом ме́сте.",
+      "sentenceGap": "По́сле переезда́ семье́ потре́бовалось вре́мя, что́бы _____.",
+      "translationPl": "Po przeprowadzce rodzina potrzebowała czasu, żeby zadomowić się w nowym miejscu.",
+      "answer": "закрепи́ться на но́вом ме́сте",
+      "lemma": "закрепи́ться",
+      "lemmaTranslation": "umocnić się, zadomowić się",
+      "matchingSet": "set-b",
+      "choiceDistractorIds": [
+        "b1-chaevye-001",
+        "b1-popast-001",
+        "b1-pryamo-001"
+      ]
+    },
+    {
+      "id": "b1-podval-001",
+      "lemmaId": "podval",
+      "sourceExampleId": "ex0116",
+      "level": "B1",
+      "sentenceRu": "Что́бы доста́ть ста́рые коро́бки, ему́ пришлось спусти́ться в подва́л.",
+      "sentenceGap": "Что́бы доста́ть ста́рые коро́бки, ему́ пришлось _____.",
+      "translationPl": "Żeby wyjąć stare pudełka, musiał zejść do piwnicy.",
+      "answer": "спусти́ться в подва́л",
+      "lemma": "подва́л",
+      "lemmaTranslation": "piwnica, podziemie budynku",
+      "matchingSet": "set-b",
+      "choiceDistractorIds": [
+        "b1-obmanut-001",
+        "b1-portit-001",
+        "b1-obratnaya-svyaz-001"
+      ]
+    },
+    {
+      "id": "b1-dobavlyat-001",
+      "lemmaId": "dobavlyat",
+      "sourceExampleId": "ex0142",
+      "level": "B1",
+      "sentenceRu": "Врач посове́товал мне не добавля́ть са́хар в ча́й.",
+      "sentenceGap": "Врач посове́товал мне не _____.",
+      "translationPl": "Lekarz poradził mi, żebym nie dodawała cukru do herbaty.",
+      "answer": "добавля́ть са́хар в ча́й",
+      "lemma": "добавля́ть",
+      "lemmaTranslation": "dodawać, dokładać, uzupełniać",
+      "matchingSet": "set-b",
+      "choiceDistractorIds": [
+        "b1-proshchenie-001",
+        "b1-zakrepitsya-001",
+        "b1-popast-001"
+      ]
+    },
+    {
+      "id": "b1-popast-001",
+      "lemmaId": "popast",
+      "sourceExampleId": "ex0149",
+      "level": "B1",
+      "sentenceRu": "Из-за ско́льзкой доро́ги води́тель мог попа́сть в ава́рию.",
+      "sentenceGap": "Из-за ско́льзкой доро́ги води́тель мог _____.",
+      "translationPl": "Z powodu śliskiej drogi kierowca mógł mieć wypadek.",
+      "answer": "попа́сть в ава́рию",
+      "lemma": "попа́сть",
+      "lemmaTranslation": "trafić, dostać się, znaleźć się",
+      "matchingSet": "set-b",
+      "choiceDistractorIds": [
+        "b1-uroven-001",
+        "b1-chaevye-001",
+        "b1-obratnaya-svyaz-001"
+      ]
+    },
+    {
+      "id": "b1-otkazat-001",
+      "lemmaId": "otkazat",
+      "sourceExampleId": "ex0151",
+      "level": "B1",
+      "sentenceRu": "Мы не могли́ отказа́ть в по́мощи семье́, кото́рая потеря́ла дом.",
+      "sentenceGap": "Мы не могли́ _____ семье́, кото́рая потеря́ла дом.",
+      "translationPl": "Nie mogliśmy odmówić pomocy rodzinie, która straciła dom.",
+      "answer": "отказа́ть в по́мощи",
+      "lemma": "отказа́ть",
+      "lemmaTranslation": "odmówić, odrzucić",
+      "matchingSet": "set-b",
+      "choiceDistractorIds": [
+        "b1-issledovanie-001",
+        "b1-ryadom-001",
+        "b1-dalneyshaya-sudba-001"
+      ]
+    },
+    {
+      "id": "b1-ryadom-001",
+      "lemmaId": "ryadom",
+      "sourceExampleId": "ex0158",
+      "level": "B1",
+      "sentenceRu": "Во вре́мя ле́кции я предложи́ла дру́гу сиде́ть ря́дом со мно́й.",
+      "sentenceGap": "Во вре́мя ле́кции я предложи́ла дру́гу _____.",
+      "translationPl": "Podczas wykładu zaproponowałam przyjacielowi, żeby usiadł obok mnie.",
+      "answer": "сиде́ть ря́дом со мно́й",
+      "lemma": "ря́дом",
+      "lemmaTranslation": "obok, w pobliżu, blisko",
+      "matchingSet": "set-b",
+      "choiceDistractorIds": [
+        "b1-v-tselom-001",
+        "b1-popast-001",
+        "b1-obratnaya-svyaz-001"
+      ]
+    },
+    {
+      "id": "b1-pryamo-001",
+      "lemmaId": "pryamo",
+      "sourceExampleId": "ex0170",
+      "level": "B1",
+      "sentenceRu": "Е́сли тебе́ что́-то не нра́вится, лу́чше сказа́ть пря́мо, а не молча́ть.",
+      "sentenceGap": "Е́сли тебе́ что́-то не нра́вится, лу́чше _____, а не молча́ть.",
+      "translationPl": "Jeśli coś ci się nie podoba, lepiej powiedzieć to wprost, zamiast milczeć.",
+      "answer": "сказа́ть пря́мо",
+      "lemma": "пря́мо",
+      "lemmaTranslation": "prosto, bezpośrednio, wprost",
+      "matchingSet": "set-b",
+      "choiceDistractorIds": [
+        "b1-uroven-001",
+        "b1-podval-001",
+        "b1-obratnaya-svyaz-001"
+      ]
+    },
+    {
+      "id": "b1-dalneyshaya-sudba-001",
+      "lemmaId": "dalneyshaya-sudba",
+      "sourceExampleId": "ex0173",
+      "level": "B1",
+      "sentenceRu": "По́сле до́лгих обсужде́ний коми́ссия должна́ реши́ть да́льнейшую судьбу́ зда́ния.",
+      "sentenceGap": "По́сле до́лгих обсужде́ний коми́ссия должна́ _____.",
+      "translationPl": "Po długich dyskusjach komisja powinna zdecydować o dalszym losie budynku.",
+      "answer": "реши́ть да́льнейшую судьбу́ зда́ния",
+      "lemma": "да́льнейшая судьба́",
+      "lemmaTranslation": "dalszy los, przyszłe losy",
+      "matchingSet": "set-b",
+      "choiceDistractorIds": [
+        "b1-proshchenie-001",
+        "b1-dobavlyat-001",
+        "b1-ryadom-001"
+      ]
+    },
+    {
+      "id": "b1-obratnaya-svyaz-001",
+      "lemmaId": "obratnaya-svyaz",
+      "sourceExampleId": "ex0175",
+      "level": "B1",
+      "sentenceRu": "По́сле презента́ции ва́жно получи́ть обра́тную свя́зь от колле́г.",
+      "sentenceGap": "По́сле презента́ции ва́жно _____ от колле́г.",
+      "translationPl": "Po prezentacji ważne jest otrzymanie informacji zwrotnej od kolegów.",
+      "answer": "получи́ть обра́тную свя́зь",
+      "lemma": "обра́тная свя́зь",
+      "lemmaTranslation": "informacja zwrotna, feedback",
+      "matchingSet": "set-b",
+      "choiceDistractorIds": [
+        "b1-obmanut-001",
+        "b1-otritsat-001",
+        "b1-podval-001"
+      ]
+    }
+  ]
+}
