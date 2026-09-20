@@ -32,7 +32,6 @@ export function validateExerciseBank(exercises) {
     'answer',
     'lemma',
     'lemmaTranslation',
-    'matchingSet',
   ];
 
   exercises.forEach((exercise, index) => {
@@ -190,25 +189,16 @@ export function selectMatchingSession(
   rng = Math.random,
   now = new Date(),
 ) {
-  const grouped = new Map();
-  exercises.forEach((exercise) => {
-    const group = grouped.get(exercise.matchingSet) || [];
-    group.push(exercise);
-    grouped.set(exercise.matchingSet, group);
-  });
-  const groups = [...grouped.values()].filter((group) => group.length === count);
-  if (!groups.length) return [];
-
-  const preferredIds = new Set(selectSession(exercises, progress, mode, exercises.length, rng, now)
-    .slice(0, Math.min(count, exercises.length))
-    .map((exercise) => exercise.id));
-  const scored = groups.map((group) => ({
-    group,
-    score: group.filter((exercise) => preferredIds.has(exercise.id)).length,
-  }));
-  const bestScore = Math.max(...scored.map((item) => item.score));
-  const bestGroups = scored.filter((item) => item.score === bestScore).map((item) => item.group);
-  return shuffled(bestGroups, rng)[0] || [];
+  const ordered = selectSession(exercises, progress, mode, exercises.length, rng, now);
+  const selected = [];
+  const usedAnswers = new Set();
+  for (const exercise of ordered) {
+    if (usedAnswers.has(exercise.answer)) continue;
+    selected.push(exercise);
+    usedAnswers.add(exercise.answer);
+    if (selected.length === count) break;
+  }
+  return selected.length === count ? selected : [];
 }
 
 function isPlainObject(value) {

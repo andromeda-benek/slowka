@@ -10,7 +10,7 @@ import {
   unassignTile,
   validateExerciseBank,
   validateImportedState,
-} from './logic.mjs?v=1.0.4';
+} from './logic.mjs?v=1.1.0';
 
 const STORAGE_KEY = 'slowka-progress-v1';
 const MAX_HISTORY = 100;
@@ -206,7 +206,10 @@ function renderChoice() {
   elements.sessionTitle.focus();
 }
 
-function renderMatching() {
+function renderMatching({ preserveViewport = false } = {}) {
+  const viewport = preserveViewport
+    ? { left: window.scrollX, top: window.scrollY }
+    : null;
   elements.sessionKind.textContent = 'Połącz 10 × 10';
   elements.sessionTitle.textContent = 'Dobierz frazy';
   elements.sessionProgress.textContent = `${Object.keys(activeSession.assignments).length}/10`;
@@ -283,7 +286,7 @@ function renderMatching() {
     tile.addEventListener('click', () => {
       activeSession.assignments = assignTile(activeSession.assignments, activeSession.selectedSentenceId, id);
       activeSession.selectedSentenceId = null;
-      renderMatching();
+      renderMatching({ preserveViewport: true });
     });
     bank.append(tile);
   });
@@ -309,11 +312,14 @@ function renderMatching() {
   elements.practiceContent.append(tray);
   const focusId = activeSession.selectedSentenceId
     || activeSession.exercises.find((exercise) => !activeSession.assignments[exercise.id])?.id;
-  if (focusId) {
-    const focusTarget = [...list.querySelectorAll('.sentence-select')]
-      .find((button) => button.dataset.exerciseId === focusId);
-    requestAnimationFrame(() => focusTarget?.focus());
-  }
+  const focusTarget = focusId
+    ? [...list.querySelectorAll('.sentence-select')]
+      .find((button) => button.dataset.exerciseId === focusId)
+    : null;
+  requestAnimationFrame(() => {
+    focusTarget?.focus({ preventScroll: true });
+    if (viewport) window.scrollTo({ left: viewport.left, top: viewport.top, behavior: 'auto' });
+  });
 }
 
 function finishSession() {

@@ -1,8 +1,8 @@
 {
   "stats": {
-    "words": 63,
-    "examples": 189,
-    "exercises": 20
+    "words": 67,
+    "examples": 201,
+    "exercises": 201
   },
   "dictionary": [
     {
@@ -1435,6 +1435,93 @@
         "potoczne"
       ],
       "powtorki": []
+    },
+    {
+      "id": "vygoda",
+      "haslo": "выгода",
+      "akcent": "вы́года",
+      "tlumaczenia": [
+        "korzyść",
+        "zysk",
+        "pożytek"
+      ],
+      "gramatyka": "rzeczownik rodzaju żeńskiego",
+      "rodzina": [
+        {
+          "ru": "вы́годный",
+          "pl": "korzystny; opłacalny"
+        },
+        {
+          "ru": "вы́годно",
+          "pl": "korzystnie; opłacalnie"
+        }
+      ],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "nakanune",
+      "haslo": "накануне",
+      "akcent": "накану́не",
+      "tlumaczenia": [
+        "poprzedniego dnia",
+        "w przeddzień",
+        "tuż przed"
+      ],
+      "gramatyka": "przysłówek lub przyimek łączący się z dopełniaczem",
+      "rodzina": [],
+      "tagi": [
+        "przysłówek",
+        "przyimek"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "snovidenie",
+      "haslo": "сновидение",
+      "akcent": "сновиде́ние",
+      "tlumaczenia": [
+        "sen",
+        "marzenie senne"
+      ],
+      "gramatyka": "rzeczownik rodzaju nijakiego",
+      "rodzina": [
+        {
+          "ru": "со́н",
+          "pl": "sen"
+        },
+        {
+          "ru": "виде́ние",
+          "pl": "widzenie; wizja"
+        }
+      ],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "postepenno",
+      "haslo": "постепенно",
+      "akcent": "постепе́нно",
+      "tlumaczenia": [
+        "stopniowo",
+        "powoli",
+        "z biegiem czasu"
+      ],
+      "gramatyka": "przysłówek",
+      "rodzina": [
+        {
+          "ru": "постепе́нный",
+          "pl": "stopniowy"
+        }
+      ],
+      "tagi": [
+        "przysłówek"
+      ],
+      "powtorki": []
     }
   ],
   "examples": [
@@ -2760,9 +2847,178 @@
       "haslo": "фи́г",
       "ru": "фи́г тебе́!",
       "pl": "guzik dostaniesz!; akurat!"
+    },
+    {
+      "id": "ex0190",
+      "haslo_id": "vygoda",
+      "haslo": "вы́года",
+      "ru": "фи́нансовая вы́года",
+      "pl": "korzyść finansowa"
+    },
+    {
+      "id": "ex0191",
+      "haslo_id": "vygoda",
+      "haslo": "вы́года",
+      "ru": "извлека́ть вы́году",
+      "pl": "czerpać korzyść"
+    },
+    {
+      "id": "ex0192",
+      "haslo_id": "vygoda",
+      "haslo": "вы́года",
+      "ru": "сде́лка принесла́ вы́году",
+      "pl": "transakcja przyniosła zysk"
+    },
+    {
+      "id": "ex0193",
+      "haslo_id": "nakanune",
+      "haslo": "накану́не",
+      "ru": "накану́не пра́здника",
+      "pl": "w przeddzień święta"
+    },
+    {
+      "id": "ex0194",
+      "haslo_id": "nakanune",
+      "haslo": "накану́не",
+      "ru": "мы встре́тились накану́не",
+      "pl": "spotkaliśmy się poprzedniego dnia"
+    },
+    {
+      "id": "ex0195",
+      "haslo_id": "nakanune",
+      "haslo": "накану́не",
+      "ru": "накану́не экза́мена",
+      "pl": "tuż przed egzaminem"
+    },
+    {
+      "id": "ex0196",
+      "haslo_id": "snovidenie",
+      "haslo": "сновиде́ние",
+      "ru": "я́ркие сновиде́ния",
+      "pl": "wyraziste sny"
+    },
+    {
+      "id": "ex0197",
+      "haslo_id": "snovidenie",
+      "haslo": "сновиде́ние",
+      "ru": "толкова́ние сновиде́ний",
+      "pl": "interpretacja snów"
+    },
+    {
+      "id": "ex0198",
+      "haslo_id": "snovidenie",
+      "haslo": "сновиде́ние",
+      "ru": "э́то бы́ло стра́нное сновиде́ние",
+      "pl": "to był dziwny sen"
+    },
+    {
+      "id": "ex0199",
+      "haslo_id": "postepenno",
+      "haslo": "постепе́нно",
+      "ru": "постепе́нно улучша́ться",
+      "pl": "stopniowo się poprawiać"
+    },
+    {
+      "id": "ex0200",
+      "haslo_id": "postepenno",
+      "haslo": "постепе́нно",
+      "ru": "о́н постепе́нно привыка́ет",
+      "pl": "on stopniowo się przyzwyczaja"
+    },
+    {
+      "id": "ex0201",
+      "haslo_id": "postepenno",
+      "haslo": "постепе́нно",
+      "ru": "температу́ра постепе́нно повыша́ется",
+      "pl": "temperatura stopniowo rośnie"
     }
   ],
   "exercises": [
+    {
+      "id": "b1-auto-ex0001",
+      "lemmaId": "cherta",
+      "sourceExampleId": "ex0001",
+      "level": "B1",
+      "sentenceRu": "Надёжность — характе́рная черта́ э́того но́вого и дово́льно дорого́го устро́йства.",
+      "sentenceGap": "Надёжность — _____ э́того но́вого и дово́льно дорого́го устро́йства.",
+      "translationPl": "Niezawodność jest cechą charakterystyczną tego nowego i dość drogiego urządzenia.",
+      "answer": "характе́рная черта́",
+      "lemma": "черта́",
+      "lemmaTranslation": "cecha, rys, linia",
+      "choiceDistractorIds": [
+        "b1-auto-ex0017",
+        "b1-auto-ex0020",
+        "b1-auto-ex0022"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0002",
+      "lemmaId": "cherta",
+      "sourceExampleId": "ex0002",
+      "level": "B1",
+      "sentenceRu": "На ста́рой фотогра́фии хорошо́ ви́дна черта́ лица́ моего́ де́да.",
+      "sentenceGap": "На ста́рой фотогра́фии хорошо́ ви́дна _____ моего́ де́да.",
+      "translationPl": "Na starej fotografii dobrze widać rys twarzy mojego dziadka.",
+      "answer": "черта́ лица́",
+      "lemma": "черта́",
+      "lemmaTranslation": "cecha, rys, linia",
+      "choiceDistractorIds": [
+        "b1-auto-ex0121",
+        "b1-auto-ex0169",
+        "b1-auto-ex0184"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0003",
+      "lemmaId": "cherta",
+      "sourceExampleId": "ex0003",
+      "level": "B1",
+      "sentenceRu": "По́сле до́лгого спо́ра нам пришло́сь провести́ черту́ ме́жду рабо́той и дру́жбой.",
+      "sentenceGap": "По́сле до́лгого спо́ра нам пришло́сь _____ ме́жду рабо́той и дру́жбой.",
+      "translationPl": "Po długim sporze musieliśmy wyznaczyć granicę między pracą a przyjaźnią.",
+      "answer": "провести́ черту́",
+      "lemma": "черта́",
+      "lemmaTranslation": "cecha, rys, linia",
+      "choiceDistractorIds": [
+        "b1-auto-ex0005",
+        "b1-obmanut-001",
+        "b1-auto-ex0034"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0004",
+      "lemmaId": "uroven",
+      "sourceExampleId": "ex0004",
+      "level": "B1",
+      "sentenceRu": "Э́тот университе́т уже́ мно́го лет сохраня́ет высо́кий у́ровень преподава́ния.",
+      "sentenceGap": "Э́тот университе́т уже́ мно́го лет сохраня́ет _____ преподава́ния.",
+      "translationPl": "Ten uniwersytet już od wielu lat utrzymuje wysoki poziom nauczania.",
+      "answer": "высо́кий у́ровень",
+      "lemma": "у́ровень",
+      "lemmaTranslation": "poziom",
+      "choiceDistractorIds": [
+        "b1-auto-ex0019",
+        "b1-chaevye-001",
+        "b1-auto-ex0063"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0005",
+      "lemmaId": "uroven",
+      "sourceExampleId": "ex0005",
+      "level": "B1",
+      "sentenceRu": "Пе́ред собесе́дованием рабо́тодатель прове́рил у́ровень зна́ний ка́ждого кандида́та.",
+      "sentenceGap": "Пе́ред собесе́дованием рабо́тодатель прове́рил _____ ка́ждого кандида́та.",
+      "translationPl": "Przed rozmową kwalifikacyjną pracodawca sprawdził poziom wiedzy każdego kandydata.",
+      "answer": "у́ровень зна́ний",
+      "lemma": "у́ровень",
+      "lemmaTranslation": "poziom",
+      "choiceDistractorIds": [
+        "b1-auto-ex0003",
+        "b1-obmanut-001",
+        "b1-auto-ex0034"
+      ]
+    },
     {
       "id": "b1-uroven-001",
       "lemmaId": "uroven",
@@ -2774,11 +3030,61 @@
       "answer": "повы́сить у́ровень",
       "lemma": "у́ровень",
       "lemmaTranslation": "poziom",
-      "matchingSet": "set-a",
       "choiceDistractorIds": [
-        "b1-chaevye-001",
-        "b1-podval-001",
-        "b1-obratnaya-svyaz-001"
+        "b1-proshchenie-001",
+        "b1-auto-ex0023",
+        "b1-auto-ex0049"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0007",
+      "lemmaId": "otritsatelnyy",
+      "sourceExampleId": "ex0007",
+      "level": "B1",
+      "sentenceRu": "Несмотря́ на отрица́тельный отве́т, она́ продолжа́ла иска́ть но́вую рабо́ту.",
+      "sentenceGap": "Несмотря́ на _____, она́ продолжа́ла иска́ть но́вую рабо́ту.",
+      "translationPl": "Mimo odpowiedzi odmownej nadal szukała nowej pracy.",
+      "answer": "отрица́тельный отве́т",
+      "lemma": "отрица́тельный",
+      "lemmaTranslation": "negatywny, ujemny, przeczący",
+      "choiceDistractorIds": [
+        "b1-auto-ex0055",
+        "b1-auto-ex0105",
+        "b1-auto-ex0126"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0008",
+      "lemmaId": "otritsatelnyy",
+      "sourceExampleId": "ex0008",
+      "level": "B1",
+      "sentenceRu": "Пе́рвый ана́лиз дал отрица́тельный результа́т, но врач назначи́л повто́рный тест.",
+      "sentenceGap": "Пе́рвый ана́лиз дал _____, но врач назначи́л повто́рный тест.",
+      "translationPl": "Pierwsze badanie dało wynik negatywny, ale lekarz zlecił powtórny test.",
+      "answer": "отрица́тельный результа́т",
+      "lemma": "отрица́тельный",
+      "lemmaTranslation": "negatywny, ujemny, przeczący",
+      "choiceDistractorIds": [
+        "b1-auto-ex0090",
+        "b1-auto-ex0102",
+        "b1-auto-ex0125"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0009",
+      "lemmaId": "otritsatelnyy",
+      "sourceExampleId": "ex0009",
+      "level": "B1",
+      "sentenceRu": "На уро́ке ма́льчик забы́л, как умножа́ть отрица́тельное число́ на по́ложительное.",
+      "sentenceGap": "На уро́ке ма́льчик забы́л, как умножа́ть _____ на по́ложительное.",
+      "translationPl": "Na lekcji chłopiec zapomniał, jak mnożyć liczbę ujemną przez dodatnią.",
+      "answer": "отрица́тельное число́",
+      "lemma": "отрица́тельный",
+      "lemmaTranslation": "negatywny, ujemny, przeczący",
+      "choiceDistractorIds": [
+        "b1-auto-ex0055",
+        "b1-auto-ex0105",
+        "b1-auto-ex0126"
       ]
     },
     {
@@ -2792,11 +3098,44 @@
       "answer": "обману́ть дру́га",
       "lemma": "обману́ть",
       "lemmaTranslation": "oszukać",
-      "matchingSet": "set-a",
       "choiceDistractorIds": [
-        "b1-dobavlyat-001",
-        "b1-podval-001",
-        "b1-obratnaya-svyaz-001"
+        "b1-auto-ex0003",
+        "b1-auto-ex0005",
+        "b1-auto-ex0034"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0011",
+      "lemmaId": "obmanut",
+      "sourceExampleId": "ex0011",
+      "level": "B1",
+      "sentenceRu": "В тури́стическом аге́нтстве меня́ обману́ли, поэ́тому я написа́л жало́бу.",
+      "sentenceGap": "В тури́стическом аге́нтстве _____, поэ́тому я написа́л жало́бу.",
+      "translationPl": "W biurze podróży oszukano mnie, dlatego napisałem skargę.",
+      "answer": "меня́ обману́ли",
+      "lemma": "обману́ть",
+      "lemmaTranslation": "oszukać",
+      "choiceDistractorIds": [
+        "b1-auto-ex0048",
+        "b1-obida-001",
+        "b1-auto-ex0069"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0012",
+      "lemmaId": "obmanut",
+      "sourceExampleId": "ex0012",
+      "level": "B1",
+      "sentenceRu": "Я зна́ю все подро́бности, поэ́тому не пыта́йся меня́ обману́ть.",
+      "sentenceGap": "Я зна́ю все подро́бности, поэ́тому _____.",
+      "translationPl": "Znam wszystkie szczegóły, dlatego nie próbuj mnie oszukać.",
+      "answer": "не пыта́йся меня́ обману́ть",
+      "lemma": "обману́ть",
+      "lemmaTranslation": "oszukać",
+      "choiceDistractorIds": [
+        "b1-auto-ex0024",
+        "b1-auto-ex0093",
+        "b1-razdrazhat-001"
       ]
     },
     {
@@ -2810,11 +3149,44 @@
       "answer": "отрица́ть свою́ вину́",
       "lemma": "отрица́ть",
       "lemmaTranslation": "zaprzeczać, negować",
-      "matchingSet": "set-a",
       "choiceDistractorIds": [
-        "b1-uroven-001",
-        "b1-chaevye-001",
-        "b1-ustroitsya-001"
+        "b1-podval-001",
+        "b1-auto-ex0138",
+        "b1-auto-ex0182"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0014",
+      "lemmaId": "otritsat",
+      "sourceExampleId": "ex0014",
+      "level": "B1",
+      "sentenceRu": "Хотя́ свидетели́ всё ви́дели, он отрица́ет всё и отка́зывается отвеча́ть.",
+      "sentenceGap": "Хотя́ свидетели́ всё ви́дели, _____ и отка́зывается отвеча́ть.",
+      "translationPl": "Chociaż świadkowie wszystko widzieli, on wszystkiemu zaprzecza i odmawia odpowiedzi.",
+      "answer": "он отрица́ет всё",
+      "lemma": "отрица́ть",
+      "lemmaTranslation": "zaprzeczać, negować",
+      "choiceDistractorIds": [
+        "b1-auto-ex0133",
+        "b1-auto-ex0135",
+        "b1-auto-ex0148"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0015",
+      "lemmaId": "otritsat",
+      "sourceExampleId": "ex0015",
+      "level": "B1",
+      "sentenceRu": "Когда́ есть надёжные доказа́тельства, тру́дно отрица́ть фа́кты пе́ред судо́м.",
+      "sentenceGap": "Когда́ есть надёжные доказа́тельства, _____ пе́ред судо́м.",
+      "translationPl": "Kiedy istnieją wiarygodne dowody, trudno negować fakty przed sądem.",
+      "answer": "тру́дно отрица́ть фа́кты",
+      "lemma": "отрица́ть",
+      "lemmaTranslation": "zaprzeczać, negować",
+      "choiceDistractorIds": [
+        "b1-auto-ex0084",
+        "b1-auto-ex0099",
+        "b1-auto-ex0018"
       ]
     },
     {
@@ -2828,11 +3200,146 @@
       "answer": "проси́ть проще́ния",
       "lemma": "проще́ние",
       "lemmaTranslation": "przebaczenie, wybaczenie",
-      "matchingSet": "set-a",
       "choiceDistractorIds": [
-        "b1-issledovanie-001",
-        "b1-popast-001",
-        "b1-obratnaya-svyaz-001"
+        "b1-uroven-001",
+        "b1-auto-ex0023",
+        "b1-auto-ex0049"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0017",
+      "lemmaId": "proshchenie",
+      "sourceExampleId": "ex0017",
+      "level": "B1",
+      "sentenceRu": "Геро́й наде́ялся получи́ть проще́ние по́сле че́стного разгово́ра с семьёй.",
+      "sentenceGap": "Геро́й наде́ялся _____ по́сле че́стного разгово́ра с семьёй.",
+      "translationPl": "Bohater miał nadzieję uzyskać przebaczenie po szczerej rozmowie z rodziną.",
+      "answer": "получи́ть проще́ние",
+      "lemma": "проще́ние",
+      "lemmaTranslation": "przebaczenie, wybaczenie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0001",
+        "b1-auto-ex0020",
+        "b1-auto-ex0022"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0018",
+      "lemmaId": "proshchenie",
+      "sourceExampleId": "ex0018",
+      "level": "B1",
+      "sentenceRu": "Нельзя́ наде́яться на проще́ние, е́сли ты не признаёшь свою́ вину́.",
+      "sentenceGap": "Нельзя́ _____, е́сли ты не признаёшь свою́ вину́.",
+      "translationPl": "Nie można mieć nadziei na wybaczenie, jeśli nie przyznajesz się do winy.",
+      "answer": "наде́яться на проще́ние",
+      "lemma": "проще́ние",
+      "lemmaTranslation": "przebaczenie, wybaczenie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0032",
+        "b1-auto-ex0039",
+        "b1-auto-ex0015"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0019",
+      "lemmaId": "protivnyy",
+      "sourceExampleId": "ex0019",
+      "level": "B1",
+      "sentenceRu": "Из по́двала шёл проти́вный за́пах, поэ́тому мы откры́ли все о́кна.",
+      "sentenceGap": "Из по́двала шёл _____, поэ́тому мы откры́ли все о́кна.",
+      "translationPl": "Z piwnicy dochodził nieprzyjemny zapach, dlatego otworzyliśmy wszystkie okna.",
+      "answer": "проти́вный за́пах",
+      "lemma": "проти́вный",
+      "lemmaTranslation": "nieprzyjemny, wstrętny, odrażający",
+      "choiceDistractorIds": [
+        "b1-auto-ex0004",
+        "b1-chaevye-001",
+        "b1-auto-ex0063"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0020",
+      "lemmaId": "protivnyy",
+      "sourceExampleId": "ex0020",
+      "level": "B1",
+      "sentenceRu": "Но́вый сосе́д — проти́вный челове́к, кото́рый постоя́нно всем груби́т.",
+      "sentenceGap": "Но́вый сосе́д — _____, кото́рый постоя́нно всем груби́т.",
+      "translationPl": "Nowy sąsiad to wstrętny człowiek, który ciągle jest dla wszystkich niegrzeczny.",
+      "answer": "проти́вный челове́к",
+      "lemma": "проти́вный",
+      "lemmaTranslation": "nieprzyjemny, wstrętny, odrażający",
+      "choiceDistractorIds": [
+        "b1-auto-ex0001",
+        "b1-auto-ex0017",
+        "b1-auto-ex0022"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0021",
+      "lemmaId": "protivnyy",
+      "sourceExampleId": "ex0021",
+      "level": "B1",
+      "sentenceRu": "С утра́ все повторя́ли: кака́я проти́вная пого́да! Из-за дождя́ мы оста́лись до́ма.",
+      "sentenceGap": "С утра́ все повторя́ли: _____ Из-за дождя́ мы оста́лись до́ма.",
+      "translationPl": "Od rana wszyscy powtarzali: co za okropna pogoda! Z powodu deszczu zostaliśmy w domu.",
+      "answer": "кака́я проти́вная пого́да!",
+      "lemma": "проти́вный",
+      "lemmaTranslation": "nieprzyjemny, wstrętny, odrażający",
+      "choiceDistractorIds": [
+        "b1-auto-ex0123",
+        "b1-auto-ex0181",
+        "b1-auto-ex0068"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0022",
+      "lemmaId": "razodrat",
+      "sourceExampleId": "ex0022",
+      "level": "B1",
+      "sentenceRu": "Во вре́мя похо́да он успе́л разодра́ть руба́шку о су́хую ве́тку.",
+      "sentenceGap": "Во вре́мя похо́да он успе́л _____ о су́хую ве́тку.",
+      "translationPl": "Podczas wędrówki zdążył podrzeć koszulę o suchą gałąź.",
+      "answer": "разодра́ть руба́шку",
+      "lemma": "разодра́ть",
+      "lemmaTranslation": "rozerwać, podrzeć, rozdrapać",
+      "choiceDistractorIds": [
+        "b1-auto-ex0001",
+        "b1-auto-ex0017",
+        "b1-auto-ex0020"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0023",
+      "lemmaId": "razodrat",
+      "sourceExampleId": "ex0023",
+      "level": "B1",
+      "sentenceRu": "На ско́льзкой доро́ге легко́ упа́сть и разодра́ть коле́но до кро́ви.",
+      "sentenceGap": "На ско́льзкой доро́ге легко́ упа́сть и _____ до кро́ви.",
+      "translationPl": "Na śliskiej drodze łatwo upaść i rozedrzeć kolano do krwi.",
+      "answer": "разодра́ть коле́но",
+      "lemma": "разодра́ть",
+      "lemmaTranslation": "rozerwać, podrzeć, rozdrapać",
+      "choiceDistractorIds": [
+        "b1-uroven-001",
+        "b1-proshchenie-001",
+        "b1-auto-ex0049"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0024",
+      "lemmaId": "razodrat",
+      "sourceExampleId": "ex0024",
+      "level": "B1",
+      "sentenceRu": "Когда́ я пыта́лся её погла́дить, ко́шка разодрала́ мне ру́ку.",
+      "sentenceGap": "Когда́ я пыта́лся её погла́дить, _____.",
+      "translationPl": "Kiedy próbowałem ją pogłaskać, kotka podrapała mi rękę.",
+      "answer": "ко́шка разодрала́ мне ру́ку",
+      "lemma": "разодра́ть",
+      "lemmaTranslation": "rozerwać, podrzeć, rozdrapać",
+      "choiceDistractorIds": [
+        "b1-auto-ex0012",
+        "b1-auto-ex0093",
+        "b1-razdrazhat-001"
       ]
     },
     {
@@ -2846,11 +3353,78 @@
       "answer": "по́ртить настрое́ние",
       "lemma": "по́ртить",
       "lemmaTranslation": "psuć, niszczyć",
-      "matchingSet": "set-a",
+      "choiceDistractorIds": [
+        "b1-auto-ex0042",
+        "b1-auto-ex0050",
+        "b1-auto-ex0096"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0026",
+      "lemmaId": "portit",
+      "sourceExampleId": "ex0026",
+      "level": "B1",
+      "sentenceRu": "Не сто́ит по́ртить отноше́ния с колле́гами из-за одного́ недоразуме́ния.",
+      "sentenceGap": "Не сто́ит _____ с колле́гами из-за одного́ недоразуме́ния.",
+      "translationPl": "Nie warto psuć relacji z kolegami z powodu jednego nieporozumienia.",
+      "answer": "по́ртить отноше́ния",
+      "lemma": "по́ртить",
+      "lemmaTranslation": "psuć, niszczyć",
+      "choiceDistractorIds": [
+        "b1-auto-ex0001",
+        "b1-auto-ex0017",
+        "b1-auto-ex0020"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0027",
+      "lemmaId": "portit",
+      "sourceExampleId": "ex0027",
+      "level": "B1",
+      "sentenceRu": "Пожа́луйста, не по́рть мне пра́здник разгово́рами о рабо́те и пробле́мах.",
+      "sentenceGap": "Пожа́луйста, _____ разгово́рами о рабо́те и пробле́мах.",
+      "translationPl": "Proszę, nie psuj mi święta rozmowami o pracy i problemach.",
+      "answer": "не по́рть мне пра́здник",
+      "lemma": "по́ртить",
+      "lemmaTranslation": "psuć, niszczyć",
+      "choiceDistractorIds": [
+        "b1-auto-ex0092",
+        "b1-auto-ex0107",
+        "b1-ryadom-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0028",
+      "lemmaId": "razdrazhat",
+      "sourceExampleId": "ex0028",
+      "level": "B1",
+      "sentenceRu": "Я че́стно сказа́л, что меня́ э́то раздража́ет, осо́бенно по вечера́м.",
+      "sentenceGap": "Я че́стно сказа́л, что _____, осо́бенно по вечера́м.",
+      "translationPl": "Szczerze powiedziałem, że to mnie irytuje, zwłaszcza wieczorami.",
+      "answer": "меня́ э́то раздража́ет",
+      "lemma": "раздража́ть",
+      "lemmaTranslation": "drażnić, irytować",
       "choiceDistractorIds": [
         "b1-ustroitsya-001",
-        "b1-podval-001",
-        "b1-obratnaya-svyaz-001"
+        "b1-auto-ex0095",
+        "b1-auto-ex0176"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0029",
+      "lemmaId": "razdrazhat",
+      "sourceExampleId": "ex0029",
+      "level": "B1",
+      "sentenceRu": "По вечера́м гро́мкая му́зыка раздража́ет сосе́дей, кото́рым ра́но встава́ть.",
+      "sentenceGap": "По вечера́м _____, кото́рым ра́но встава́ть.",
+      "translationPl": "Wieczorami głośna muzyka drażni sąsiadów, którzy muszą wcześnie wstawać.",
+      "answer": "гро́мкая му́зыка раздража́ет сосе́дей",
+      "lemma": "раздража́ть",
+      "lemmaTranslation": "drażnić, irytować",
+      "choiceDistractorIds": [
+        "b1-auto-ex0119",
+        "b1-dalneyshaya-sudba-001",
+        "b1-auto-ex0112"
       ]
     },
     {
@@ -2864,11 +3438,10 @@
       "answer": "не на́до раздража́ть соба́ку",
       "lemma": "раздража́ть",
       "lemmaTranslation": "drażnić, irytować",
-      "matchingSet": "set-a",
       "choiceDistractorIds": [
-        "b1-dalneyshaya-sudba-001",
-        "b1-ryadom-001",
-        "b1-obratnaya-svyaz-001"
+        "b1-auto-ex0168",
+        "b1-auto-ex0177",
+        "b1-auto-ex0179"
       ]
     },
     {
@@ -2882,11 +3455,452 @@
       "answer": "оста́вить чаевы́е",
       "lemma": "чаевы́е",
       "lemmaTranslation": "napiwek, napiwki",
-      "matchingSet": "set-a",
       "choiceDistractorIds": [
+        "b1-auto-ex0004",
+        "b1-auto-ex0019",
+        "b1-auto-ex0063"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0032",
+      "lemmaId": "chaevye",
+      "sourceExampleId": "ex0032",
+      "level": "B1",
+      "sentenceRu": "По́сле у́жина мы реши́ли дать чаевы́е официа́нту за отли́чное обслужива́ние.",
+      "sentenceGap": "По́сле у́жина мы реши́ли _____ за отли́чное обслужива́ние.",
+      "translationPl": "Po kolacji postanowiliśmy dać kelnerowi napiwek za znakomitą obsługę.",
+      "answer": "дать чаевы́е официа́нту",
+      "lemma": "чаевы́е",
+      "lemmaTranslation": "napiwek, napiwki",
+      "choiceDistractorIds": [
+        "b1-auto-ex0018",
+        "b1-auto-ex0039",
+        "b1-auto-ex0015"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0033",
+      "lemmaId": "chaevye",
+      "sourceExampleId": "ex0033",
+      "level": "B1",
+      "sentenceRu": "В э́том рестора́не чаевы́е включены́ в счёт, поэ́тому плати́ть бо́льше не ну́жно.",
+      "sentenceGap": "В э́том рестора́не _____, поэ́тому плати́ть бо́льше не ну́жно.",
+      "translationPl": "W tej restauracji napiwek jest wliczony w rachunek, dlatego nie trzeba płacić więcej.",
+      "answer": "чаевы́е включены́ в счёт",
+      "lemma": "чаевы́е",
+      "lemmaTranslation": "napiwek, napiwki",
+      "choiceDistractorIds": [
+        "b1-auto-ex0054",
+        "b1-auto-ex0130",
+        "b1-auto-ex0140"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0034",
+      "lemmaId": "zhadnyy",
+      "sourceExampleId": "ex0034",
+      "level": "B1",
+      "sentenceRu": "В расска́зе гла́вный геро́й — жа́дный челове́к, кото́рый никому́ не помога́ет.",
+      "sentenceGap": "В расска́зе гла́вный геро́й — _____, кото́рый никому́ не помога́ет.",
+      "translationPl": "W opowiadaniu główny bohater to chciwy człowiek, który nikomu nie pomaga.",
+      "answer": "жа́дный челове́к",
+      "lemma": "жа́дный",
+      "lemmaTranslation": "chciwy, skąpy, zachłanny",
+      "choiceDistractorIds": [
+        "b1-auto-ex0003",
+        "b1-auto-ex0005",
+        "b1-obmanut-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0035",
+      "lemmaId": "zhadnyy",
+      "sourceExampleId": "ex0035",
+      "level": "B1",
+      "sentenceRu": "Все сосе́ди зна́ют, что он о́чень жа́дный и ре́дко де́лится.",
+      "sentenceGap": "Все сосе́ди зна́ют, что _____ и ре́дко де́лится.",
+      "translationPl": "Wszyscy sąsiedzi wiedzą, że on jest bardzo skąpy i rzadko się dzieli.",
+      "answer": "он о́чень жа́дный",
+      "lemma": "жа́дный",
+      "lemmaTranslation": "chciwy, skąpy, zachłanny",
+      "choiceDistractorIds": [
+        "b1-auto-ex0078",
+        "b1-auto-ex0166",
+        "b1-auto-ex0014"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0036",
+      "lemmaId": "zhadnyy",
+      "sourceExampleId": "ex0036",
+      "level": "B1",
+      "sentenceRu": "Ба́бушка сказа́ла: не будь жа́дным, оста́вь часть пи́рога для бра́та.",
+      "sentenceGap": "Ба́бушка сказа́ла: _____, оста́вь часть пи́рога для бра́та.",
+      "translationPl": "Babcia powiedziała: nie bądź skąpy, zostaw kawałek ciasta dla brata.",
+      "answer": "не будь жа́дным",
+      "lemma": "жа́дный",
+      "lemmaTranslation": "chciwy, skąpy, zachłanny",
+      "choiceDistractorIds": [
+        "b1-auto-ex0073",
+        "b1-auto-ex0087",
+        "b1-auto-ex0014"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0037",
+      "lemmaId": "skupoy",
+      "sourceExampleId": "ex0037",
+      "level": "B1",
+      "sentenceRu": "В э́той кни́ге скупо́й челове́к теря́ет дру́зей, потому́ что ду́мает о де́ньгах.",
+      "sentenceGap": "В э́той кни́ге _____ теря́ет дру́зей, потому́ что ду́мает о де́ньгах.",
+      "translationPl": "W tej książce skąpy człowiek traci przyjaciół, ponieważ myśli o pieniądzach.",
+      "answer": "скупо́й челове́к",
+      "lemma": "скупо́й",
+      "lemmaTranslation": "skąpy, oszczędny w czymś",
+      "choiceDistractorIds": [
+        "b1-auto-ex0003",
+        "b1-auto-ex0005",
+        "b1-obmanut-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0038",
+      "lemmaId": "skupoy",
+      "sourceExampleId": "ex0038",
+      "level": "B1",
+      "sentenceRu": "Колле́ги зна́ют, что он скуп на похвалу́, но всегда́ че́стно оце́нивает рабо́ту.",
+      "sentenceGap": "Колле́ги зна́ют, что _____, но всегда́ че́стно оце́нивает рабо́ту.",
+      "translationPl": "Koledzy wiedzą, że jest oszczędny w pochwałach, ale zawsze uczciwie ocenia pracę.",
+      "answer": "он скуп на похвалу́",
+      "lemma": "скупо́й",
+      "lemmaTranslation": "skąpy, oszczędny w czymś",
+      "choiceDistractorIds": [
+        "b1-auto-ex0043",
+        "b1-auto-ex0064",
+        "b1-auto-ex0065"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0039",
+      "lemmaId": "skupoy",
+      "sourceExampleId": "ex0039",
+      "level": "B1",
+      "sentenceRu": "Де́д ча́сто повторя́л, что скупо́й пла́тит два́жды, выбира́я де́шёвые ве́щи.",
+      "sentenceGap": "Де́д ча́сто повторя́л, что _____, выбира́я де́шёвые ве́щи.",
+      "translationPl": "Dziadek często powtarzał, że skąpy płaci dwa razy, wybierając tanie rzeczy.",
+      "answer": "скупо́й пла́тит два́жды",
+      "lemma": "скупо́й",
+      "lemmaTranslation": "skąpy, oszczędny w czymś",
+      "choiceDistractorIds": [
+        "b1-auto-ex0018",
+        "b1-auto-ex0032",
+        "b1-auto-ex0015"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0040",
+      "lemmaId": "prilagatelnoe",
+      "sourceExampleId": "ex0040",
+      "level": "B1",
+      "sentenceRu": "На экза́мене студе́нт до́лжен найти́ ка́чественное прилага́тельное в те́ксте.",
+      "sentenceGap": "На экза́мене студе́нт до́лжен найти́ _____ в те́ксте.",
+      "translationPl": "Na egzaminie student musi znaleźć w tekście przymiotnik jakościowy.",
+      "answer": "ка́чественное прилага́тельное",
+      "lemma": "прилага́тельное",
+      "lemmaTranslation": "przymiotnik",
+      "choiceDistractorIds": [
+        "b1-auto-ex0127",
+        "b1-auto-ex0008",
+        "b1-auto-ex0090"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0041",
+      "lemmaId": "prilagatelnoe",
+      "sourceExampleId": "ex0041",
+      "level": "B1",
+      "sentenceRu": "Преподава́тель объясни́л, как образу́ется кра́ткая фо́рма прилага́тельного в ру́сском языке́.",
+      "sentenceGap": "Преподава́тель объясни́л, как образу́ется _____ в ру́сском языке́.",
+      "translationPl": "Nauczyciel wyjaśnił, jak tworzy się krótka forma przymiotnika w języku rosyjskim.",
+      "answer": "кра́ткая фо́рма прилага́тельного",
+      "lemma": "прилага́тельное",
+      "lemmaTranslation": "przymiotnik",
+      "choiceDistractorIds": [
+        "b1-auto-ex0129",
+        "b1-auto-ex0114",
+        "b1-auto-ex0145"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0042",
+      "lemmaId": "prilagatelnoe",
+      "sourceExampleId": "ex0042",
+      "level": "B1",
+      "sentenceRu": "Учени́к уве́ренно сказа́л, что э́то прилага́тельное опи́сывает вне́шность челове́ка.",
+      "sentenceGap": "Учени́к уве́ренно сказа́л, что _____ опи́сывает вне́шность челове́ка.",
+      "translationPl": "Uczeń pewnie powiedział, że ten przymiotnik opisuje wygląd człowieka.",
+      "answer": "э́то прилага́тельное",
+      "lemma": "прилага́тельное",
+      "lemmaTranslation": "przymiotnik",
+      "choiceDistractorIds": [
+        "b1-portit-001",
+        "b1-auto-ex0050",
+        "b1-auto-ex0096"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0043",
+      "lemmaId": "vsyo-taki",
+      "sourceExampleId": "ex0043",
+      "level": "B1",
+      "sentenceRu": "Хотя́ шёл си́льный дождь, он всё-таки пришёл на встре́чу во́время.",
+      "sentenceGap": "Хотя́ шёл си́льный дождь, _____ на встре́чу во́время.",
+      "translationPl": "Chociaż padał ulewny deszcz, mimo wszystko przyszedł na spotkanie na czas.",
+      "answer": "он всё-таки пришёл",
+      "lemma": "всё-таки",
+      "lemmaTranslation": "jednak, mimo wszystko, ostatecznie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0038",
+        "b1-auto-ex0064",
+        "b1-auto-ex0065"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0044",
+      "lemmaId": "vsyo-taki",
+      "sourceExampleId": "ex0044",
+      "level": "B1",
+      "sentenceRu": "По́сле до́лгих сомне́ний я всё-таки реши́л оста́ться в э́том го́роде.",
+      "sentenceGap": "По́сле до́лгих сомне́ний _____ в э́том го́роде.",
+      "translationPl": "Po długich wątpliwościach ostatecznie postanowiłem zostać w tym mieście.",
+      "answer": "я всё-таки реши́л оста́ться",
+      "lemma": "всё-таки",
+      "lemmaTranslation": "jednak, mimo wszystko, ostatecznie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0131",
+        "b1-auto-ex0059",
+        "b1-auto-ex0111"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0045",
+      "lemmaId": "vsyo-taki",
+      "sourceExampleId": "ex0045",
+      "level": "B1",
+      "sentenceRu": "Сначала́ я не пове́рил, но докуме́нты доказа́ли: э́то всё-таки пра́вда.",
+      "sentenceGap": "Сначала́ я не пове́рил, но докуме́нты доказа́ли: _____.",
+      "translationPl": "Początkowo nie uwierzyłem, ale dokumenty dowiodły, że to jednak prawda.",
+      "answer": "э́то всё-таки пра́вда",
+      "lemma": "всё-таки",
+      "lemmaTranslation": "jednak, mimo wszystko, ostatecznie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0064",
+        "b1-auto-ex0065",
+        "b1-auto-ex0110"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0046",
+      "lemmaId": "zhest",
+      "sourceExampleId": "ex0046",
+      "level": "B1",
+      "sentenceRu": "Же́сть, Ка́й! Как ты суме́л забы́ть биле́ты до́ма пе́ред вы́летом?",
+      "sentenceGap": "_____ Как ты суме́л забы́ть биле́ты до́ма пе́ред вы́летом?",
+      "translationPl": "Masakra, Kai! Jak zdołałeś zapomnieć biletów w domu przed lotem?",
+      "answer": "Же́сть, Ка́й!",
+      "lemma": "же́сть",
+      "lemmaTranslation": "blacha, masakra (potocznie), coś strasznego (potocznie)",
+      "choiceDistractorIds": [
+        "b1-auto-ex0183",
+        "b1-auto-ex0189",
+        "b1-auto-ex0068"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0047",
+      "lemmaId": "zhest",
+      "sourceExampleId": "ex0047",
+      "level": "B1",
+      "sentenceRu": "Во́т э́то же́сть! Мы три часа́ жда́ли по́мощи на моро́зе.",
+      "sentenceGap": "_____ Мы три часа́ жда́ли по́мощи на моро́зе.",
+      "translationPl": "Ale masakra! Czekaliśmy trzy godziny na pomoc na mrozie.",
+      "answer": "Во́т э́то же́сть!",
+      "lemma": "же́сть",
+      "lemmaTranslation": "blacha, masakra (potocznie), coś strasznego (potocznie)",
+      "choiceDistractorIds": [
+        "b1-auto-ex0068",
+        "b1-auto-ex0181",
+        "b1-auto-ex0123"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0048",
+      "lemmaId": "zhest",
+      "sourceExampleId": "ex0048",
+      "level": "B1",
+      "sentenceRu": "По́лная же́сть. Гости́ница не нашла́ на́шу бронь и не предложи́ла друго́й но́мер.",
+      "sentenceGap": "_____ Гости́ница не нашла́ на́шу бронь и не предложи́ла друго́й но́мер.",
+      "translationPl": "Totalna masakra. Hotel nie znalazł naszej rezerwacji i nie zaproponował innego pokoju.",
+      "answer": "По́лная же́сть.",
+      "lemma": "же́сть",
+      "lemmaTranslation": "blacha, masakra (potocznie), coś strasznego (potocznie)",
+      "choiceDistractorIds": [
+        "b1-auto-ex0011",
+        "b1-obida-001",
+        "b1-auto-ex0069"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0049",
+      "lemmaId": "zhestokiy",
+      "sourceExampleId": "ex0049",
+      "level": "B1",
+      "sentenceRu": "В конце́ ро́мана жесто́кий челове́к нако́нец отвеча́ет за свои́ посту́пки.",
+      "sentenceGap": "В конце́ ро́мана _____ нако́нец отвеча́ет за свои́ посту́пки.",
+      "translationPl": "Pod koniec powieści okrutny człowiek wreszcie odpowiada za swoje czyny.",
+      "answer": "жесто́кий челове́к",
+      "lemma": "жесто́кий",
+      "lemmaTranslation": "okrutny, brutalny, bezlitosny",
+      "choiceDistractorIds": [
+        "b1-uroven-001",
+        "b1-proshchenie-001",
+        "b1-auto-ex0023"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0050",
+      "lemmaId": "zhestokiy",
+      "sourceExampleId": "ex0050",
+      "level": "B1",
+      "sentenceRu": "Суд осуди́л жесто́кое обраще́ние с живо́тными и назначи́л стро́гое наказа́ние.",
+      "sentenceGap": "Суд осуди́л _____ с живо́тными и назначи́л стро́гое наказа́ние.",
+      "translationPl": "Sąd potępił okrutne traktowanie zwierząt i wymierzył surową karę.",
+      "answer": "жесто́кое обраще́ние",
+      "lemma": "жесто́кий",
+      "lemmaTranslation": "okrutny, brutalny, bezlitosny",
+      "choiceDistractorIds": [
+        "b1-portit-001",
+        "b1-auto-ex0042",
+        "b1-auto-ex0096"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0051",
+      "lemmaId": "zhestokiy",
+      "sourceExampleId": "ex0051",
+      "level": "B1",
+      "sentenceRu": "За го́родом шёл жесто́кий бой, поэ́тому жи́телей эвакуи́ровали но́чью.",
+      "sentenceGap": "За го́родом шёл _____, поэ́тому жи́телей эвакуи́ровали но́чью.",
+      "translationPl": "Za miastem trwała zacięta walka, dlatego mieszkańców ewakuowano nocą.",
+      "answer": "жесто́кий бой",
+      "lemma": "жесто́кий",
+      "lemmaTranslation": "okrutny, brutalny, bezlitosny",
+      "choiceDistractorIds": [
+        "b1-auto-ex0077",
+        "b1-auto-ex0106",
+        "b1-auto-ex0002"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0052",
+      "lemmaId": "revnivyy",
+      "sourceExampleId": "ex0052",
+      "level": "B1",
+      "sentenceRu": "Её но́вый партнёр — ревни́вый челове́к, кото́рый контроли́рует ка́ждый шаг.",
+      "sentenceGap": "Её но́вый партнёр — _____, кото́рый контроли́рует ка́ждый шаг.",
+      "translationPl": "Jej nowy partner jest zazdrosnym człowiekiem, który kontroluje każdy krok.",
+      "answer": "ревни́вый челове́к",
+      "lemma": "ревни́вый",
+      "lemmaTranslation": "zazdrosny",
+      "choiceDistractorIds": [
+        "b1-uroven-001",
+        "b1-proshchenie-001",
+        "b1-auto-ex0023"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0053",
+      "lemmaId": "revnivyy",
+      "sourceExampleId": "ex0053",
+      "level": "B1",
+      "sentenceRu": "Она́ по́няла, что он о́чень ревни́вый, когда́ он потре́бовал показа́ть ему́ её сообще́ния.",
+      "sentenceGap": "Она́ по́няла, что _____, когда́ он потре́бовал показа́ть ему́ её сообще́ния.",
+      "translationPl": "Zrozumiała, że jest bardzo zazdrosny, kiedy zażądał, by pokazała mu swoje wiadomości.",
+      "answer": "он о́чень ревни́вый",
+      "lemma": "ревни́вый",
+      "lemmaTranslation": "zazdrosny",
+      "choiceDistractorIds": [
+        "b1-otkazat-001",
+        "b1-auto-ex0057",
+        "b1-auto-ex0134"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0054",
+      "lemmaId": "revnivyy",
+      "sourceExampleId": "ex0054",
+      "level": "B1",
+      "sentenceRu": "Я попроси́ла его́: не будь таки́м ревни́вым, ведь у тебя́ нет причи́н.",
+      "sentenceGap": "Я попроси́ла его́: _____, ведь у тебя́ нет причи́н.",
+      "translationPl": "Poprosiłam go: nie bądź taki zazdrosny, przecież nie masz powodów.",
+      "answer": "не будь таки́м ревни́вым",
+      "lemma": "ревни́вый",
+      "lemmaTranslation": "zazdrosny",
+      "choiceDistractorIds": [
+        "b1-auto-ex0033",
+        "b1-auto-ex0130",
+        "b1-auto-ex0140"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0055",
+      "lemmaId": "zavistlivyy",
+      "sourceExampleId": "ex0055",
+      "level": "B1",
+      "sentenceRu": "Психо́лог объясни́л, что зави́стливый челове́к ре́дко ра́дуется успе́хам друзе́й.",
+      "sentenceGap": "Психо́лог объясни́л, что _____ ре́дко ра́дуется успе́хам друзе́й.",
+      "translationPl": "Psycholog wyjaśnił, że zawistny człowiek rzadko cieszy się z sukcesów przyjaciół.",
+      "answer": "зави́стливый челове́к",
+      "lemma": "зави́стливый",
+      "lemmaTranslation": "zawistny, zazdrosny o cudze powodzenie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0007",
+        "b1-auto-ex0009",
+        "b1-auto-ex0105"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0056",
+      "lemmaId": "zavistlivyy",
+      "sourceExampleId": "ex0056",
+      "level": "B1",
+      "sentenceRu": "Я заме́тил зави́стливый взгляд колле́ги по́сле моего́ повыше́ния.",
+      "sentenceGap": "Я заме́тил _____ колле́ги по́сле моего́ повыше́ния.",
+      "translationPl": "Zauważyłem zawistne spojrzenie kolegi po moim awansie.",
+      "answer": "зави́стливый взгляд",
+      "lemma": "зави́стливый",
+      "lemmaTranslation": "zawistny, zazdrosny o cudze powodzenie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0001",
+        "b1-auto-ex0017",
+        "b1-auto-ex0020"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0057",
+      "lemmaId": "zavistlivyy",
+      "sourceExampleId": "ex0057",
+      "level": "B1",
+      "sentenceRu": "Оте́ц посове́товал: не будь зави́стливым, а учи́сь на успе́хах други́х.",
+      "sentenceGap": "Оте́ц посове́товал: _____, а учи́сь на успе́хах други́х.",
+      "translationPl": "Ojciec poradził: nie bądź zawistny, lecz ucz się na sukcesach innych.",
+      "answer": "не будь зави́стливым",
+      "lemma": "зави́стливый",
+      "lemmaTranslation": "zawistny, zazdrosny o cudze powodzenie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0150",
         "b1-otritsat-001",
-        "b1-issledovanie-001",
-        "b1-popast-001"
+        "b1-auto-ex0053"
       ]
     },
     {
@@ -2900,11 +3914,129 @@
       "answer": "затаи́ть оби́ду",
       "lemma": "оби́да",
       "lemmaTranslation": "uraza, żal, krzywda",
-      "matchingSet": "set-a",
       "choiceDistractorIds": [
-        "b1-dobavlyat-001",
-        "b1-podval-001",
-        "b1-obratnaya-svyaz-001"
+        "b1-auto-ex0011",
+        "b1-auto-ex0048",
+        "b1-auto-ex0069"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0059",
+      "lemmaId": "obida",
+      "sourceExampleId": "ex0059",
+      "level": "B1",
+      "sentenceRu": "Пожа́луйста, не держи́ на меня́ оби́ду из-за вчера́шнего разгово́ра.",
+      "sentenceGap": "Пожа́луйста, _____ из-за вчера́шнего разгово́ра.",
+      "translationPl": "Proszę, nie miej do mnie żalu z powodu wczorajszej rozmowy.",
+      "answer": "не держи́ на меня́ оби́ду",
+      "lemma": "оби́да",
+      "lemmaTranslation": "uraza, żal, krzywda",
+      "choiceDistractorIds": [
+        "b1-auto-ex0044",
+        "b1-auto-ex0186",
+        "b1-auto-ex0131"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0060",
+      "lemmaId": "obida",
+      "sourceExampleId": "ex0060",
+      "level": "B1",
+      "sentenceRu": "Ей потре́бовалось мно́го вре́мени, что́бы прости́ть оби́ду, нанесённую бли́зкой подру́гой.",
+      "sentenceGap": "Ей потре́бовалось мно́го вре́мени, что́бы _____, нанесённую бли́зкой подру́гой.",
+      "translationPl": "Potrzebowała dużo czasu, żeby wybaczyć krzywdę wyrządzoną przez bliską przyjaciółkę.",
+      "answer": "прости́ть оби́ду",
+      "lemma": "оби́да",
+      "lemmaTranslation": "uraza, żal, krzywda",
+      "choiceDistractorIds": [
+        "b1-auto-ex0003",
+        "b1-auto-ex0005",
+        "b1-obmanut-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0061",
+      "lemmaId": "pravitel",
+      "sourceExampleId": "ex0061",
+      "level": "B1",
+      "sentenceRu": "В ле́тописи му́дрый прави́тель вы́слушал сове́тников пе́ред ва́жным реше́нием.",
+      "sentenceGap": "В ле́тописи _____ вы́слушал сове́тников пе́ред ва́жным реше́нием.",
+      "translationPl": "W kronice mądry władca wysłuchał doradców przed ważną decyzją.",
+      "answer": "му́дрый прави́тель",
+      "lemma": "прави́тель",
+      "lemmaTranslation": "władca, rządzący",
+      "choiceDistractorIds": [
+        "b1-uroven-001",
+        "b1-proshchenie-001",
+        "b1-auto-ex0023"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0062",
+      "lemmaId": "pravitel",
+      "sourceExampleId": "ex0062",
+      "level": "B1",
+      "sentenceRu": "На встре́че прави́тель страны́ пообеща́л провести́ рефо́рмы и защити́ть права́ гра́ждан.",
+      "sentenceGap": "На встре́че _____ пообеща́л провести́ рефо́рмы и защити́ть права́ гра́ждан.",
+      "translationPl": "Na spotkaniu władca kraju obiecał przeprowadzić reformy i chronić prawa obywateli.",
+      "answer": "прави́тель страны́",
+      "lemma": "прави́тель",
+      "lemmaTranslation": "władca, rządzący",
+      "choiceDistractorIds": [
+        "b1-uroven-001",
+        "b1-proshchenie-001",
+        "b1-auto-ex0023"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0063",
+      "lemmaId": "pravitel",
+      "sourceExampleId": "ex0063",
+      "level": "B1",
+      "sentenceRu": "Молодо́й принц мечта́л стать прави́телем, но боя́лся большо́й отве́тственности.",
+      "sentenceGap": "Молодо́й принц мечта́л _____, но боя́лся большо́й отве́тственности.",
+      "translationPl": "Młody książę marzył, by zostać władcą, lecz bał się wielkiej odpowiedzialności.",
+      "answer": "стать прави́телем",
+      "lemma": "прави́тель",
+      "lemmaTranslation": "władca, rządzący",
+      "choiceDistractorIds": [
+        "b1-auto-ex0004",
+        "b1-auto-ex0019",
+        "b1-chaevye-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0064",
+      "lemmaId": "v-tselom",
+      "sourceExampleId": "ex0064",
+      "level": "B1",
+      "sentenceRu": "Дире́ктор счита́ет, что в це́лом всё хорошо́, хотя́ оста́лось не́сколько оши́бок.",
+      "sentenceGap": "Дире́ктор счита́ет, что _____, хотя́ оста́лось не́сколько оши́бок.",
+      "translationPl": "Dyrektor uważa, że ogólnie wszystko jest dobrze, choć pozostało kilka błędów.",
+      "answer": "в це́лом всё хорошо́",
+      "lemma": "в це́лом",
+      "lemmaTranslation": "ogólnie, ogólnie rzecz biorąc, jako całość",
+      "choiceDistractorIds": [
+        "b1-auto-ex0038",
+        "b1-auto-ex0045",
+        "b1-auto-ex0043"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0065",
+      "lemmaId": "v-tselom",
+      "sourceExampleId": "ex0065",
+      "level": "B1",
+      "sentenceRu": "По́сле обсужде́ния скажу́: в це́лом я согла́сен, но предлага́ю измени́ть сро́ки.",
+      "sentenceGap": "По́сле обсужде́ния скажу́: _____, но предлага́ю измени́ть сро́ки.",
+      "translationPl": "Po dyskusji powiem: ogólnie się zgadzam, ale proponuję zmienić terminy.",
+      "answer": "в це́лом я согла́сен",
+      "lemma": "в це́лом",
+      "lemmaTranslation": "ogólnie, ogólnie rzecz biorąc, jako całość",
+      "choiceDistractorIds": [
+        "b1-auto-ex0038",
+        "b1-auto-ex0045",
+        "b1-auto-ex0043"
       ]
     },
     {
@@ -2918,29 +4050,265 @@
       "answer": "оцени́ть прое́кт в це́лом",
       "lemma": "в це́лом",
       "lemmaTranslation": "ogólnie, jako całość",
-      "matchingSet": "set-a",
       "choiceDistractorIds": [
-        "b1-proshchenie-001",
-        "b1-razdrazhat-001",
-        "b1-ryadom-001"
+        "b1-auto-ex0117",
+        "b1-auto-ex0152",
+        "b1-auto-ex0033"
       ]
     },
     {
-      "id": "b1-issledovanie-001",
-      "lemmaId": "issledovanie",
-      "sourceExampleId": "ex0088",
+      "id": "b1-auto-ex0067",
+      "lemmaId": "stepen",
+      "sourceExampleId": "ex0067",
       "level": "B1",
-      "sentenceRu": "Университе́т плани́рует проводи́ть иссле́дование в тече́ние двух лет.",
-      "sentenceGap": "Университе́т плани́рует _____ в тече́ние двух лет.",
-      "translationPl": "Uniwersytet planuje prowadzić badanie przez dwa lata.",
-      "answer": "проводи́ть иссле́дование",
-      "lemma": "иссле́дование",
-      "lemmaTranslation": "badanie, analiza",
-      "matchingSet": "set-a",
+      "sentenceRu": "Пе́ред по́купкой прове́рьте сте́пень сло́жности сбо́рки э́той ме́бели.",
+      "sentenceGap": "Пе́ред по́купкой прове́рьте _____ сбо́рки э́той ме́бели.",
+      "translationPl": "Przed zakupem sprawdźcie stopień trudności montażu tych mebli.",
+      "answer": "сте́пень сло́жности",
+      "lemma": "сте́пень",
+      "lemmaTranslation": "stopień, poziom, zakres",
       "choiceDistractorIds": [
-        "b1-obida-001",
-        "b1-popast-001",
-        "b1-ryadom-001"
+        "b1-auto-ex0001",
+        "b1-auto-ex0017",
+        "b1-auto-ex0020"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0068",
+      "lemmaId": "stepen",
+      "sourceExampleId": "ex0068",
+      "level": "B1",
+      "sentenceRu": "Преподава́тель написа́л на доске́ вопро́с «в како́й сте́пени?» и попроси́л приве́сти приме́р.",
+      "sentenceGap": "Преподава́тель написа́л на доске́ вопро́с «_____» и попроси́л приве́сти приме́р.",
+      "translationPl": "Nauczyciel napisał na tablicy pytanie „w jakim stopniu?” i poprosił o podanie przykładu.",
+      "answer": "в како́й сте́пени?",
+      "lemma": "сте́пень",
+      "lemmaTranslation": "stopień, poziom, zakres",
+      "choiceDistractorIds": [
+        "b1-auto-ex0047",
+        "b1-auto-ex0181",
+        "b1-auto-ex0123"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0069",
+      "lemmaId": "stepen",
+      "sourceExampleId": "ex0069",
+      "level": "B1",
+      "sentenceRu": "Для э́той до́лжности учёная сте́пень не обяза́тельна, но о́пыт ва́жен.",
+      "sentenceGap": "Для э́той до́лжности _____ не обяза́тельна, но о́пыт ва́жен.",
+      "translationPl": "Na tym stanowisku stopień naukowy nie jest konieczny, ale doświadczenie jest ważne.",
+      "answer": "учёная сте́пень",
+      "lemma": "сте́пень",
+      "lemmaTranslation": "stopień, poziom, zakres",
+      "choiceDistractorIds": [
+        "b1-auto-ex0011",
+        "b1-auto-ex0048",
+        "b1-obida-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0070",
+      "lemmaId": "prevoskhodnyy",
+      "sourceExampleId": "ex0070",
+      "level": "B1",
+      "sentenceRu": "Во вре́мя обсужде́ния появи́лась превосхо́дная иде́я, кото́рая помогла́ сократи́ть расхо́ды.",
+      "sentenceGap": "Во вре́мя обсужде́ния появи́лась _____, кото́рая помогла́ сократи́ть расхо́ды.",
+      "translationPl": "Podczas dyskusji pojawił się doskonały pomysł, który pomógł ograniczyć wydatki.",
+      "answer": "превосхо́дная иде́я",
+      "lemma": "превосхо́дный",
+      "lemmaTranslation": "doskonały, znakomity, wspaniały",
+      "choiceDistractorIds": [
+        "b1-auto-ex0001",
+        "b1-auto-ex0017",
+        "b1-auto-ex0020"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0071",
+      "lemmaId": "prevoskhodnyy",
+      "sourceExampleId": "ex0071",
+      "level": "B1",
+      "sentenceRu": "Кома́нда показа́ла превосхо́дный результа́т, несмотря́ на недоста́ток вре́мени.",
+      "sentenceGap": "Кома́нда показа́ла _____, несмотря́ на недоста́ток вре́мени.",
+      "translationPl": "Zespół osiągnął znakomity wynik mimo braku czasu.",
+      "answer": "превосхо́дный результа́т",
+      "lemma": "превосхо́дный",
+      "lemmaTranslation": "doskonały, znakomity, wspaniały",
+      "choiceDistractorIds": [
+        "b1-issledovanie-001",
+        "b1-auto-ex0100",
+        "b1-auto-ex0137"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0072",
+      "lemmaId": "prevoskhodnyy",
+      "sourceExampleId": "ex0072",
+      "level": "B1",
+      "sentenceRu": "Покупа́тели це́нят превосхо́дное ка́чество э́той проду́кции и совре́менный диза́йн.",
+      "sentenceGap": "Покупа́тели це́нят _____ э́той проду́кции и совре́менный диза́йн.",
+      "translationPl": "Kupujący cenią doskonałą jakość tych produktów i nowoczesny design.",
+      "answer": "превосхо́дное ка́чество",
+      "lemma": "превосхо́дный",
+      "lemmaTranslation": "doskonały, znakomity, wspaniały",
+      "choiceDistractorIds": [
+        "b1-auto-ex0197",
+        "b1-auto-ex0199",
+        "b1-issledovanie-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0073",
+      "lemmaId": "kushat",
+      "sourceExampleId": "ex0073",
+      "level": "B1",
+      "sentenceRu": "По́сле дли́нной прогу́лки я хочу́ ку́шать, но кафе́ уже́ закры́то.",
+      "sentenceGap": "По́сле дли́нной прогу́лки _____, но кафе́ уже́ закры́то.",
+      "translationPl": "Po długim spacerze chcę jeść, ale kawiarnia jest już zamknięta.",
+      "answer": "я хочу́ ку́шать",
+      "lemma": "ку́шать",
+      "lemmaTranslation": "jeść",
+      "choiceDistractorIds": [
+        "b1-auto-ex0036",
+        "b1-auto-ex0087",
+        "b1-auto-ex0014"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0074",
+      "lemmaId": "kushat",
+      "sourceExampleId": "ex0074",
+      "level": "B1",
+      "sentenceRu": "Го́сти, са́дитесь ку́шать, пока́ суп на столе́ ещё горя́чий.",
+      "sentenceGap": "Го́сти, _____, пока́ суп на столе́ ещё горя́чий.",
+      "translationPl": "Goście, siadajcie do jedzenia, póki zupa na stole jest jeszcze gorąca.",
+      "answer": "са́дитесь ку́шать",
+      "lemma": "ку́шать",
+      "lemmaTranslation": "jeść",
+      "choiceDistractorIds": [
+        "b1-auto-ex0004",
+        "b1-auto-ex0019",
+        "b1-chaevye-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0075",
+      "lemmaId": "kushat",
+      "sourceExampleId": "ex0075",
+      "level": "B1",
+      "sentenceRu": "Хозя́йка объяви́ла, что ку́шать по́дано, и пригласи́ла всех в столо́вую.",
+      "sentenceGap": "Хозя́йка объяви́ла, что _____, и пригласи́ла всех в столо́вую.",
+      "translationPl": "Gospodyni ogłosiła, że podano do stołu, i zaprosiła wszystkich do jadalni.",
+      "answer": "ку́шать по́дано",
+      "lemma": "ку́шать",
+      "lemmaTranslation": "jeść",
+      "choiceDistractorIds": [
+        "b1-auto-ex0011",
+        "b1-auto-ex0048",
+        "b1-obida-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0076",
+      "lemmaId": "pobeg-escape",
+      "sourceExampleId": "ex0076",
+      "level": "B1",
+      "sentenceRu": "Заключённые плани́ровали соверши́ть побе́г, но охра́на узна́ла об э́том.",
+      "sentenceGap": "Заключённые плани́ровали _____, но охра́на узна́ла об э́том.",
+      "translationPl": "Więźniowie planowali dokonać ucieczki, ale straż się o tym dowiedziała.",
+      "answer": "соверши́ть побе́г",
+      "lemma": "побе́г",
+      "lemmaTranslation": "ucieczka, zbiegnięcie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0004",
+        "b1-auto-ex0019",
+        "b1-chaevye-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0077",
+      "lemmaId": "pobeg-escape",
+      "sourceExampleId": "ex0077",
+      "level": "B1",
+      "sentenceRu": "Геро́и соста́вили пла́н побе́га и спря́тали его́ под крова́тью.",
+      "sentenceGap": "Геро́и соста́вили _____ и спря́тали его́ под крова́тью.",
+      "translationPl": "Bohaterowie sporządzili plan ucieczki i ukryli go pod łóżkiem.",
+      "answer": "пла́н побе́га",
+      "lemma": "побе́г",
+      "lemmaTranslation": "ucieczka, zbiegnięcie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0051",
+        "b1-auto-ex0106",
+        "b1-auto-ex0002"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0078",
+      "lemmaId": "pobeg-escape",
+      "sourceExampleId": "ex0078",
+      "level": "B1",
+      "sentenceRu": "Следова́тель счита́л, что побе́г из тюрьмы́ был ча́стью сло́жного пла́на.",
+      "sentenceGap": "Следова́тель счита́л, что _____ был ча́стью сло́жного пла́на.",
+      "translationPl": "Śledczy uważał, że ucieczka z więzienia była częścią złożonego planu.",
+      "answer": "побе́г из тюрьмы́",
+      "lemma": "побе́г",
+      "lemmaTranslation": "ucieczka, zbiegnięcie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0035",
+        "b1-auto-ex0166",
+        "b1-auto-ex0014"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0079",
+      "lemmaId": "moryak",
+      "sourceExampleId": "ex0079",
+      "level": "B1",
+      "sentenceRu": "На па́лубе о́пытный моря́к пе́рвым заме́тил приближе́ние си́льного што́рма.",
+      "sentenceGap": "На па́лубе _____ пе́рвым заме́тил приближе́ние си́льного што́рма.",
+      "translationPl": "Na pokładzie doświadczony marynarz jako pierwszy zauważył nadciągający silny sztorm.",
+      "answer": "о́пытный моря́к",
+      "lemma": "моря́к",
+      "lemmaTranslation": "marynarz",
+      "choiceDistractorIds": [
+        "b1-auto-ex0011",
+        "b1-auto-ex0048",
+        "b1-obida-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0080",
+      "lemmaId": "moryak",
+      "sourceExampleId": "ex0080",
+      "level": "B1",
+      "sentenceRu": "В де́тстве он мечта́л ста́ть моряко́м и путеше́ствовать по ми́ру.",
+      "sentenceGap": "В де́тстве он мечта́л _____ и путеше́ствовать по ми́ру.",
+      "translationPl": "W dzieciństwie marzył, by zostać marynarzem i podróżować po świecie.",
+      "answer": "ста́ть моряко́м",
+      "lemma": "моря́к",
+      "lemmaTranslation": "marynarz",
+      "choiceDistractorIds": [
+        "b1-auto-ex0011",
+        "b1-auto-ex0048",
+        "b1-obida-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0081",
+      "lemmaId": "moryak",
+      "sourceExampleId": "ex0081",
+      "level": "B1",
+      "sentenceRu": "По́сле полугодово́го ре́йса моряки́ верну́лись домо́й к свои́м се́мьям.",
+      "sentenceGap": "По́сле полугодово́го ре́йса _____ к свои́м се́мьям.",
+      "translationPl": "Po półrocznym rejsie marynarze wrócili do domów, do swoich rodzin.",
+      "answer": "моряки́ верну́лись домо́й",
+      "lemma": "моря́к",
+      "lemmaTranslation": "marynarz",
+      "choiceDistractorIds": [
+        "b1-auto-ex0097",
+        "b1-auto-ex0143",
+        "b1-auto-ex0192"
       ]
     },
     {
@@ -2954,11 +4322,197 @@
       "answer": "устро́иться на рабо́ту",
       "lemma": "устро́иться",
       "lemmaTranslation": "zatrudnić się, urządzić się",
-      "matchingSet": "set-b",
       "choiceDistractorIds": [
-        "b1-otritsat-001",
-        "b1-dobavlyat-001",
-        "b1-obratnaya-svyaz-001"
+        "b1-auto-ex0028",
+        "b1-auto-ex0095",
+        "b1-auto-ex0176"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0083",
+      "lemmaId": "ustroitsya",
+      "sourceExampleId": "ex0083",
+      "level": "B1",
+      "sentenceRu": "По́сле рабо́ты я люблю́ удо́бно устро́иться в кре́сле с интере́сной кни́гой.",
+      "sentenceGap": "По́сле рабо́ты я люблю́ _____ с интере́сной кни́гой.",
+      "translationPl": "Po pracy lubię wygodnie usadowić się w fotelu z ciekawą książką.",
+      "answer": "удо́бно устро́иться в кре́сле",
+      "lemma": "устро́иться",
+      "lemmaTranslation": "zatrudnić się, urządzić się, ulokować się",
+      "choiceDistractorIds": [
+        "b1-zakrepitsya-001",
+        "b1-auto-ex0118",
+        "b1-razdrazhat-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0084",
+      "lemmaId": "ustroitsya",
+      "sourceExampleId": "ex0084",
+      "level": "B1",
+      "sentenceRu": "Нам удало́сь устро́иться в гости́нице недалеко́ от истори́ческого це́нтра.",
+      "sentenceGap": "Нам удало́сь _____ недалеко́ от истори́ческого це́нтра.",
+      "translationPl": "Udało nam się zakwaterować w hotelu niedaleko historycznego centrum.",
+      "answer": "устро́иться в гости́нице",
+      "lemma": "устро́иться",
+      "lemmaTranslation": "zatrudnić się, urządzić się, ulokować się",
+      "choiceDistractorIds": [
+        "b1-auto-ex0015",
+        "b1-auto-ex0099",
+        "b1-auto-ex0018"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0085",
+      "lemmaId": "techenie",
+      "sourceExampleId": "ex0085",
+      "level": "B1",
+      "sentenceRu": "Из-за дождя́ тече́ние реки́ ста́ло намно́го си́льнее и опасне́е.",
+      "sentenceGap": "Из-за дождя́ _____ ста́ло намно́го си́льнее и опасне́е.",
+      "translationPl": "Z powodu deszczu prąd rzeki stał się znacznie silniejszy i bardziej niebezpieczny.",
+      "answer": "тече́ние реки́",
+      "lemma": "тече́ние",
+      "lemmaTranslation": "prąd, bieg, przebieg",
+      "choiceDistractorIds": [
+        "b1-auto-ex0098",
+        "b1-auto-ex0103",
+        "b1-auto-ex0115"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0086",
+      "lemmaId": "techenie",
+      "sourceExampleId": "ex0086",
+      "level": "B1",
+      "sentenceRu": "Врач объясни́л, что тече́ние боле́зни зави́сит от своевре́менного лече́ния.",
+      "sentenceGap": "Врач объясни́л, что _____ зави́сит от своевре́менного лече́ния.",
+      "translationPl": "Lekarz wyjaśnił, że przebieg choroby zależy od podjęcia leczenia w odpowiednim czasie.",
+      "answer": "тече́ние боле́зни",
+      "lemma": "тече́ние",
+      "lemmaTranslation": "prąd, bieg i przebieg",
+      "choiceDistractorIds": [
+        "b1-auto-ex0004",
+        "b1-auto-ex0019",
+        "b1-chaevye-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0087",
+      "lemmaId": "techenie",
+      "sourceExampleId": "ex0087",
+      "level": "B1",
+      "sentenceRu": "Я постара́юсь отве́тить на все пи́сьма в тече́ние дня́.",
+      "sentenceGap": "Я постара́юсь отве́тить на все пи́сьма _____.",
+      "translationPl": "Postaram się odpowiedzieć na wszystkie wiadomości w ciągu dnia.",
+      "answer": "в тече́ние дня́",
+      "lemma": "тече́ние",
+      "lemmaTranslation": "prąd, bieg i przebieg",
+      "choiceDistractorIds": [
+        "b1-auto-ex0036",
+        "b1-auto-ex0073",
+        "b1-auto-ex0014"
+      ]
+    },
+    {
+      "id": "b1-issledovanie-001",
+      "lemmaId": "issledovanie",
+      "sourceExampleId": "ex0088",
+      "level": "B1",
+      "sentenceRu": "Университе́т плани́рует проводи́ть иссле́дование в тече́ние двух лет.",
+      "sentenceGap": "Университе́т плани́рует _____ в тече́ние двух лет.",
+      "translationPl": "Uniwersytet planuje prowadzić badanie przez dwa lata.",
+      "answer": "проводи́ть иссле́дование",
+      "lemma": "иссле́дование",
+      "lemmaTranslation": "badanie, analiza",
+      "choiceDistractorIds": [
+        "b1-auto-ex0071",
+        "b1-auto-ex0100",
+        "b1-auto-ex0137"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0089",
+      "lemmaId": "issledovanie",
+      "sourceExampleId": "ex0089",
+      "level": "B1",
+      "sentenceRu": "Но́вое нау́чное иссле́дование показа́ло, что регуля́рный сон улучша́ет па́мять.",
+      "sentenceGap": "Но́вое _____ показа́ло, что регуля́рный сон улучша́ет па́мять.",
+      "translationPl": "Nowe badanie naukowe wykazało, że regularny sen poprawia pamięć.",
+      "answer": "нау́чное иссле́дование",
+      "lemma": "иссле́дование",
+      "lemmaTranslation": "badanie i analiza",
+      "choiceDistractorIds": [
+        "b1-auto-ex0124",
+        "b1-auto-ex0007",
+        "b1-auto-ex0009"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0090",
+      "lemmaId": "issledovanie",
+      "sourceExampleId": "ex0090",
+      "level": "B1",
+      "sentenceRu": "Руководи́тель про́сит обсуди́ть результа́ты иссле́дования на за́втрашнем совеща́нии.",
+      "sentenceGap": "Руководи́тель про́сит обсуди́ть _____ на за́втрашнем совеща́нии.",
+      "translationPl": "Kierownik prosi o omówienie wyników badania na jutrzejszym zebraniu.",
+      "answer": "результа́ты иссле́дования",
+      "lemma": "иссле́дование",
+      "lemmaTranslation": "badanie i analiza",
+      "choiceDistractorIds": [
+        "b1-auto-ex0008",
+        "b1-auto-ex0102",
+        "b1-auto-ex0125"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0091",
+      "lemmaId": "zakrytsya",
+      "sourceExampleId": "ex0091",
+      "level": "B1",
+      "sentenceRu": "Когда́ мы подошли́, оказа́лось, что магази́н закры́лся всего́ пять мину́т наза́д.",
+      "sentenceGap": "Когда́ мы подошли́, оказа́лось, что _____ всего́ пять мину́т наза́д.",
+      "translationPl": "Kiedy podeszliśmy, okazało się, że sklep zamknął się zaledwie pięć minut wcześniej.",
+      "answer": "магази́н закры́лся",
+      "lemma": "закры́ться",
+      "lemmaTranslation": "zamknąć się i zostać zamkniętym",
+      "choiceDistractorIds": [
+        "b1-uroven-001",
+        "b1-proshchenie-001",
+        "b1-auto-ex0023"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0092",
+      "lemmaId": "zakrytsya",
+      "sourceExampleId": "ex0092",
+      "level": "B1",
+      "sentenceRu": "По́сле ссо́ры он закры́лся в ко́мнате и до ве́чера ни с кем не разгова́ривал.",
+      "sentenceGap": "По́сле ссо́ры _____ и до ве́чера ни с кем не разгова́ривал.",
+      "translationPl": "Po kłótni zamknął się w pokoju i do wieczora z nikim nie rozmawiał.",
+      "answer": "он закры́лся в ко́мнате",
+      "lemma": "закры́ться",
+      "lemmaTranslation": "zamknąć się i zostać zamkniętym",
+      "choiceDistractorIds": [
+        "b1-auto-ex0027",
+        "b1-auto-ex0107",
+        "b1-ryadom-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0093",
+      "lemmaId": "zakrytsya",
+      "sourceExampleId": "ex0093",
+      "level": "B1",
+      "sentenceRu": "Городско́й музе́й закры́лся на ремо́нт, поэ́тому вы́ставку перенесли́ в сосе́днее зда́ние.",
+      "sentenceGap": "Городско́й _____, поэ́тому вы́ставку перенесли́ в сосе́днее зда́ние.",
+      "translationPl": "Muzeum miejskie zamknięto na czas remontu, dlatego wystawę przeniesiono do sąsiedniego budynku.",
+      "answer": "музе́й закры́лся на ремо́нт",
+      "lemma": "закры́ться",
+      "lemmaTranslation": "zamknąć się i zostać zamkniętym",
+      "choiceDistractorIds": [
+        "b1-auto-ex0012",
+        "b1-auto-ex0024",
+        "b1-razdrazhat-001"
       ]
     },
     {
@@ -2972,11 +4526,367 @@
       "answer": "закрепи́ться на но́вом ме́сте",
       "lemma": "закрепи́ться",
       "lemmaTranslation": "umocnić się, zadomowić się",
-      "matchingSet": "set-b",
       "choiceDistractorIds": [
-        "b1-chaevye-001",
-        "b1-popast-001",
-        "b1-pryamo-001"
+        "b1-auto-ex0083",
+        "b1-auto-ex0118",
+        "b1-razdrazhat-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0095",
+      "lemmaId": "zakrepitsya",
+      "sourceExampleId": "ex0095",
+      "level": "B1",
+      "sentenceRu": "Но́вые слова́ ну́жно регуля́рно повторя́ть, что́бы они́ могли́ надолго́ закрепи́ться в па́мяти.",
+      "sentenceGap": "Но́вые слова́ ну́жно регуля́рно повторя́ть, что́бы они́ могли́ надолго́ _____.",
+      "translationPl": "Nowe słowa trzeba regularnie powtarzać, żeby mogły na długo utrwalić się w pamięci.",
+      "answer": "закрепи́ться в па́мяти",
+      "lemma": "закрепи́ться",
+      "lemmaTranslation": "umocnić się, utrwalić się i zadomowić się",
+      "choiceDistractorIds": [
+        "b1-auto-ex0028",
+        "b1-ustroitsya-001",
+        "b1-auto-ex0176"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0096",
+      "lemmaId": "zakrepitsya",
+      "sourceExampleId": "ex0096",
+      "level": "B1",
+      "sentenceRu": "Молодо́й компа́нии удало́сь про́чно закрепи́ться на ме́стном ры́нке за два го́да.",
+      "sentenceGap": "Молодо́й компа́нии удало́сь _____ на ме́стном ры́нке за два го́да.",
+      "translationPl": "Młodej firmie udało się mocno ugruntować pozycję na lokalnym rynku w ciągu dwóch lat.",
+      "answer": "про́чно закрепи́ться",
+      "lemma": "закрепи́ться",
+      "lemmaTranslation": "umocnić się, utrwalić się i zadomowić się",
+      "choiceDistractorIds": [
+        "b1-portit-001",
+        "b1-auto-ex0042",
+        "b1-auto-ex0050"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0097",
+      "lemmaId": "zapreshchennyy",
+      "sourceExampleId": "ex0097",
+      "level": "B1",
+      "sentenceRu": "Сотру́дник указа́л на знак и напо́мнил, что зде́сь запрещено́ кури́ть.",
+      "sentenceGap": "Сотру́дник указа́л на знак и напо́мнил, что _____.",
+      "translationPl": "Pracownik wskazał znak i przypomniał, że tutaj nie wolno palić.",
+      "answer": "зде́сь запрещено́ кури́ть",
+      "lemma": "запрещённый",
+      "lemmaTranslation": "zabroniony i zakazany",
+      "choiceDistractorIds": [
+        "b1-auto-ex0081",
+        "b1-auto-ex0143",
+        "b1-auto-ex0192"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0098",
+      "lemmaId": "zapreshchennyy",
+      "sourceExampleId": "ex0098",
+      "level": "B1",
+      "sentenceRu": "Из-за авари́йного состоя́ния зда́ния вхо́д запрещён до конца́ неде́ли.",
+      "sentenceGap": "Из-за авари́йного состоя́ния зда́ния _____ до конца́ неде́ли.",
+      "translationPl": "Z powodu złego stanu technicznego budynku wstęp jest zabroniony do końca tygodnia.",
+      "answer": "вхо́д запрещён",
+      "lemma": "запрещённый",
+      "lemmaTranslation": "zabroniony i zakazany",
+      "choiceDistractorIds": [
+        "b1-auto-ex0085",
+        "b1-auto-ex0103",
+        "b1-auto-ex0115"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0099",
+      "lemmaId": "zapreshchennyy",
+      "sourceExampleId": "ex0099",
+      "level": "B1",
+      "sentenceRu": "Не пыта́йтесь публикова́ть чужи́е да́нные: э́то запрещено́ зако́ном.",
+      "sentenceGap": "Не пыта́йтесь публикова́ть чужи́е да́нные: _____.",
+      "translationPl": "Nie próbujcie publikować cudzych danych: jest to zabronione przez prawo.",
+      "answer": "э́то запрещено́ зако́ном",
+      "lemma": "запрещённый",
+      "lemmaTranslation": "zabroniony i zakazany",
+      "choiceDistractorIds": [
+        "b1-auto-ex0015",
+        "b1-auto-ex0084",
+        "b1-auto-ex0018"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0100",
+      "lemmaId": "podpolnyy",
+      "sourceExampleId": "ex0100",
+      "level": "B1",
+      "sentenceRu": "Поли́ция вы́яснила, что подпо́льная организа́ция получа́ла де́ньги из-за грани́цы.",
+      "sentenceGap": "Поли́ция вы́яснила, что _____ получа́ла де́ньги из-за грани́цы.",
+      "translationPl": "Policja ustaliła, że nielegalna organizacja otrzymywała pieniądze z zagranicy.",
+      "answer": "подпо́льная организа́ция",
+      "lemma": "подпо́льный",
+      "lemmaTranslation": "podziemny, nielegalny i konspiracyjny",
+      "choiceDistractorIds": [
+        "b1-auto-ex0071",
+        "b1-issledovanie-001",
+        "b1-auto-ex0137"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0101",
+      "lemmaId": "podpolnyy",
+      "sourceExampleId": "ex0101",
+      "level": "B1",
+      "sentenceRu": "В ста́ром подва́ле поли́ция обнаружи́ла подпо́льное казино́, рабо́тавшее без лице́нзии.",
+      "sentenceGap": "В ста́ром подва́ле поли́ция обнаружи́ла _____, рабо́тавшее без лице́нзии.",
+      "translationPl": "W starej piwnicy policja odkryła nielegalne kasyno działające bez licencji.",
+      "answer": "подпо́льное казино́",
+      "lemma": "подпо́льный",
+      "lemmaTranslation": "podziemny, nielegalny i konspiracyjny",
+      "choiceDistractorIds": [
+        "b1-auto-ex0001",
+        "b1-auto-ex0017",
+        "b1-auto-ex0020"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0102",
+      "lemmaId": "podpolnyy",
+      "sourceExampleId": "ex0102",
+      "level": "B1",
+      "sentenceRu": "Сле́дователи вы́яснили, что подпо́льная де́ятельность гру́ппы продолжа́лась бо́лее трёх лет.",
+      "sentenceGap": "Сле́дователи вы́яснили, что _____ гру́ппы продолжа́лась бо́лее трёх лет.",
+      "translationPl": "Śledczy ustalili, że konspiracyjna działalność grupy trwała ponad trzy lata.",
+      "answer": "подпо́льная де́ятельность",
+      "lemma": "подпо́льный",
+      "lemmaTranslation": "podziemny, nielegalny i konspiracyjny",
+      "choiceDistractorIds": [
+        "b1-auto-ex0008",
+        "b1-auto-ex0090",
+        "b1-auto-ex0125"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0103",
+      "lemmaId": "raschyot",
+      "sourceExampleId": "ex0103",
+      "level": "B1",
+      "sentenceRu": "Пе́ред строи́тельством инжене́р вы́полнил то́чный расчёт нагру́зки на фунда́мент.",
+      "sentenceGap": "Пе́ред строи́тельством инжене́р вы́полнил _____ нагру́зки на фунда́мент.",
+      "translationPl": "Przed budową inżynier wykonał dokładne obliczenie obciążenia fundamentu.",
+      "answer": "то́чный расчёт",
+      "lemma": "расчёт",
+      "lemmaTranslation": "obliczenie, kalkulacja i rozliczenie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0085",
+        "b1-auto-ex0098",
+        "b1-auto-ex0115"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0104",
+      "lemmaId": "raschyot",
+      "sourceExampleId": "ex0104",
+      "level": "B1",
+      "sentenceRu": "Ме́неджер пришлёт расчёт сто́имости по́сле уточне́ния всех дета́лей зака́за.",
+      "sentenceGap": "Ме́неджер пришлёт _____ по́сле уточне́ния всех дета́лей зака́за.",
+      "translationPl": "Menedżer prześle kalkulację kosztów po ustaleniu wszystkich szczegółów zamówienia.",
+      "answer": "расчёт сто́имости",
+      "lemma": "расчёт",
+      "lemmaTranslation": "obliczenie, kalkulacja i rozliczenie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0004",
+        "b1-auto-ex0019",
+        "b1-chaevye-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0105",
+      "lemmaId": "raschyot",
+      "sourceExampleId": "ex0105",
+      "level": "B1",
+      "sentenceRu": "По́сле увольне́ния он получи́л оконча́тельный расчёт че́рез три дня.",
+      "sentenceGap": "По́сле увольне́ния он получи́л _____ че́рез три дня.",
+      "translationPl": "Po zwolnieniu otrzymał ostateczne rozliczenie po trzech dniach.",
+      "answer": "оконча́тельный расчёт",
+      "lemma": "расчёт",
+      "lemmaTranslation": "obliczenie, kalkulacja i rozliczenie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0007",
+        "b1-auto-ex0009",
+        "b1-auto-ex0055"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0106",
+      "lemmaId": "akula",
+      "sourceExampleId": "ex0106",
+      "level": "B1",
+      "sentenceRu": "Би́ологи заме́тили, что бе́лая аку́ла подплыла́ бли́зко к иссле́довательскому судну́.",
+      "sentenceGap": "Би́ологи заме́тили, что _____ подплыла́ бли́зко к иссле́довательскому судну́.",
+      "translationPl": "Biolodzy zauważyli, że żarłacz biały podpłynął blisko statku badawczego.",
+      "answer": "бе́лая аку́ла",
+      "lemma": "аку́ла",
+      "lemmaTranslation": "rekin",
+      "choiceDistractorIds": [
+        "b1-auto-ex0051",
+        "b1-auto-ex0077",
+        "b1-auto-ex0002"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0107",
+      "lemmaId": "akula",
+      "sourceExampleId": "ex0107",
+      "level": "B1",
+      "sentenceRu": "На э́том ви́део аку́ла пла́вает в мо́ре совсе́м ря́дом с тури́стической ло́дкой.",
+      "sentenceGap": "На э́том ви́део _____ совсе́м ря́дом с тури́стической ло́дкой.",
+      "translationPl": "Na tym nagraniu rekin pływa w morzu tuż obok łodzi turystycznej.",
+      "answer": "аку́ла пла́вает в мо́ре",
+      "lemma": "аку́ла",
+      "lemmaTranslation": "rekin",
+      "choiceDistractorIds": [
+        "b1-auto-ex0027",
+        "b1-auto-ex0092",
+        "b1-ryadom-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0108",
+      "lemmaId": "akula",
+      "sourceExampleId": "ex0108",
+      "level": "B1",
+      "sentenceRu": "Очеви́дцы сообщи́ли, что нападе́ние аку́лы произошло́ недалеко́ от берега́.",
+      "sentenceGap": "Очеви́дцы сообщи́ли, что _____ произошло́ недалеко́ от берега́.",
+      "translationPl": "Świadkowie poinformowali, że atak rekina nastąpił niedaleko brzegu.",
+      "answer": "нападе́ние аку́лы",
+      "lemma": "аку́ла",
+      "lemmaTranslation": "rekin",
+      "choiceDistractorIds": [
+        "b1-auto-ex0004",
+        "b1-auto-ex0019",
+        "b1-chaevye-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0109",
+      "lemmaId": "byt-v-bredu",
+      "sourceExampleId": "ex0109",
+      "level": "B1",
+      "sentenceRu": "Из-за высо́кой температу́ры он бы́л в бреду́ и не узнава́л ро́дственников.",
+      "sentenceGap": "Из-за высо́кой температу́ры _____ и не узнава́л ро́дственников.",
+      "translationPl": "Z powodu wysokiej gorączki był w malignie i nie rozpoznawał krewnych.",
+      "answer": "он бы́л в бреду́",
+      "lemma": "бы́ть в бреду́",
+      "lemmaTranslation": "być w malignie, majaczyć i być w stanie majaczenia",
+      "choiceDistractorIds": [
+        "b1-auto-ex0043",
+        "b1-auto-ex0038",
+        "b1-auto-ex0064"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0110",
+      "lemmaId": "byt-v-bredu",
+      "sourceExampleId": "ex0110",
+      "level": "B1",
+      "sentenceRu": "Всю ночь тяжело́ больно́й бы́л в бреду́, поэ́тому ря́дом дежу́рил врач.",
+      "sentenceGap": "Всю ночь тяжело́ _____, поэ́тому ря́дом дежу́рил врач.",
+      "translationPl": "Ciężko chory majaczył przez całą noc, dlatego czuwał przy nim lekarz.",
+      "answer": "больно́й бы́л в бреду́",
+      "lemma": "бы́ть в бреду́",
+      "lemmaTranslation": "być w malignie, majaczyć i być w stanie majaczenia",
+      "choiceDistractorIds": [
+        "b1-auto-ex0027",
+        "b1-auto-ex0045",
+        "b1-auto-ex0092"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0111",
+      "lemmaId": "byt-v-bredu",
+      "sourceExampleId": "ex0111",
+      "level": "B1",
+      "sentenceRu": "Мне ка́жется, ты говори́шь, бу́дто в бреду́, и я не понима́ю твою́ мысль.",
+      "sentenceGap": "Мне ка́жется, _____, и я не понима́ю твою́ мысль.",
+      "translationPl": "Wydaje mi się, że mówisz, jakbyś majaczył, i nie rozumiem, o co ci chodzi.",
+      "answer": "ты говори́шь, бу́дто в бреду́",
+      "lemma": "бы́ть в бреду́",
+      "lemmaTranslation": "być w malignie, majaczyć i być w stanie majaczenia",
+      "choiceDistractorIds": [
+        "b1-auto-ex0131",
+        "b1-auto-ex0044",
+        "b1-auto-ex0059"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0112",
+      "lemmaId": "protivorechivo",
+      "sourceExampleId": "ex0112",
+      "level": "B1",
+      "sentenceRu": "На пе́рвый взгляд его́ слова́ звуча́т противоре́чиво, но в них есть ло́гика.",
+      "sentenceGap": "На пе́рвый взгляд _____, но в них есть ло́гика.",
+      "translationPl": "Na pierwszy rzut oka jego słowa brzmią sprzecznie, ale jest w nich logika.",
+      "answer": "его́ слова́ звуча́т противоре́чиво",
+      "lemma": "противоре́чиво",
+      "lemmaTranslation": "sprzecznie i niekonsekwentnie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0119",
+        "b1-dalneyshaya-sudba-001",
+        "b1-auto-ex0120"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0113",
+      "lemmaId": "protivorechivo",
+      "sourceExampleId": "ex0113",
+      "level": "B1",
+      "sentenceRu": "На перегово́рах о́н ведёт себя́ противоре́чиво: то соглаша́ется, то меня́ет реше́ние.",
+      "sentenceGap": "На перегово́рах _____: то соглаша́ется, то меня́ет реше́ние.",
+      "translationPl": "Podczas negocjacji zachowuje się niekonsekwentnie: raz się zgadza, a raz zmienia decyzję.",
+      "answer": "о́н ведёт себя́ противоре́чиво",
+      "lemma": "противоре́чиво",
+      "lemmaTranslation": "sprzecznie i niekonsekwentnie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0083",
+        "b1-zakrepitsya-001",
+        "b1-auto-ex0118"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0114",
+      "lemmaId": "protivorechivo",
+      "sourceExampleId": "ex0114",
+      "level": "B1",
+      "sentenceRu": "Без дополни́тельных объясне́ний ситуа́ция вы́глядит противоре́чиво и вызыва́ет мно́го вопро́сов.",
+      "sentenceGap": "Без дополни́тельных объясне́ний _____ и вызыва́ет мно́го вопро́сов.",
+      "translationPl": "Bez dodatkowych wyjaśnień sytuacja wygląda sprzecznie i rodzi wiele pytań.",
+      "answer": "ситуа́ция вы́глядит противоре́чиво",
+      "lemma": "противоре́чиво",
+      "lemmaTranslation": "sprzecznie i niekonsekwentnie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0129",
+        "b1-auto-ex0041",
+        "b1-auto-ex0201"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0115",
+      "lemmaId": "podval",
+      "sourceExampleId": "ex0115",
+      "level": "B1",
+      "sentenceRu": "Хозя́ин преврати́л тёмный подва́л в удо́бную мастерску́ю для ремо́нта ме́бели.",
+      "sentenceGap": "Хозя́ин преврати́л _____ в удо́бную мастерску́ю для ремо́нта ме́бели.",
+      "translationPl": "Właściciel przekształcił ciemną piwnicę w wygodny warsztat do naprawy mebli.",
+      "answer": "тёмный подва́л",
+      "lemma": "подва́л",
+      "lemmaTranslation": "piwnica i podziemie budynku",
+      "choiceDistractorIds": [
+        "b1-auto-ex0085",
+        "b1-auto-ex0098",
+        "b1-auto-ex0103"
       ]
     },
     {
@@ -2984,17 +4894,441 @@
       "lemmaId": "podval",
       "sourceExampleId": "ex0116",
       "level": "B1",
-      "sentenceRu": "Что́бы доста́ть ста́рые коро́бки, ему́ пришлось спусти́ться в подва́л.",
-      "sentenceGap": "Что́бы доста́ть ста́рые коро́бки, ему́ пришлось _____.",
+      "sentenceRu": "Что́бы доста́ть ста́рые коро́бки, ему́ пришло́сь спусти́ться в подва́л.",
+      "sentenceGap": "Что́бы доста́ть ста́рые коро́бки, ему́ пришло́сь _____.",
       "translationPl": "Żeby wyjąć stare pudełka, musiał zejść do piwnicy.",
       "answer": "спусти́ться в подва́л",
       "lemma": "подва́л",
       "lemmaTranslation": "piwnica, podziemie budynku",
-      "matchingSet": "set-b",
       "choiceDistractorIds": [
-        "b1-obmanut-001",
-        "b1-portit-001",
-        "b1-obratnaya-svyaz-001"
+        "b1-otritsat-001",
+        "b1-auto-ex0138",
+        "b1-auto-ex0182"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0117",
+      "lemmaId": "podval",
+      "sourceExampleId": "ex0117",
+      "level": "B1",
+      "sentenceRu": "Мы реши́ли храни́ть ве́щи в подва́ле, пока́ в кварти́ре идёт ремо́нт.",
+      "sentenceGap": "Мы реши́ли _____, пока́ в кварти́ре идёт ремо́нт.",
+      "translationPl": "Postanowiliśmy przechowywać rzeczy w piwnicy, dopóki trwa remont mieszkania.",
+      "answer": "храни́ть ве́щи в подва́ле",
+      "lemma": "подва́л",
+      "lemmaTranslation": "piwnica i podziemie budynku",
+      "choiceDistractorIds": [
+        "b1-v-tselom-001",
+        "b1-auto-ex0152",
+        "b1-auto-ex0033"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0118",
+      "lemmaId": "obyknovenno",
+      "sourceExampleId": "ex0118",
+      "level": "B1",
+      "sentenceRu": "В бу́дни о́н обыкнове́нно встаёт ра́но, что́бы успе́ть на пе́рвый авто́бус.",
+      "sentenceGap": "В бу́дни _____, что́бы успе́ть на пе́рвый авто́бус.",
+      "translationPl": "W dni robocze zwykle wstaje wcześnie, żeby zdążyć na pierwszy autobus.",
+      "answer": "о́н обыкнове́нно встаёт ра́но",
+      "lemma": "обыкнове́нно",
+      "lemmaTranslation": "zwykle, zazwyczaj i przeważnie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0083",
+        "b1-zakrepitsya-001",
+        "b1-razdrazhat-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0119",
+      "lemmaId": "obyknovenno",
+      "sourceExampleId": "ex0119",
+      "level": "B1",
+      "sentenceRu": "Ока́зывается, э́то обыкнове́нно случа́ется зимо́й, когда́ доро́ги покрыва́ются то́лстым сло́ем льда.",
+      "sentenceGap": "Ока́зывается, _____, когда́ доро́ги покрыва́ются то́лстым сло́ем льда.",
+      "translationPl": "Okazuje się, że zazwyczaj dzieje się to zimą, kiedy drogi pokrywają się grubą warstwą lodu.",
+      "answer": "э́то обыкнове́нно случа́ется зимо́й",
+      "lemma": "обыкнове́нно",
+      "lemmaTranslation": "zwykle, zazwyczaj i przeważnie",
+      "choiceDistractorIds": [
+        "b1-dalneyshaya-sudba-001",
+        "b1-auto-ex0112",
+        "b1-auto-ex0029"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0120",
+      "lemmaId": "obyknovenno",
+      "sourceExampleId": "ex0120",
+      "level": "B1",
+      "sentenceRu": "Охра́нник сказа́л, что обыкнове́нно лю́дей зде́сь ма́ло, одна́ко сего́дня открыва́ется ва́жная вы́ставка.",
+      "sentenceGap": "Охра́нник сказа́л, что _____, одна́ко сего́дня открыва́ется ва́жная вы́ставка.",
+      "translationPl": "Ochroniarz powiedział, że zwykle jest tu mało ludzi, jednak dzisiaj otwiera się ważna wystawa.",
+      "answer": "обыкнове́нно лю́дей зде́сь ма́ло",
+      "lemma": "обыкнове́нно",
+      "lemmaTranslation": "zwykle, zazwyczaj i przeważnie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0198",
+        "b1-auto-ex0112",
+        "b1-auto-ex0113"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0121",
+      "lemmaId": "imenno",
+      "sourceExampleId": "ex0121",
+      "level": "B1",
+      "sentenceRu": "Экспе́рт счита́ет, что и́менно э́то предложе́ние убеди́ло комисси́ю поддержа́ть наш прое́кт.",
+      "sentenceGap": "Экспе́рт счита́ет, что _____ предложе́ние убеди́ло комисси́ю поддержа́ть наш прое́кт.",
+      "translationPl": "Ekspert uważa, że właśnie ta propozycja przekonała komisję do poparcia naszego projektu.",
+      "answer": "и́менно э́то",
+      "lemma": "и́менно",
+      "lemmaTranslation": "właśnie, dokładnie i mianowicie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0002",
+        "b1-auto-ex0169",
+        "b1-auto-ex0184"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0122",
+      "lemmaId": "imenno",
+      "sourceExampleId": "ex0122",
+      "level": "B1",
+      "sentenceRu": "Когда́ я говори́л о риске́, я и́менно э́то име́л в виду́.",
+      "sentenceGap": "Когда́ я говори́л о риске́, _____.",
+      "translationPl": "Kiedy mówiłem o ryzyku, właśnie to miałem na myśli.",
+      "answer": "я и́менно э́то име́л в виду́",
+      "lemma": "и́менно",
+      "lemmaTranslation": "właśnie, dokładnie i mianowicie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0132",
+        "b1-auto-ex0131",
+        "b1-auto-ex0044"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0123",
+      "lemmaId": "imenno",
+      "sourceExampleId": "ex0123",
+      "level": "B1",
+      "sentenceRu": "На вчера́шнем собра́нии все уча́стники спра́шивали: почему́ и́менно сейча́с?",
+      "sentenceGap": "На вчера́шнем собра́нии все уча́стники спра́шивали: _____",
+      "translationPl": "Na wczorajszym zebraniu wszyscy uczestnicy pytali: dlaczego właśnie teraz?",
+      "answer": "почему́ и́менно сейча́с?",
+      "lemma": "и́менно",
+      "lemmaTranslation": "właśnie, dokładnie i mianowicie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0021",
+        "b1-auto-ex0181",
+        "b1-auto-ex0068"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0124",
+      "lemmaId": "obstanovka",
+      "sourceExampleId": "ex0124",
+      "level": "B1",
+      "sentenceRu": "В библиоте́ке споко́йная обстано́вка помога́ет посети́телям лу́чше сосредото́читься на рабо́те.",
+      "sentenceGap": "В библиоте́ке _____ помога́ет посети́телям лу́чше сосредото́читься на рабо́те.",
+      "translationPl": "Spokojna atmosfera w bibliotece pomaga odwiedzającym lepiej skupić się na pracy.",
+      "answer": "споко́йная обстано́вка",
+      "lemma": "обстано́вка",
+      "lemmaTranslation": "sytuacja, otoczenie, atmosfera i wyposażenie wnętrza",
+      "choiceDistractorIds": [
+        "b1-auto-ex0089",
+        "b1-auto-ex0007",
+        "b1-auto-ex0009"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0125",
+      "lemmaId": "obstanovka",
+      "sourceExampleId": "ex0125",
+      "level": "B1",
+      "sentenceRu": "По́сле вы́боров полити́ческая обстано́вка в стране́ остава́лась кра́йне напряжённой.",
+      "sentenceGap": "По́сле вы́боров _____ в стране́ остава́лась кра́йне напряжённой.",
+      "translationPl": "Po wyborach sytuacja polityczna w kraju pozostawała niezwykle napięta.",
+      "answer": "полити́ческая обстано́вка",
+      "lemma": "обстано́вка",
+      "lemmaTranslation": "sytuacja, otoczenie, atmosfera i wyposażenie wnętrza",
+      "choiceDistractorIds": [
+        "b1-auto-ex0008",
+        "b1-auto-ex0090",
+        "b1-auto-ex0102"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0126",
+      "lemmaId": "obstanovka",
+      "sourceExampleId": "ex0126",
+      "level": "B1",
+      "sentenceRu": "Тёплая дома́шняя обстано́вка помогла́ гостя́м рассла́биться и забы́ть о пробле́мах.",
+      "sentenceGap": "Тёплая _____ помогла́ гостя́м рассла́биться и забы́ть о пробле́мах.",
+      "translationPl": "Ciepła domowa atmosfera pomogła gościom się odprężyć i zapomnieć o problemach.",
+      "answer": "дома́шняя обстано́вка",
+      "lemma": "обстано́вка",
+      "lemmaTranslation": "sytuacja, otoczenie, atmosfera i wyposażenie wnętrza",
+      "choiceDistractorIds": [
+        "b1-auto-ex0007",
+        "b1-auto-ex0009",
+        "b1-auto-ex0055"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0127",
+      "lemmaId": "rasformirovat",
+      "sourceExampleId": "ex0127",
+      "level": "B1",
+      "sentenceRu": "Кома́ндование реши́ло расформирова́ть подразделе́ние из-за нехва́тки подго́товленных специа́листов.",
+      "sentenceGap": "Кома́ндование реши́ло _____ из-за нехва́тки подго́товленных специа́листов.",
+      "translationPl": "Dowództwo postanowiło rozformować jednostkę z powodu braku wyszkolonych specjalistów.",
+      "answer": "расформирова́ть подразделе́ние",
+      "lemma": "расформирова́ть",
+      "lemmaTranslation": "rozformować i rozwiązać",
+      "choiceDistractorIds": [
+        "b1-auto-ex0040",
+        "b1-auto-ex0008",
+        "b1-auto-ex0090"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0128",
+      "lemmaId": "rasformirovat",
+      "sourceExampleId": "ex0128",
+      "level": "B1",
+      "sentenceRu": "По́сле конфли́кта дире́ктор предложи́л расформирова́ть коми́ссию и созда́ть но́вую.",
+      "sentenceGap": "По́сле конфли́кта дире́ктор предложи́л _____ и созда́ть но́вую.",
+      "translationPl": "Po konflikcie dyrektor zaproponował, by rozwiązać komisję i utworzyć nową.",
+      "answer": "расформирова́ть коми́ссию",
+      "lemma": "расформирова́ть",
+      "lemmaTranslation": "rozformować i rozwiązać",
+      "choiceDistractorIds": [
+        "b1-auto-ex0008",
+        "b1-auto-ex0090",
+        "b1-auto-ex0102"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0129",
+      "lemmaId": "rasformirovat",
+      "sourceExampleId": "ex0129",
+      "level": "B1",
+      "sentenceRu": "По́сле заверше́ния опера́ции нам приказа́ли расформирова́ть отря́д до конца́ ме́сяца.",
+      "sentenceGap": "По́сле заверше́ния опера́ции нам _____ до конца́ ме́сяца.",
+      "translationPl": "Po zakończeniu operacji rozkazano nam rozformować oddział do końca miesiąca.",
+      "answer": "приказа́ли расформирова́ть отря́д",
+      "lemma": "расформирова́ть",
+      "lemmaTranslation": "rozformować i rozwiązać",
+      "choiceDistractorIds": [
+        "b1-auto-ex0041",
+        "b1-auto-ex0114",
+        "b1-auto-ex0145"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0130",
+      "lemmaId": "rabotat-na-zavode",
+      "sourceExampleId": "ex0130",
+      "level": "B1",
+      "sentenceRu": "Хотя́ о́н рабо́тает на заво́де, по вечера́м он у́чится программи́рованию.",
+      "sentenceGap": "Хотя́ _____, по вечера́м он у́чится программи́рованию.",
+      "translationPl": "Chociaż pracuje w fabryce, wieczorami uczy się programowania.",
+      "answer": "о́н рабо́тает на заво́де",
+      "lemma": "рабо́тать на заво́де",
+      "lemmaTranslation": "pracować w fabryce i pracować w zakładzie przemysłowym",
+      "choiceDistractorIds": [
+        "b1-auto-ex0033",
+        "b1-auto-ex0054",
+        "b1-auto-ex0140"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0131",
+      "lemmaId": "rabotat-na-zavode",
+      "sourceExampleId": "ex0131",
+      "level": "B1",
+      "sentenceRu": "По́сле учёбы я хочу́ рабо́тать на заво́де, кото́рый выпуска́ет медици́нское обору́дование.",
+      "sentenceGap": "По́сле учёбы _____, кото́рый выпуска́ет медици́нское обору́дование.",
+      "translationPl": "Po studiach chcę pracować w fabryce, która produkuje sprzęt medyczny.",
+      "answer": "я хочу́ рабо́тать на заво́де",
+      "lemma": "рабо́тать на заво́де",
+      "lemmaTranslation": "pracować w fabryce i pracować w zakładzie przemysłowym",
+      "choiceDistractorIds": [
+        "b1-auto-ex0044",
+        "b1-auto-ex0111",
+        "b1-auto-ex0059"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0132",
+      "lemmaId": "rabotat-na-zavode",
+      "sourceExampleId": "ex0132",
+      "level": "B1",
+      "sentenceRu": "Ра́ньше она́ мно́го ле́т рабо́тала на заво́де, пре́жде чем откры́ла со́бственный би́знес.",
+      "sentenceGap": "Ра́ньше _____, пре́жде чем откры́ла со́бственный би́знес.",
+      "translationPl": "Wcześniej przez wiele lat pracowała w fabryce, zanim otworzyła własną firmę.",
+      "answer": "она́ мно́го ле́т рабо́тала на заво́де",
+      "lemma": "рабо́тать на заво́де",
+      "lemmaTranslation": "pracować w fabryce i pracować w zakładzie przemysłowym",
+      "choiceDistractorIds": [
+        "b1-auto-ex0122",
+        "b1-auto-ex0111",
+        "b1-auto-ex0044"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0133",
+      "lemmaId": "v-techenie",
+      "sourceExampleId": "ex0133",
+      "level": "B1",
+      "sentenceRu": "Ма́стер обеща́л устрани́ть неиспра́вность в тече́ние часа́ и позвони́ть клие́нту.",
+      "sentenceGap": "Ма́стер обеща́л устрани́ть неиспра́вность _____ и позвони́ть клие́нту.",
+      "translationPl": "Fachowiec obiecał usunąć usterkę w ciągu godziny i zadzwonić do klienta.",
+      "answer": "в тече́ние часа́",
+      "lemma": "в тече́ние",
+      "lemmaTranslation": "w ciągu i podczas",
+      "choiceDistractorIds": [
+        "b1-auto-ex0014",
+        "b1-auto-ex0148",
+        "b1-auto-ex0035"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0134",
+      "lemmaId": "v-techenie",
+      "sourceExampleId": "ex0134",
+      "level": "B1",
+      "sentenceRu": "Врач посове́товал в тече́ние неде́ли избега́ть тяжёлых физи́ческих нагру́зок.",
+      "sentenceGap": "Врач посове́товал _____ избега́ть тяжёлых физи́ческих нагру́зок.",
+      "translationPl": "Lekarz zalecił przez tydzień unikać dużego wysiłku fizycznego.",
+      "answer": "в тече́ние неде́ли",
+      "lemma": "в тече́ние",
+      "lemmaTranslation": "w ciągu i podczas",
+      "choiceDistractorIds": [
+        "b1-auto-ex0136",
+        "b1-popast-001",
+        "b1-auto-ex0035"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0135",
+      "lemmaId": "v-techenie",
+      "sourceExampleId": "ex0135",
+      "level": "B1",
+      "sentenceRu": "Специали́сты сообщи́ли, что в тече́ние го́да компа́ния откры́ла три но́вых о́фиса.",
+      "sentenceGap": "Специали́сты сообщи́ли, что _____ компа́ния откры́ла три но́вых о́фиса.",
+      "translationPl": "Specjaliści poinformowali, że w ciągu roku firma otworzyła trzy nowe biura.",
+      "answer": "в тече́ние го́да",
+      "lemma": "в тече́ние",
+      "lemmaTranslation": "w ciągu i podczas",
+      "choiceDistractorIds": [
+        "b1-auto-ex0014",
+        "b1-auto-ex0148",
+        "b1-auto-ex0035"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0136",
+      "lemmaId": "obshchezhitie",
+      "sourceExampleId": "ex0136",
+      "level": "B1",
+      "sentenceRu": "По́сле поступле́ния в университе́т я реши́л жи́ть в общежи́тии, что́бы сэконо́мить на аре́нде.",
+      "sentenceGap": "По́сле поступле́ния в университе́т я реши́л _____, что́бы сэконо́мить на аре́нде.",
+      "translationPl": "Po przyjęciu na studia postanowiłem mieszkać w akademiku, żeby zaoszczędzić na wynajmie.",
+      "answer": "жи́ть в общежи́тии",
+      "lemma": "общежи́тие",
+      "lemmaTranslation": "akademik, dom studencki i internat",
+      "choiceDistractorIds": [
+        "b1-auto-ex0134",
+        "b1-popast-001",
+        "b1-auto-ex0035"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0137",
+      "lemmaId": "obshchezhitie",
+      "sourceExampleId": "ex0137",
+      "level": "B1",
+      "sentenceRu": "Но́вое студе́нческое общежи́тие нахо́дится недалеко́ от библиоте́ки и спорти́вного це́нтра.",
+      "sentenceGap": "Но́вое _____ нахо́дится недалеко́ от библиоте́ки и спорти́вного це́нтра.",
+      "translationPl": "Nowy akademik znajduje się niedaleko biblioteki i centrum sportowego.",
+      "answer": "студе́нческое общежи́тие",
+      "lemma": "общежи́тие",
+      "lemmaTranslation": "akademik, dom studencki i internat",
+      "choiceDistractorIds": [
+        "b1-auto-ex0071",
+        "b1-issledovanie-001",
+        "b1-auto-ex0100"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0138",
+      "lemmaId": "obshchezhitie",
+      "sourceExampleId": "ex0138",
+      "level": "B1",
+      "sentenceRu": "Нам доста́лась све́тлая ко́мната в общежи́тии с ви́дом на ста́рый парк.",
+      "sentenceGap": "Нам доста́лась све́тлая _____ с ви́дом на ста́рый парк.",
+      "translationPl": "Dostaliśmy jasny pokój w akademiku z widokiem na stary park.",
+      "answer": "ко́мната в общежи́тии",
+      "lemma": "общежи́тие",
+      "lemmaTranslation": "akademik, dom studencki i internat",
+      "choiceDistractorIds": [
+        "b1-otritsat-001",
+        "b1-podval-001",
+        "b1-auto-ex0182"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0139",
+      "lemmaId": "kastryulya",
+      "sourceExampleId": "ex0139",
+      "level": "B1",
+      "sentenceRu": "Для семе́йного у́жина нам понадо́билась больша́я кастрю́ля с то́лстым дном.",
+      "sentenceGap": "Для семе́йного у́жина нам понадо́билась _____ с то́лстым дном.",
+      "translationPl": "Do rodzinnej kolacji potrzebowaliśmy dużego garnka z grubym dnem.",
+      "answer": "больша́я кастрю́ля",
+      "lemma": "кастрю́ля",
+      "lemmaTranslation": "garnek i rondel",
+      "choiceDistractorIds": [
+        "b1-uroven-001",
+        "b1-proshchenie-001",
+        "b1-auto-ex0023"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0140",
+      "lemmaId": "kastryulya",
+      "sourceExampleId": "ex0140",
+      "level": "B1",
+      "sentenceRu": "Ба́бушка предпочита́ет вари́ть су́п в кастрю́ле на ме́дленном огне́.",
+      "sentenceGap": "Ба́бушка предпочита́ет _____ на ме́дленном огне́.",
+      "translationPl": "Babcia woli gotować zupę w garnku na małym ogniu.",
+      "answer": "вари́ть су́п в кастрю́ле",
+      "lemma": "кастрю́ля",
+      "lemmaTranslation": "garnek i rondel",
+      "choiceDistractorIds": [
+        "b1-auto-ex0033",
+        "b1-auto-ex0054",
+        "b1-auto-ex0130"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0141",
+      "lemmaId": "kastryulya",
+      "sourceExampleId": "ex0141",
+      "level": "B1",
+      "sentenceRu": "На новосе́лье друзья́ подари́ли нам ка́чественный набо́р кастрю́ль из ста́ли.",
+      "sentenceGap": "На новосе́лье друзья́ подари́ли нам ка́чественный _____ из ста́ли.",
+      "translationPl": "Na parapetówkę przyjaciele podarowali nam dobrej jakości zestaw stalowych garnków.",
+      "answer": "набо́р кастрю́ль",
+      "lemma": "кастрю́ля",
+      "lemmaTranslation": "garnek i rondel",
+      "choiceDistractorIds": [
+        "b1-auto-ex0003",
+        "b1-auto-ex0005",
+        "b1-obmanut-001"
       ]
     },
     {
@@ -3008,11 +5342,112 @@
       "answer": "добавля́ть са́хар в ча́й",
       "lemma": "добавля́ть",
       "lemmaTranslation": "dodawać, dokładać, uzupełniać",
-      "matchingSet": "set-b",
       "choiceDistractorIds": [
-        "b1-proshchenie-001",
-        "b1-zakrepitsya-001",
-        "b1-popast-001"
+        "b1-auto-ex0033",
+        "b1-auto-ex0054",
+        "b1-auto-ex0130"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0143",
+      "lemmaId": "dobavlyat",
+      "sourceExampleId": "ex0143",
+      "level": "B1",
+      "sentenceRu": "Редакто́р попроси́л не добавля́ть но́вые дета́ли без надёжных исто́чников информа́ции.",
+      "sentenceGap": "Редакто́р попроси́л не _____ без надёжных исто́чников информа́ции.",
+      "translationPl": "Redaktor poprosił, by nie dodawać nowych szczegółów bez wiarygodnych źródeł informacji.",
+      "answer": "добавля́ть но́вые дета́ли",
+      "lemma": "добавля́ть",
+      "lemmaTranslation": "dodawać, dokładać i uzupełniać",
+      "choiceDistractorIds": [
+        "b1-auto-ex0081",
+        "b1-auto-ex0097",
+        "b1-auto-ex0192"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0144",
+      "lemmaId": "dobavlyat",
+      "sourceExampleId": "ex0144",
+      "level": "B1",
+      "sentenceRu": "Пова́р сове́тует добавля́ть со́ль по вку́су то́лько в конце́ приготовле́ния.",
+      "sentenceGap": "Пова́р сове́тует _____ то́лько в конце́ приготовле́ния.",
+      "translationPl": "Kucharz radzi dodawać sól do smaku dopiero pod koniec gotowania.",
+      "answer": "добавля́ть со́ль по вку́су",
+      "lemma": "добавля́ть",
+      "lemmaTranslation": "dodawać, dokładać i uzupełniać",
+      "choiceDistractorIds": [
+        "b1-auto-ex0012",
+        "b1-auto-ex0024",
+        "b1-v-tselom-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0145",
+      "lemmaId": "dodavat",
+      "sourceExampleId": "ex0145",
+      "level": "B1",
+      "sentenceRu": "При опла́те зака́за покупа́телям иногда́ приходи́лось додава́ть недостаю́щие де́ньги за дополни́тельную услу́гу.",
+      "sentenceGap": "При опла́те зака́за покупа́телям иногда́ приходи́лось _____ за дополни́тельную услу́гу.",
+      "translationPl": "Podczas opłacania zamówienia kupujący musieli czasem dopłacać brakującą kwotę za dodatkową usługę.",
+      "answer": "додава́ть недостаю́щие де́ньги",
+      "lemma": "додава́ть",
+      "lemmaTranslation": "dawać brakującą część, dawać resztę i dopłacać",
+      "choiceDistractorIds": [
+        "b1-auto-ex0041",
+        "b1-auto-ex0129",
+        "b1-auto-ex0155"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0146",
+      "lemmaId": "dodavat",
+      "sourceExampleId": "ex0146",
+      "level": "B1",
+      "sentenceRu": "Партнёр обяза́лся додава́ть оста́вшуюся ча́сть су́ммы небольши́ми платежа́ми ка́ждый ме́сяц.",
+      "sentenceGap": "Партнёр обяза́лся _____ су́ммы небольши́ми платежа́ми ка́ждый ме́сяц.",
+      "translationPl": "Partner zobowiązał się co miesiąc dopłacać pozostałą część kwoty w niewielkich ratach.",
+      "answer": "додава́ть оста́вшуюся ча́сть",
+      "lemma": "додава́ть",
+      "lemmaTranslation": "dawać brakującą część, dawać resztę i dopłacać",
+      "choiceDistractorIds": [
+        "b1-auto-ex0155",
+        "b1-auto-ex0180",
+        "b1-auto-ex0159"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0147",
+      "lemmaId": "dodavat",
+      "sourceExampleId": "ex0147",
+      "level": "B1",
+      "sentenceRu": "Семья́ реши́ла постепе́нно додава́ть недостаю́щую су́мму из ежеме́сячных дохо́дов.",
+      "sentenceGap": "Семья́ реши́ла _____ из ежеме́сячных дохо́дов.",
+      "translationPl": "Rodzina postanowiła stopniowo dopłacać brakującą kwotę z comiesięcznych dochodów.",
+      "answer": "постепе́нно додава́ть недостаю́щую су́мму",
+      "lemma": "додава́ть",
+      "lemmaTranslation": "dawać brakującą część, dawać resztę i dopłacać",
+      "choiceDistractorIds": [
+        "b1-auto-ex0172",
+        "b1-auto-ex0029",
+        "b1-auto-ex0119"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0148",
+      "lemmaId": "popast",
+      "sourceExampleId": "ex0148",
+      "level": "B1",
+      "sentenceRu": "Что́бы попа́сть в це́ль, стрело́к до́лжен учитыва́ть си́лу и направле́ние ве́тра.",
+      "sentenceGap": "Что́бы _____, стрело́к до́лжен учитыва́ть си́лу и направле́ние ве́тра.",
+      "translationPl": "Aby trafić w cel, strzelec musi uwzględnić siłę i kierunek wiatru.",
+      "answer": "попа́сть в це́ль",
+      "lemma": "попа́сть",
+      "lemmaTranslation": "trafić, dostać się i znaleźć się",
+      "choiceDistractorIds": [
+        "b1-auto-ex0014",
+        "b1-auto-ex0133",
+        "b1-auto-ex0135"
       ]
     },
     {
@@ -3026,11 +5461,27 @@
       "answer": "попа́сть в ава́рию",
       "lemma": "попа́сть",
       "lemmaTranslation": "trafić, dostać się, znaleźć się",
-      "matchingSet": "set-b",
       "choiceDistractorIds": [
-        "b1-uroven-001",
-        "b1-chaevye-001",
-        "b1-obratnaya-svyaz-001"
+        "b1-auto-ex0134",
+        "b1-auto-ex0136",
+        "b1-auto-ex0035"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0150",
+      "lemmaId": "popast",
+      "sourceExampleId": "ex0150",
+      "level": "B1",
+      "sentenceRu": "Нам удало́сь попа́сть на конце́рт, потому́ что друзья́ зара́нее купи́ли нам биле́ты.",
+      "sentenceGap": "Нам удало́сь _____, потому́ что друзья́ зара́нее купи́ли нам биле́ты.",
+      "translationPl": "Udało nam się dostać na koncert, ponieważ przyjaciele wcześniej kupili nam bilety.",
+      "answer": "попа́сть на конце́рт",
+      "lemma": "попа́сть",
+      "lemmaTranslation": "trafić, dostać się i znaleźć się",
+      "choiceDistractorIds": [
+        "b1-auto-ex0057",
+        "b1-otritsat-001",
+        "b1-auto-ex0053"
       ]
     },
     {
@@ -3044,11 +5495,112 @@
       "answer": "отказа́ть в по́мощи",
       "lemma": "отказа́ть",
       "lemmaTranslation": "odmówić, odrzucić",
-      "matchingSet": "set-b",
       "choiceDistractorIds": [
-        "b1-issledovanie-001",
-        "b1-ryadom-001",
-        "b1-dalneyshaya-sudba-001"
+        "b1-auto-ex0053",
+        "b1-auto-ex0057",
+        "b1-auto-ex0134"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0152",
+      "lemmaId": "otkazat",
+      "sourceExampleId": "ex0152",
+      "level": "B1",
+      "sentenceRu": "По́сле до́лгой прове́рки ба́нк отказа́л в креди́те, потому́ что дохо́д был нестаби́льным.",
+      "sentenceGap": "По́сле до́лгой прове́рки _____, потому́ что дохо́д был нестаби́льным.",
+      "translationPl": "Po długiej weryfikacji bank odmówił udzielenia kredytu, ponieważ dochód był niestabilny.",
+      "answer": "ба́нк отказа́л в креди́те",
+      "lemma": "отказа́ть",
+      "lemmaTranslation": "odmówić; odrzucić; odmówić posłuszeństwa",
+      "choiceDistractorIds": [
+        "b1-v-tselom-001",
+        "b1-auto-ex0117",
+        "b1-auto-ex0033"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0153",
+      "lemmaId": "otkazat",
+      "sourceExampleId": "ex0153",
+      "level": "B1",
+      "sentenceRu": "На середи́не го́рной доро́ги дви́гатель отказа́л, и нам пришло́сь вызыва́ть меха́ника.",
+      "sentenceGap": "На середи́не го́рной доро́ги _____, и нам пришло́сь вызыва́ть меха́ника.",
+      "translationPl": "W połowie górskiej drogi silnik odmówił posłuszeństwa i musieliśmy wezwać mechanika.",
+      "answer": "дви́гатель отказа́л",
+      "lemma": "отказа́ть",
+      "lemmaTranslation": "odmówić; odrzucić; odmówić posłuszeństwa",
+      "choiceDistractorIds": [
+        "b1-auto-ex0001",
+        "b1-auto-ex0017",
+        "b1-auto-ex0020"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0154",
+      "lemmaId": "voennyy",
+      "sourceExampleId": "ex0154",
+      "level": "B1",
+      "sentenceRu": "На полиго́не вчера́ прошли́ масшта́бные вое́нные уче́ния с уча́стием не́скольких подразделе́ний.",
+      "sentenceGap": "На полиго́не вчера́ прошли́ масшта́бные _____ с уча́стием не́скольких подразделе́ний.",
+      "translationPl": "Wczoraj na poligonie odbyły się zakrojone na szeroką skalę ćwiczenia wojskowe z udziałem kilku jednostek.",
+      "answer": "вое́нные уче́ния",
+      "lemma": "вое́нный",
+      "lemmaTranslation": "wojskowy; żołnierz; wojskowy jako osoba",
+      "choiceDistractorIds": [
+        "b1-auto-ex0003",
+        "b1-auto-ex0005",
+        "b1-obmanut-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0155",
+      "lemmaId": "voennyy",
+      "sourceExampleId": "ex0155",
+      "level": "B1",
+      "sentenceRu": "Ме́стные жи́тели споко́йны, потому́ что вое́нные защища́ют грани́цу и регуля́рно патрули́руют райо́н.",
+      "sentenceGap": "Ме́стные жи́тели споко́йны, потому́ что _____ и регуля́рно патрули́руют райо́н.",
+      "translationPl": "Miejscowi mieszkańcy są spokojni, ponieważ wojskowi bronią granicy i regularnie patrolują okolicę.",
+      "answer": "вое́нные защища́ют грани́цу",
+      "lemma": "вое́нный",
+      "lemmaTranslation": "wojskowy; żołnierz; wojskowy jako osoba",
+      "choiceDistractorIds": [
+        "b1-auto-ex0180",
+        "b1-auto-ex0146",
+        "b1-auto-ex0159"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0156",
+      "lemmaId": "voennyy",
+      "sourceExampleId": "ex0156",
+      "level": "B1",
+      "sentenceRu": "Ба́бушка ча́сто вспомина́ла вое́нные го́ды, когда́ семье́ не хвата́ло еды́.",
+      "sentenceGap": "Ба́бушка ча́сто вспомина́ла _____, когда́ семье́ не хвата́ло еды́.",
+      "translationPl": "Babcia często wspominała lata wojenne, kiedy rodzinie brakowało jedzenia.",
+      "answer": "вое́нные го́ды",
+      "lemma": "вое́нный",
+      "lemmaTranslation": "wojskowy; żołnierz; wojskowy jako osoba",
+      "choiceDistractorIds": [
+        "b1-auto-ex0085",
+        "b1-auto-ex0098",
+        "b1-auto-ex0103"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0157",
+      "lemmaId": "ryadom",
+      "sourceExampleId": "ex0157",
+      "level": "B1",
+      "sentenceRu": "Мы сня́ли кварти́ру у па́рка, потому́ что до́м ря́дом с метро́.",
+      "sentenceGap": "Мы сня́ли кварти́ру у па́рка, потому́ что _____ с метро́.",
+      "translationPl": "Wynajęliśmy mieszkanie przy parku, ponieważ dom jest blisko metra.",
+      "answer": "до́м ря́дом",
+      "lemma": "ря́дом",
+      "lemmaTranslation": "obok; w pobliżu; blisko",
+      "choiceDistractorIds": [
+        "b1-auto-ex0187",
+        "b1-auto-ex0002",
+        "b1-auto-ex0121"
       ]
     },
     {
@@ -3062,11 +5614,197 @@
       "answer": "сиде́ть ря́дом со мно́й",
       "lemma": "ря́дом",
       "lemmaTranslation": "obok, w pobliżu, blisko",
-      "matchingSet": "set-b",
       "choiceDistractorIds": [
-        "b1-v-tselom-001",
-        "b1-popast-001",
-        "b1-obratnaya-svyaz-001"
+        "b1-auto-ex0027",
+        "b1-auto-ex0092",
+        "b1-auto-ex0107"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0159",
+      "lemmaId": "ryadom",
+      "sourceExampleId": "ex0159",
+      "level": "B1",
+      "sentenceRu": "Е́сли захо́чешь купи́ть проду́кты, магази́н нахо́дится ря́дом, че́рез доро́гу от нас.",
+      "sentenceGap": "Е́сли захо́чешь купи́ть проду́кты, _____, че́рез доро́гу от нас.",
+      "translationPl": "Jeśli zechcesz kupić produkty, sklep znajduje się w pobliżu, po drugiej stronie ulicy od nas.",
+      "answer": "магази́н нахо́дится ря́дом",
+      "lemma": "ря́дом",
+      "lemmaTranslation": "obok; w pobliżu; blisko",
+      "choiceDistractorIds": [
+        "b1-obratnaya-svyaz-001",
+        "b1-auto-ex0200",
+        "b1-auto-ex0081"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0160",
+      "lemmaId": "obitatel",
+      "sourceExampleId": "ex0160",
+      "level": "B1",
+      "sentenceRu": "Ка́ждый обита́тель до́ма получи́л пи́сьменное предупрежде́ние о пла́новом отключе́нии воды́.",
+      "sentenceGap": "Ка́ждый _____ получи́л пи́сьменное предупрежде́ние о пла́новом отключе́нии воды́.",
+      "translationPl": "Każdy mieszkaniec domu otrzymał pisemne zawiadomienie o planowanym wyłączeniu wody.",
+      "answer": "обита́тель до́ма",
+      "lemma": "обита́тель",
+      "lemmaTranslation": "mieszkaniec; lokator; istota zamieszkująca dane środowisko",
+      "choiceDistractorIds": [
+        "b1-auto-ex0003",
+        "b1-auto-ex0005",
+        "b1-obmanut-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0161",
+      "lemmaId": "obitatel",
+      "sourceExampleId": "ex0161",
+      "level": "B1",
+      "sentenceRu": "Зимо́й обита́тели ле́са ча́сто приближа́ются к дере́вне в по́исках еды́.",
+      "sentenceGap": "Зимо́й _____ ча́сто приближа́ются к дере́вне в по́исках еды́.",
+      "translationPl": "Zimą mieszkańcy lasu często zbliżają się do wioski w poszukiwaniu jedzenia.",
+      "answer": "обита́тели ле́са",
+      "lemma": "обита́тель",
+      "lemmaTranslation": "mieszkaniec; lokator; istota zamieszkująca dane środowisko",
+      "choiceDistractorIds": [
+        "b1-auto-ex0003",
+        "b1-auto-ex0005",
+        "b1-obmanut-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0162",
+      "lemmaId": "obitatel",
+      "sourceExampleId": "ex0162",
+      "level": "B1",
+      "sentenceRu": "Во вре́мя погруже́ния морски́е обита́тели появи́лись совсе́м бли́зко к на́шей ло́дке.",
+      "sentenceGap": "Во вре́мя погруже́ния _____ появи́лись совсе́м бли́зко к на́шей ло́дке.",
+      "translationPl": "Podczas nurkowania morskie stworzenia pojawiły się bardzo blisko naszej łodzi.",
+      "answer": "морски́е обита́тели",
+      "lemma": "обита́тель",
+      "lemmaTranslation": "mieszkaniec; lokator; istota zamieszkująca dane środowisko",
+      "choiceDistractorIds": [
+        "b1-auto-ex0001",
+        "b1-auto-ex0017",
+        "b1-auto-ex0020"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0163",
+      "lemmaId": "kabinet",
+      "sourceExampleId": "ex0163",
+      "level": "B1",
+      "sentenceRu": "Пе́ред приёмом пацие́нты ти́хо жда́ли, пока́ освободи́тся кабине́т врача́.",
+      "sentenceGap": "Пе́ред приёмом пацие́нты ти́хо жда́ли, пока́ освободи́тся _____.",
+      "translationPl": "Przed wizytą pacjenci czekali cicho, aż zwolni się gabinet lekarski.",
+      "answer": "кабине́т врача́",
+      "lemma": "кабине́т",
+      "lemmaTranslation": "gabinet; biuro; pracownia",
+      "choiceDistractorIds": [
+        "b1-auto-ex0011",
+        "b1-auto-ex0048",
+        "b1-obida-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0164",
+      "lemmaId": "kabinet",
+      "sourceExampleId": "ex0164",
+      "level": "B1",
+      "sentenceRu": "Све́тлый рабо́чий кабине́т вы́ходит о́кнами в сад, поэ́тому там прия́тно рабо́тать.",
+      "sentenceGap": "Све́тлый _____ вы́ходит о́кнами в сад, поэ́тому там прия́тно рабо́тать.",
+      "translationPl": "Jasny gabinet do pracy ma okna wychodzące na ogród, dlatego przyjemnie się tam pracuje.",
+      "answer": "рабо́чий кабине́т",
+      "lemma": "кабине́т",
+      "lemmaTranslation": "gabinet; biuro; pracownia",
+      "choiceDistractorIds": [
+        "b1-auto-ex0004",
+        "b1-auto-ex0019",
+        "b1-chaevye-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0165",
+      "lemmaId": "kabinet",
+      "sourceExampleId": "ex0165",
+      "level": "B1",
+      "sentenceRu": "По́сле совеща́ния секрета́рь попроси́ла меня́ занести́ докуме́нты в кабине́т дире́ктора.",
+      "sentenceGap": "По́сле совеща́ния секрета́рь попроси́ла меня́ занести́ докуме́нты в _____.",
+      "translationPl": "Po naradzie sekretarka poprosiła mnie, żebym zaniósł dokumenty do gabinetu dyrektora.",
+      "answer": "кабине́т дире́ктора",
+      "lemma": "кабине́т",
+      "lemmaTranslation": "gabinet; biuro; pracownia",
+      "choiceDistractorIds": [
+        "b1-auto-ex0001",
+        "b1-auto-ex0017",
+        "b1-auto-ex0020"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0166",
+      "lemmaId": "besit",
+      "sourceExampleId": "ex0166",
+      "level": "B1",
+      "sentenceRu": "Когда́ сосе́д по ноча́м включа́ет гро́мкую му́зыку, э́то меня́ бе́сит и меша́ет спать.",
+      "sentenceGap": "Когда́ сосе́д по ноча́м включа́ет гро́мкую му́зыку, _____ и меша́ет спать.",
+      "translationPl": "Kiedy sąsiad nocami włącza głośną muzykę, wkurza mnie to i nie pozwala mi spać.",
+      "answer": "э́то меня́ бе́сит",
+      "lemma": "беси́ть",
+      "lemmaTranslation": "wkurzać; doprowadzać do szału; irytować",
+      "choiceDistractorIds": [
+        "b1-auto-ex0035",
+        "b1-auto-ex0078",
+        "b1-auto-ex0014"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0167",
+      "lemmaId": "besit",
+      "sourceExampleId": "ex0167",
+      "level": "B1",
+      "sentenceRu": "Он серди́то сказа́л: «Пожа́луйста, не беси́ меня́ свои́ми шу́тками, лу́чше помоги́ с отчётом».",
+      "sentenceGap": "Он серди́то сказа́л: «Пожа́луйста, _____ свои́ми шу́тками, лу́чше помоги́ с отчётом».",
+      "translationPl": "Powiedział ze złością: „Proszę, nie wkurzaj mnie swoimi żartami, lepiej pomóż mi z raportem”.",
+      "answer": "не беси́ меня́",
+      "lemma": "беси́ть",
+      "lemmaTranslation": "wkurzać; doprowadzać do szału; irytować",
+      "choiceDistractorIds": [
+        "b1-auto-ex0036",
+        "b1-auto-ex0073",
+        "b1-auto-ex0087"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0168",
+      "lemmaId": "besit",
+      "sourceExampleId": "ex0168",
+      "level": "B1",
+      "sentenceRu": "В по́следнее вре́мя его́ поведе́ние меня́ бе́сит всё си́льнее.",
+      "sentenceGap": "В по́следнее вре́мя _____ всё си́льнее.",
+      "translationPl": "Ostatnio jego zachowanie irytuje mnie coraz bardziej.",
+      "answer": "его́ поведе́ние меня́ бе́сит",
+      "lemma": "беси́ть",
+      "lemmaTranslation": "wkurzać; doprowadzać do szału; irytować",
+      "choiceDistractorIds": [
+        "b1-razdrazhat-001",
+        "b1-auto-ex0177",
+        "b1-auto-ex0179"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0169",
+      "lemmaId": "pryamo",
+      "sourceExampleId": "ex0169",
+      "level": "B1",
+      "sentenceRu": "От вокза́ла на́до идти́ пря́мо до све́тлого зда́ния с больши́ми окна́ми.",
+      "sentenceGap": "От вокза́ла на́до _____ до све́тлого зда́ния с больши́ми окна́ми.",
+      "translationPl": "Od dworca trzeba iść prosto do jasnego budynku z dużymi oknami.",
+      "answer": "идти́ пря́мо",
+      "lemma": "пря́мо",
+      "lemmaTranslation": "prosto; bezpośrednio; wprost; właśnie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0002",
+        "b1-auto-ex0121",
+        "b1-auto-ex0184"
       ]
     },
     {
@@ -3080,11 +5818,44 @@
       "answer": "сказа́ть пря́мо",
       "lemma": "пря́мо",
       "lemmaTranslation": "prosto, bezpośrednio, wprost",
-      "matchingSet": "set-b",
       "choiceDistractorIds": [
-        "b1-uroven-001",
-        "b1-podval-001",
-        "b1-obratnaya-svyaz-001"
+        "b1-auto-ex0011",
+        "b1-auto-ex0048",
+        "b1-obida-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0171",
+      "lemmaId": "pryamo",
+      "sourceExampleId": "ex0171",
+      "level": "B1",
+      "sentenceRu": "Позвони́ врачу́ пря́мо сейча́с, е́сли боль в груди́ не проходи́т.",
+      "sentenceGap": "Позвони́ врачу́ _____, е́сли боль в груди́ не проходи́т.",
+      "translationPl": "Zadzwoń do lekarza natychmiast, jeśli ból w klatce piersiowej nie ustępuje.",
+      "answer": "пря́мо сейча́с",
+      "lemma": "пря́мо",
+      "lemmaTranslation": "prosto; bezpośrednio; wprost; właśnie",
+      "choiceDistractorIds": [
+        "b1-auto-ex0085",
+        "b1-auto-ex0098",
+        "b1-auto-ex0103"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0172",
+      "lemmaId": "dalneyshaya-sudba",
+      "sourceExampleId": "ex0172",
+      "level": "B1",
+      "sentenceRu": "По́сле ухода́ инвесто́ра да́льнейшая судьба́ прое́кта неизве́стна и вызыва́ет беспоко́йство у сотру́дников.",
+      "sentenceGap": "По́сле ухода́ инвесто́ра _____ и вызыва́ет беспоко́йство у сотру́дников.",
+      "translationPl": "Po odejściu inwestora dalszy los projektu jest nieznany i budzi niepokój pracowników.",
+      "answer": "да́льнейшая судьба́ прое́кта неизве́стна",
+      "lemma": "да́льнейшая судьба́",
+      "lemmaTranslation": "dalszy los; przyszłe losy",
+      "choiceDistractorIds": [
+        "b1-auto-ex0147",
+        "b1-auto-ex0029",
+        "b1-auto-ex0119"
       ]
     },
     {
@@ -3098,11 +5869,27 @@
       "answer": "реши́ть да́льнейшую судьбу́ зда́ния",
       "lemma": "да́льнейшая судьба́",
       "lemmaTranslation": "dalszy los, przyszłe losy",
-      "matchingSet": "set-b",
       "choiceDistractorIds": [
-        "b1-proshchenie-001",
-        "b1-dobavlyat-001",
-        "b1-ryadom-001"
+        "b1-auto-ex0119",
+        "b1-auto-ex0112",
+        "b1-auto-ex0029"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0174",
+      "lemmaId": "dalneyshaya-sudba",
+      "sourceExampleId": "ex0174",
+      "level": "B1",
+      "sentenceRu": "В конце́ встре́чи уче́ник спроси́л: «А что́ изве́стно о да́льнейшей судьбе́ геро́я?»",
+      "sentenceGap": "В конце́ встре́чи уче́ник спроси́л: «А _____»",
+      "translationPl": "Pod koniec spotkania uczeń zapytał: „A co wiadomo o dalszych losach bohatera?”",
+      "answer": "что́ изве́стно о да́льнейшей судьбе́ геро́я?",
+      "lemma": "да́льнейшая судьба́",
+      "lemmaTranslation": "dalszy los; przyszłe losy",
+      "choiceDistractorIds": [
+        "b1-auto-ex0132",
+        "b1-auto-ex0122",
+        "b1-auto-ex0111"
       ]
     },
     {
@@ -3116,11 +5903,452 @@
       "answer": "получи́ть обра́тную свя́зь",
       "lemma": "обра́тная свя́зь",
       "lemmaTranslation": "informacja zwrotna, feedback",
-      "matchingSet": "set-b",
       "choiceDistractorIds": [
-        "b1-obmanut-001",
+        "b1-auto-ex0159",
+        "b1-auto-ex0200",
+        "b1-auto-ex0081"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0176",
+      "lemmaId": "obratnaya-svyaz",
+      "sourceExampleId": "ex0176",
+      "level": "B1",
+      "sentenceRu": "Пе́ред нача́лом но́вого прое́кта руково́дитель пообеща́л да́ть обра́тную свя́зь ка́ждому уча́стнику.",
+      "sentenceGap": "Пе́ред нача́лом но́вого прое́кта руково́дитель пообеща́л _____ ка́ждому уча́стнику.",
+      "translationPl": "Przed rozpoczęciem nowego projektu kierownik obiecał przekazać informację zwrotną każdemu uczestnikowi.",
+      "answer": "да́ть обра́тную свя́зь",
+      "lemma": "обра́тная свя́зь",
+      "lemmaTranslation": "informacja zwrotna; feedback",
+      "choiceDistractorIds": [
+        "b1-auto-ex0028",
+        "b1-ustroitsya-001",
+        "b1-auto-ex0095"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0177",
+      "lemmaId": "obratnaya-svyaz",
+      "sourceExampleId": "ex0177",
+      "level": "B1",
+      "sentenceRu": "Колле́га сказа́л: «Большо́е спаси́бо за обра́тную свя́зь», а зате́м испра́вил презента́цию.",
+      "sentenceGap": "Колле́га сказа́л: «Большо́е _____», а зате́м испра́вил презента́цию.",
+      "translationPl": "Kolega powiedział: „Bardzo dziękuję za informację zwrotną”, a następnie poprawił prezentację.",
+      "answer": "спаси́бо за обра́тную свя́зь",
+      "lemma": "обра́тная свя́зь",
+      "lemmaTranslation": "informacja zwrotna; feedback",
+      "choiceDistractorIds": [
+        "b1-razdrazhat-001",
+        "b1-auto-ex0168",
+        "b1-auto-ex0179"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0178",
+      "lemmaId": "estestvenno",
+      "sourceExampleId": "ex0178",
+      "level": "B1",
+      "sentenceRu": "Тебе́ ну́жно отдохну́ть: э́то есте́ственно по́сле не́скольких неде́ль напряжённых трени́ровок.",
+      "sentenceGap": "Тебе́ ну́жно отдохну́ть: _____ по́сле не́скольких неде́ль напряжённых трени́ровок.",
+      "translationPl": "Musisz odpocząć: to naturalne po kilku tygodniach intensywnych treningów.",
+      "answer": "э́то есте́ственно",
+      "lemma": "есте́ственно",
+      "lemmaTranslation": "naturalnie; oczywiście; rzecz jasna",
+      "choiceDistractorIds": [
+        "b1-auto-ex0004",
+        "b1-auto-ex0019",
+        "b1-chaevye-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0179",
+      "lemmaId": "estestvenno",
+      "sourceExampleId": "ex0179",
+      "level": "B1",
+      "sentenceRu": "Во вре́мя интервью́ о́н ведёт себя́ есте́ственно и не избега́ет сло́жных вопро́сов.",
+      "sentenceGap": "Во вре́мя интервью́ _____ и не избега́ет сло́жных вопро́сов.",
+      "translationPl": "Podczas wywiadu on zachowuje się naturalnie i nie unika trudnych pytań.",
+      "answer": "о́н ведёт себя́ есте́ственно",
+      "lemma": "есте́ственно",
+      "lemmaTranslation": "naturalnie; oczywiście; rzecz jasna",
+      "choiceDistractorIds": [
+        "b1-razdrazhat-001",
+        "b1-auto-ex0168",
+        "b1-auto-ex0177"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0180",
+      "lemmaId": "estestvenno",
+      "sourceExampleId": "ex0180",
+      "level": "B1",
+      "sentenceRu": "Когда́ меня́ пригласи́ли присоедини́ться к кома́нде, есте́ственно, я согласи́лся без колеба́ний.",
+      "sentenceGap": "Когда́ меня́ пригласи́ли присоедини́ться к кома́нде, _____ без колеба́ний.",
+      "translationPl": "Kiedy zaproszono mnie do zespołu, oczywiście zgodziłem się bez wahania.",
+      "answer": "есте́ственно, я согласи́лся",
+      "lemma": "есте́ственно",
+      "lemmaTranslation": "naturalnie; oczywiście; rzecz jasna",
+      "choiceDistractorIds": [
+        "b1-auto-ex0155",
+        "b1-auto-ex0146",
+        "b1-auto-ex0159"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0181",
+      "lemmaId": "zashibis",
+      "sourceExampleId": "ex0181",
+      "level": "B1",
+      "sentenceRu": "Когда́ мы получи́ли биле́ты на фина́л, я кри́кнул: «Ребя́та, во́т э́то зашиби́сь!»",
+      "sentenceGap": "Когда́ мы получи́ли биле́ты на фина́л, я кри́кнул: «Ребя́та, _____»",
+      "translationPl": "Kiedy dostaliśmy bilety na finał, krzyknąłem: „Ludzie, ale super!”",
+      "answer": "во́т э́то зашиби́сь!",
+      "lemma": "зашиби́сь",
+      "lemmaTranslation": "super; świetnie; zajebiście",
+      "choiceDistractorIds": [
+        "b1-auto-ex0068",
+        "b1-auto-ex0047",
+        "b1-auto-ex0123"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0182",
+      "lemmaId": "zashibis",
+      "sourceExampleId": "ex0182",
+      "level": "B1",
+      "sentenceRu": "Несмотря́ на плоху́ю пого́ду, всё прошло́ зашиби́сь, и го́сти оста́лись дово́льны.",
+      "sentenceGap": "Несмотря́ на плоху́ю пого́ду, _____, и го́сти оста́лись дово́льны.",
+      "translationPl": "Mimo złej pogody wszystko poszło świetnie i goście byli zadowoleni.",
+      "answer": "всё прошло́ зашиби́сь",
+      "lemma": "зашиби́сь",
+      "lemmaTranslation": "super; świetnie; zajebiście",
+      "choiceDistractorIds": [
         "b1-otritsat-001",
-        "b1-podval-001"
+        "b1-podval-001",
+        "b1-auto-ex0138"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0183",
+      "lemmaId": "zashibis",
+      "sourceExampleId": "ex0183",
+      "level": "B1",
+      "sentenceRu": "Друг посмотре́л на сло́манный телефо́н и ирони́чно произнёс своё «ну́, зашиби́сь!»",
+      "sentenceGap": "Друг посмотре́л на сло́манный телефо́н и ирони́чно произнёс своё «_____»",
+      "translationPl": "Kolega spojrzał na zepsuty telefon i ironicznie skwitował to słowami: „No świetnie!”",
+      "answer": "ну́, зашиби́сь!",
+      "lemma": "зашиби́сь",
+      "lemmaTranslation": "super; świetnie; zajebiście",
+      "choiceDistractorIds": [
+        "b1-auto-ex0046",
+        "b1-auto-ex0189",
+        "b1-auto-ex0047"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0184",
+      "lemmaId": "khren",
+      "sourceExampleId": "ex0184",
+      "level": "B1",
+      "sentenceRu": "К запечённой ры́бе хозя́йка подала́ тёртый хре́н и све́жий дома́шний хлеб.",
+      "sentenceGap": "К запечённой ры́бе хозя́йка подала́ _____ и све́жий дома́шний хлеб.",
+      "translationPl": "Do pieczonej ryby gospodyni podała tarty chrzan i świeży domowy chleb.",
+      "answer": "тёртый хре́н",
+      "lemma": "хре́н",
+      "lemmaTranslation": "chrzan; cholera; guzik",
+      "choiceDistractorIds": [
+        "b1-auto-ex0002",
+        "b1-auto-ex0121",
+        "b1-auto-ex0169"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0185",
+      "lemmaId": "khren",
+      "sourceExampleId": "ex0185",
+      "level": "B1",
+      "sentenceRu": "Когда́ его́ спроси́ли о причина́х заде́ржки, он лишь пожа́л плеча́ми, пробормота́в «хре́н зна́ет».",
+      "sentenceGap": "Когда́ его́ спроси́ли о причина́х заде́ржки, он лишь пожа́л плеча́ми, пробормота́в «_____».",
+      "translationPl": "Kiedy zapytano go o przyczyny opóźnienia, tylko wzruszył ramionami, mamrocząc: „Cholera wie”.",
+      "answer": "хре́н зна́ет",
+      "lemma": "хре́н",
+      "lemmaTranslation": "chrzan; cholera; guzik",
+      "choiceDistractorIds": [
+        "b1-auto-ex0002",
+        "b1-auto-ex0121",
+        "b1-auto-ex0169"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0186",
+      "lemmaId": "khren",
+      "sourceExampleId": "ex0186",
+      "level": "B1",
+      "sentenceRu": "Когда́ преподава́тель объясня́ет э́ту тео́рию, я ни хрена́ не понима́ю без приме́ров.",
+      "sentenceGap": "Когда́ преподава́тель объясня́ет э́ту тео́рию, _____ без приме́ров.",
+      "translationPl": "Kiedy wykładowca wyjaśnia tę teorię, nic a nic nie rozumiem bez przykładów.",
+      "answer": "я ни хрена́ не понима́ю",
+      "lemma": "хре́н",
+      "lemmaTranslation": "chrzan; cholera; guzik",
+      "choiceDistractorIds": [
+        "b1-auto-ex0059",
+        "b1-auto-ex0188",
+        "b1-auto-ex0044"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0187",
+      "lemmaId": "fig",
+      "sourceExampleId": "ex0187",
+      "level": "B1",
+      "sentenceRu": "На вопро́с о сро́ках ма́стер буркну́л «фи́г зна́ет» и ушёл.",
+      "sentenceGap": "На вопро́с о сро́ках ма́стер буркну́л «_____» и ушёл.",
+      "translationPl": "Na pytanie o termin fachowiec burknął „licho wie” i odszedł.",
+      "answer": "фи́г зна́ет",
+      "lemma": "фи́г",
+      "lemmaTranslation": "guzik; nic; akurat",
+      "choiceDistractorIds": [
+        "b1-auto-ex0157",
+        "b1-auto-ex0002",
+        "b1-auto-ex0121"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0188",
+      "lemmaId": "fig",
+      "sourceExampleId": "ex0188",
+      "level": "B1",
+      "sentenceRu": "На пе́рвой ле́кции я ни фига́ не по́нял, потому́ что преподава́тель говори́л сли́шком бы́стро.",
+      "sentenceGap": "На пе́рвой ле́кции _____, потому́ что преподава́тель говори́л сли́шком бы́стро.",
+      "translationPl": "Na pierwszym wykładzie nic a nic nie zrozumiałem, bo wykładowca mówił zbyt szybko.",
+      "answer": "я ни фига́ не по́нял",
+      "lemma": "фи́г",
+      "lemmaTranslation": "guzik; nic; akurat",
+      "choiceDistractorIds": [
+        "b1-auto-ex0186",
+        "b1-auto-ex0059",
+        "b1-auto-ex0044"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0189",
+      "lemmaId": "fig",
+      "sourceExampleId": "ex0189",
+      "level": "B1",
+      "sentenceRu": "Когда́ брат попроси́л мою́ маши́ну, я в шу́тку отве́тил ему́ коро́тким «фи́г тебе́!»",
+      "sentenceGap": "Когда́ брат попроси́л мою́ маши́ну, я в шу́тку отве́тил ему́ коро́тким «_____»",
+      "translationPl": "Kiedy brat poprosił o mój samochód, odpowiedziałem mu żartem: „Guzik dostaniesz!”",
+      "answer": "фи́г тебе́!",
+      "lemma": "фи́г",
+      "lemmaTranslation": "guzik; nic; akurat",
+      "choiceDistractorIds": [
+        "b1-auto-ex0046",
+        "b1-auto-ex0183",
+        "b1-auto-ex0047"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0190",
+      "lemmaId": "vygoda",
+      "sourceExampleId": "ex0190",
+      "level": "B1",
+      "sentenceRu": "Для ма́лого би́знеса фи́нансовая вы́года иногда́ ва́жнее бы́строго ро́ста.",
+      "sentenceGap": "Для ма́лого би́знеса _____ иногда́ ва́жнее бы́строго ро́ста.",
+      "translationPl": "Dla małej firmy korzyść finansowa bywa ważniejsza niż szybki wzrost.",
+      "answer": "фи́нансовая вы́года",
+      "lemma": "вы́года",
+      "lemmaTranslation": "korzyść; zysk; pożytek",
+      "choiceDistractorIds": [
+        "b1-auto-ex0001",
+        "b1-auto-ex0017",
+        "b1-auto-ex0020"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0191",
+      "lemmaId": "vygoda",
+      "sourceExampleId": "ex0191",
+      "level": "B1",
+      "sentenceRu": "Некото́рые компа́нии уме́ют извлека́ть вы́году да́же из неожи́данных измене́ний на ры́нке.",
+      "sentenceGap": "Некото́рые компа́нии уме́ют _____ да́же из неожи́данных измене́ний на ры́нке.",
+      "translationPl": "Niektóre firmy potrafią czerpać korzyść nawet z niespodziewanych zmian na rynku.",
+      "answer": "извлека́ть вы́году",
+      "lemma": "вы́года",
+      "lemmaTranslation": "korzyść; zysk; pożytek",
+      "choiceDistractorIds": [
+        "b1-uroven-001",
+        "b1-proshchenie-001",
+        "b1-auto-ex0023"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0192",
+      "lemmaId": "vygoda",
+      "sourceExampleId": "ex0192",
+      "level": "B1",
+      "sentenceRu": "Благодаря́ гра́мотным перегово́рам сде́лка принесла́ вы́году обе́им сторона́м уже́ в пе́рвый год.",
+      "sentenceGap": "Благодаря́ гра́мотным перегово́рам _____ обе́им сторона́м уже́ в пе́рвый год.",
+      "translationPl": "Dzięki umiejętnym negocjacjom transakcja przyniosła zysk obu stronom już w pierwszym roku.",
+      "answer": "сде́лка принесла́ вы́году",
+      "lemma": "вы́года",
+      "lemmaTranslation": "korzyść; zysk; pożytek",
+      "choiceDistractorIds": [
+        "b1-auto-ex0081",
+        "b1-auto-ex0097",
+        "b1-auto-ex0143"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0193",
+      "lemmaId": "nakanune",
+      "sourceExampleId": "ex0193",
+      "level": "B1",
+      "sentenceRu": "Мы реши́ли купи́ть пода́рки накану́не пра́здника, что́бы избежа́ть о́чередей.",
+      "sentenceGap": "Мы реши́ли купи́ть пода́рки _____, что́бы избежа́ть о́чередей.",
+      "translationPl": "Postanowiliśmy kupić prezenty w przeddzień święta, żeby uniknąć kolejek.",
+      "answer": "накану́не пра́здника",
+      "lemma": "накану́не",
+      "lemmaTranslation": "poprzedniego dnia; w przeddzień; tuż przed",
+      "choiceDistractorIds": [
+        "b1-portit-001",
+        "b1-auto-ex0042",
+        "b1-auto-ex0050"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0194",
+      "lemmaId": "nakanune",
+      "sourceExampleId": "ex0194",
+      "level": "B1",
+      "sentenceRu": "Хотя́ мы встре́тились накану́не, он сно́ва предложи́л обсуди́ть все дета́ли.",
+      "sentenceGap": "Хотя́ _____, он сно́ва предложи́л обсуди́ть все дета́ли.",
+      "translationPl": "Chociaż spotkaliśmy się poprzedniego dnia, on znów zaproponował omówienie wszystkich szczegółów.",
+      "answer": "мы встре́тились накану́не",
+      "lemma": "накану́не",
+      "lemmaTranslation": "poprzedniego dnia; w przeddzień; tuż przed",
+      "choiceDistractorIds": [
+        "b1-auto-ex0081",
+        "b1-auto-ex0097",
+        "b1-auto-ex0143"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0195",
+      "lemmaId": "nakanune",
+      "sourceExampleId": "ex0195",
+      "level": "B1",
+      "sentenceRu": "Студе́нты осо́бенно волну́ются накану́не экза́мена, да́же е́сли хорошо́ подготови́лись.",
+      "sentenceGap": "Студе́нты осо́бенно волну́ются _____, да́же е́сли хорошо́ подготови́лись.",
+      "translationPl": "Studenci szczególnie denerwują się tuż przed egzaminem, nawet jeśli dobrze się przygotowali.",
+      "answer": "накану́не экза́мена",
+      "lemma": "накану́не",
+      "lemmaTranslation": "poprzedniego dnia; w przeddzień; tuż przed",
+      "choiceDistractorIds": [
+        "b1-auto-ex0001",
+        "b1-auto-ex0017",
+        "b1-auto-ex0020"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0196",
+      "lemmaId": "snovidenie",
+      "sourceExampleId": "ex0196",
+      "level": "B1",
+      "sentenceRu": "По́сле пое́здки в го́ры мне не́сколько ноче́й сни́лись я́ркие сновиде́ния.",
+      "sentenceGap": "По́сле пое́здки в го́ры мне не́сколько ноче́й сни́лись _____.",
+      "translationPl": "Po wyjeździe w góry przez kilka nocy śniły mi się wyraziste sny.",
+      "answer": "я́ркие сновиде́ния",
+      "lemma": "сновиде́ние",
+      "lemmaTranslation": "sen; marzenie senne",
+      "choiceDistractorIds": [
+        "b1-uroven-001",
+        "b1-proshchenie-001",
+        "b1-auto-ex0023"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0197",
+      "lemmaId": "snovidenie",
+      "sourceExampleId": "ex0197",
+      "level": "B1",
+      "sentenceRu": "В дре́вних кни́гах лю́ди ча́сто иска́ли толкова́ние сновиде́ний, что́бы предсказа́ть бу́дущее.",
+      "sentenceGap": "В дре́вних кни́гах лю́ди ча́сто иска́ли _____, что́бы предсказа́ть бу́дущее.",
+      "translationPl": "W starożytnych księgach ludzie często szukali objaśnienia snów, aby przewidzieć przyszłość.",
+      "answer": "толкова́ние сновиде́ний",
+      "lemma": "сновиде́ние",
+      "lemmaTranslation": "sen; marzenie senne",
+      "choiceDistractorIds": [
+        "b1-auto-ex0072",
+        "b1-auto-ex0199",
+        "b1-auto-ex0071"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0198",
+      "lemmaId": "snovidenie",
+      "sourceExampleId": "ex0198",
+      "level": "B1",
+      "sentenceRu": "Просну́вшись, я ещё до́лго не мог поня́ть: э́то бы́ло стра́нное сновиде́ние и́ли реа́льность?",
+      "sentenceGap": "Просну́вшись, я ещё до́лго не мог поня́ть: _____ и́ли реа́льность?",
+      "translationPl": "Po przebudzeniu długo nie mogłem zrozumieć, czy to był dziwny sen, czy rzeczywistość.",
+      "answer": "э́то бы́ло стра́нное сновиде́ние",
+      "lemma": "сновиде́ние",
+      "lemmaTranslation": "sen; marzenie senne",
+      "choiceDistractorIds": [
+        "b1-auto-ex0120",
+        "b1-auto-ex0112",
+        "b1-auto-ex0113"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0199",
+      "lemmaId": "postepenno",
+      "sourceExampleId": "ex0199",
+      "level": "B1",
+      "sentenceRu": "По́сле опера́ции состоя́ние пацие́нта начало́ постепе́нно улучша́ться, что обра́довало его́ семью́.",
+      "sentenceGap": "По́сле опера́ции состоя́ние пацие́нта начало́ _____, что обра́довало его́ семью́.",
+      "translationPl": "Po operacji stan pacjenta zaczął stopniowo się poprawiać, co ucieszyło jego rodzinę.",
+      "answer": "постепе́нно улучша́ться",
+      "lemma": "постепе́нно",
+      "lemmaTranslation": "stopniowo; powoli; z biegiem czasu",
+      "choiceDistractorIds": [
+        "b1-auto-ex0072",
+        "b1-auto-ex0197",
+        "b1-auto-ex0071"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0200",
+      "lemmaId": "postepenno",
+      "sourceExampleId": "ex0200",
+      "level": "B1",
+      "sentenceRu": "Хотя́ но́вый го́род ему́ не нра́вится, о́н постепе́нно привыка́ет к ме́стному ри́тму.",
+      "sentenceGap": "Хотя́ но́вый го́род ему́ не нра́вится, _____ к ме́стному ри́тму.",
+      "translationPl": "Chociaż nowe miasto mu się nie podoba, on stopniowo przyzwyczaja się do miejscowego rytmu.",
+      "answer": "о́н постепе́нно привыка́ет",
+      "lemma": "постепе́нно",
+      "lemmaTranslation": "stopniowo; powoli; z biegiem czasu",
+      "choiceDistractorIds": [
+        "b1-auto-ex0159",
+        "b1-obratnaya-svyaz-001",
+        "b1-auto-ex0081"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0201",
+      "lemmaId": "postepenno",
+      "sourceExampleId": "ex0201",
+      "level": "B1",
+      "sentenceRu": "По прогно́зу сино́птиков, температу́ра постепе́нно повыша́ется, поэ́тому снег начнёт та́ять.",
+      "sentenceGap": "По прогно́зу сино́птиков, _____, поэ́тому снег начнёт та́ять.",
+      "translationPl": "Według prognozy synoptyków temperatura stopniowo rośnie, dlatego śnieg zacznie topnieć.",
+      "answer": "температу́ра постепе́нно повыша́ется",
+      "lemma": "постепе́нно",
+      "lemmaTranslation": "stopniowo; powoli; z biegiem czasu",
+      "choiceDistractorIds": [
+        "b1-auto-ex0114",
+        "b1-auto-ex0129",
+        "b1-auto-ex0041"
       ]
     }
   ]
