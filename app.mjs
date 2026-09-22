@@ -10,7 +10,7 @@ import {
   unassignTile,
   validateExerciseBank,
   validateImportedState,
-} from './logic.mjs?v=1.1.0';
+} from './logic.mjs?v=1.1.1';
 
 const STORAGE_KEY = 'slowka-progress-v1';
 const MAX_HISTORY = 100;
@@ -144,6 +144,11 @@ function appendFeedback(container, exercise, correct) {
   sentence.lang = 'ru';
   sentence.textContent = exercise.sentenceRu;
   feedback.append(sentence);
+
+  const translation = document.createElement('span');
+  translation.className = 'feedback-translation';
+  translation.textContent = exercise.translationPl;
+  feedback.append(translation);
   container.append(feedback);
 }
 

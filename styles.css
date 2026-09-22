@@ -116,6 +116,7 @@ button:disabled { cursor: default; opacity: 0.55; }
 .option.wrong { border-color: var(--coral); background: var(--coral-soft); color: #8b3024; }
 .feedback { margin-top: 18px; padding: 16px; border-radius: 16px; background: var(--violet-soft); line-height: 1.5; }
 .feedback strong, .feedback span { display: block; }
+.feedback .feedback-translation { margin-top: 6px; color: var(--muted); }
 .next-button { width: 100%; margin-top: 14px; }
 
 .matching-intro { margin: -5px 0 14px; color: var(--muted); }
