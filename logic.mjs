@@ -201,6 +201,33 @@ export function selectMatchingSession(
   return selected.length === count ? selected : [];
 }
 
+export function ensureSeries(
+  currentSeries,
+  exercises,
+  progress,
+  mode,
+  count = 10,
+  rng = Math.random,
+  now = new Date(),
+) {
+  if (currentSeries?.mode === mode && currentSeries.completedKinds.length < 2) {
+    return currentSeries;
+  }
+  return {
+    mode,
+    exercises: selectMatchingSession(exercises, progress, mode, count, rng, now),
+    completedKinds: [],
+  };
+}
+
+export function completeSeriesKind(series, kind) {
+  if (!series) return series;
+  return {
+    ...series,
+    completedKinds: [...new Set([...series.completedKinds, kind])],
+  };
+}
+
 function isPlainObject(value) {
   return value !== null && typeof value === 'object' && !Array.isArray(value)
     && Object.getPrototypeOf(value) === Object.prototype;

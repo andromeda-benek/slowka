@@ -1,16 +1,16 @@
 import {
   assignTile,
   buildChoiceTask,
+  completeSeriesKind,
+  ensureSeries,
   gradeChoice,
   gradeMatching,
   recordResult,
-  selectMatchingSession,
-  selectSession,
   shuffledDifferent,
   unassignTile,
   validateExerciseBank,
   validateImportedState,
-} from './logic.mjs?v=1.1.1';
+} from './logic.mjs?v=1.1.2';
 
 const STORAGE_KEY = 'slowka-progress-v1';
 const MAX_HISTORY = 100;
@@ -36,6 +36,7 @@ const elements = {
 let content;
 let state = loadState();
 let activeSession = null;
+let currentSeries = null;
 let deferredInstallPrompt = null;
 
 function loadState() {
@@ -109,9 +110,8 @@ function updateHomeStats() {
 function beginSession(kind) {
   clearError();
   const mode = elements.sessionMode.value;
-  const exercises = kind === 'matching'
-    ? selectMatchingSession(content.exercises, state.progress, mode, 10)
-    : selectSession(content.exercises, state.progress, mode, 10);
+  currentSeries = ensureSeries(currentSeries, content.exercises, state.progress, mode, 10);
+  const exercises = currentSeries.exercises;
   if (exercises.length < 10) {
     showError(`Ten tryb wymaga 10 zadań, a dostępnych jest ${exercises.length}.`);
     return;
@@ -328,6 +328,7 @@ function renderMatching({ preserveViewport = false } = {}) {
 }
 
 function finishSession() {
+  currentSeries = completeSeriesKind(currentSeries, activeSession.kind);
   const historyEntry = {
     finishedAt: new Date().toISOString(),
     kind: activeSession.kind,
