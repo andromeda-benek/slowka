@@ -1,16 +1,18 @@
 import {
   assignTile,
+  buildFlashcards,
   buildChoiceTask,
   completeSeriesKind,
   ensureSeries,
   gradeChoice,
   gradeMatching,
   recordResult,
+  selectSession,
   shuffledDifferent,
   unassignTile,
   validateExerciseBank,
   validateImportedState,
-} from './logic.mjs?v=1.1.2';
+} from './logic.mjs?v=1.2.0';
 
 const STORAGE_KEY = 'slowka-progress-v1';
 const MAX_HISTORY = 100;
@@ -37,6 +39,7 @@ let content;
 let state = loadState();
 let activeSession = null;
 let currentSeries = null;
+let flashcards = [];
 let deferredInstallPrompt = null;
 
 function loadState() {
@@ -110,8 +113,13 @@ function updateHomeStats() {
 function beginSession(kind) {
   clearError();
   const mode = elements.sessionMode.value;
-  currentSeries = ensureSeries(currentSeries, content.exercises, state.progress, mode, 10);
-  const exercises = currentSeries.exercises;
+  let exercises;
+  if (kind === 'flashcards') {
+    exercises = selectSession(flashcards, state.progress, mode, 10);
+  } else {
+    currentSeries = ensureSeries(currentSeries, content.exercises, state.progress, mode, 10);
+    exercises = currentSeries.exercises;
+  }
   if (exercises.length < 10) {
     showError(`Ten tryb wymaga 10 zadań, a dostępnych jest ${exercises.length}.`);
     return;
@@ -129,7 +137,8 @@ function beginSession(kind) {
   };
   showScreen('practice');
   if (kind === 'choice') renderChoice();
-  else renderMatching();
+  else if (kind === 'matching') renderMatching();
+  else renderFlashcard();
 }
 
 function appendFeedback(container, exercise, correct) {
@@ -207,6 +216,65 @@ function renderChoice() {
     options.append(button);
   });
   card.append(options);
+  elements.practiceContent.append(card);
+  elements.sessionTitle.focus();
+}
+
+function renderFlashcard() {
+  const flashcard = activeSession.exercises[activeSession.index];
+  elements.sessionKind.textContent = flashcard.sourceType === 'word' ? 'Fiszka · słowo' : 'Fiszka · zwrot';
+  elements.sessionTitle.textContent = 'Przypomnij sobie po rosyjsku';
+  elements.sessionProgress.textContent = `${activeSession.index + 1}/${activeSession.exercises.length}`;
+  elements.practiceContent.replaceChildren();
+
+  const card = document.createElement('article');
+  card.className = 'question-card flashcard';
+  const promptLabel = document.createElement('span');
+  promptLabel.className = 'flashcard-label';
+  promptLabel.textContent = 'Po polsku';
+  const prompt = document.createElement('p');
+  prompt.className = 'flashcard-prompt';
+  prompt.textContent = flashcard.promptPl;
+  const check = document.createElement('button');
+  check.type = 'button';
+  check.className = 'primary flashcard-check';
+  check.textContent = 'Sprawdź';
+  check.addEventListener('click', () => {
+    check.remove();
+    const answerLabel = document.createElement('span');
+    answerLabel.className = 'flashcard-label';
+    answerLabel.textContent = 'Po rosyjsku';
+    const answer = document.createElement('p');
+    answer.className = 'flashcard-answer';
+    answer.lang = 'ru';
+    answer.textContent = flashcard.answerRu;
+
+    const rating = document.createElement('div');
+    rating.className = 'self-rating';
+    const rate = (correct) => {
+      activeSession.score += correct ? 1 : 0;
+      activeSession.results.push({ exercise: flashcard, correct });
+      state.progress = recordResult(state.progress, flashcard.id, correct);
+      saveState();
+      activeSession.index += 1;
+      if (activeSession.index >= activeSession.exercises.length) finishSession();
+      else renderFlashcard();
+    };
+    const good = document.createElement('button');
+    good.type = 'button';
+    good.className = 'primary rating-good';
+    good.textContent = 'Dobre';
+    good.addEventListener('click', () => rate(true));
+    const bad = document.createElement('button');
+    bad.type = 'button';
+    bad.className = 'secondary rating-bad';
+    bad.textContent = 'Złe';
+    bad.addEventListener('click', () => rate(false));
+    rating.append(bad, good);
+    card.append(answerLabel, answer, rating);
+    good.focus();
+  });
+  card.append(promptLabel, prompt, check);
   elements.practiceContent.append(card);
   elements.sessionTitle.focus();
 }
@@ -328,7 +396,9 @@ function renderMatching({ preserveViewport = false } = {}) {
 }
 
 function finishSession() {
-  currentSeries = completeSeriesKind(currentSeries, activeSession.kind);
+  if (activeSession.kind !== 'flashcards') {
+    currentSeries = completeSeriesKind(currentSeries, activeSession.kind);
+  }
   const historyEntry = {
     finishedAt: new Date().toISOString(),
     kind: activeSession.kind,
@@ -341,7 +411,9 @@ function finishSession() {
   elements.resultScore.textContent = `${activeSession.score}/${activeSession.results.length}`;
   elements.resultMessage.textContent = activeSession.score === activeSession.results.length
     ? 'Świetnie — cały zestaw rozwiązany poprawnie.'
-    : 'Błędne odpowiedzi wrócą wcześniej w kolejnych powtórkach.';
+    : activeSession.kind === 'flashcards'
+      ? 'Fiszki oznaczone jako złe wrócą wcześniej w kolejnych powtórkach.'
+      : 'Błędne odpowiedzi wrócą wcześniej w kolejnych powtórkach.';
   elements.reviewList.replaceChildren();
 
   [...activeSession.results]
@@ -350,13 +422,20 @@ function finishSession() {
       const item = document.createElement('article');
       item.className = `review-item${correct ? '' : ' wrong'}`;
       const verdict = document.createElement('strong');
-      verdict.textContent = `${correct ? '✓' : '✕'} ${exercise.answer}`;
+      verdict.textContent = activeSession.kind === 'flashcards'
+        ? (correct ? '✓ Dobre' : '✕ Złe')
+        : `${correct ? '✓' : '✕'} ${exercise.answer}`;
       const sentence = document.createElement('span');
       sentence.lang = 'ru';
-      sentence.textContent = exercise.sentenceRu;
+      sentence.textContent = activeSession.kind === 'flashcards' ? exercise.answerRu : exercise.sentenceRu;
       const translation = document.createElement('span');
       translation.className = 'translation';
-      translation.textContent = exercise.translationPl;
+      translation.textContent = activeSession.kind === 'flashcards' ? exercise.promptPl : exercise.translationPl;
+      if (activeSession.kind === 'flashcards') {
+        item.append(verdict, sentence, translation);
+        elements.reviewList.append(item);
+        return;
+      }
       const sourceExample = content.examples.find((example) => example.id === exercise.sourceExampleId);
       const meaning = document.createElement('span');
       meaning.className = 'translation';
@@ -388,7 +467,7 @@ function exportProgress() {
 async function importProgress(file) {
   if (file.size > MAX_IMPORT_BYTES) throw new Error('Plik kopii jest zbyt duży (maksymalnie 1 MB).');
   const parsed = JSON.parse(await file.text());
-  const validIds = new Set(content.exercises.map((exercise) => exercise.id));
+  const validIds = new Set([...content.exercises, ...flashcards].map((item) => item.id));
   const candidate = validateImportedState(parsed, validIds, MAX_HISTORY);
   saveState(candidate, true);
   state = candidate;
@@ -402,7 +481,8 @@ async function init() {
     content = await response.json();
     const errors = validateExerciseBank(content.exercises);
     if (errors.length) throw new Error(`Błąd banku ćwiczeń: ${errors[0]}`);
-    const validIds = new Set(content.exercises.map((exercise) => exercise.id));
+    flashcards = buildFlashcards(content.dictionary, content.examples);
+    const validIds = new Set([...content.exercises, ...flashcards].map((item) => item.id));
     try {
       state = validateImportedState({ version: 1, ...state }, validIds, MAX_HISTORY);
     } catch {
@@ -416,11 +496,13 @@ async function init() {
     showError(error.message);
     document.querySelector('#start-choice').disabled = true;
     document.querySelector('#start-matching').disabled = true;
+    document.querySelector('#start-flashcards').disabled = true;
   }
 }
 
 document.querySelector('#start-choice').addEventListener('click', () => beginSession('choice'));
 document.querySelector('#start-matching').addEventListener('click', () => beginSession('matching'));
+document.querySelector('#start-flashcards').addEventListener('click', () => beginSession('flashcards'));
 document.querySelector('#finish-session').addEventListener('click', goHome);
 elements.homeButton.addEventListener('click', goHome);
 document.querySelector('#export-progress').addEventListener('click', exportProgress);

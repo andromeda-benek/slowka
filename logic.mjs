@@ -67,6 +67,22 @@ export function validateExerciseBank(exercises) {
   return errors;
 }
 
+export function buildFlashcards(dictionary, examples) {
+  const wordCards = dictionary.map((word) => ({
+    id: `flash-word-${word.id}`,
+    sourceType: 'word',
+    promptPl: word.tlumaczenia.join('; '),
+    answerRu: word.akcent,
+  }));
+  const exampleCards = examples.map((example) => ({
+    id: `flash-example-${example.id}`,
+    sourceType: 'example',
+    promptPl: example.pl,
+    answerRu: example.ru,
+  }));
+  return [...wordCards, ...exampleCards];
+}
+
 export function buildChoiceTask(exercise, pool, optionCount = 4, rng = Math.random) {
   if (!exercise?.id) throw new Error('Exercise is required');
   if (optionCount < 2) throw new Error('At least two options are required');
