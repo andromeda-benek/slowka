@@ -3,16 +3,20 @@ import {
   buildFlashcards,
   buildChoiceTask,
   completeSeriesKind,
+  ensureDailySeries,
   ensureSeries,
   gradeChoice,
   gradeMatching,
+  recordRecentMistake,
   recordResult,
-  selectSession,
+  restoreSeries,
+  selectSeriesFlashcards,
+  serializeSeries,
   shuffledDifferent,
   unassignTile,
   validateExerciseBank,
   validateImportedState,
-} from './logic.mjs?v=1.2.0';
+} from './logic.mjs?v=1.2.1';
 
 const STORAGE_KEY = 'slowka-progress-v1';
 const MAX_HISTORY = 100;
@@ -48,9 +52,14 @@ function loadState() {
     return {
       progress: parsed.progress && typeof parsed.progress === 'object' ? parsed.progress : {},
       history: Array.isArray(parsed.history) ? parsed.history.slice(-MAX_HISTORY) : [],
+      recentMistakeIds: Array.isArray(parsed.recentMistakeIds) ? parsed.recentMistakeIds.slice(-10) : [],
+      currentSeries: parsed.currentSeries || null,
+      dailyReviews: parsed.dailyReviews || null,
     };
   } catch {
-    return { progress: {}, history: [] };
+    return {
+      progress: {}, history: [], recentMistakeIds: [], currentSeries: null, dailyReviews: null,
+    };
   }
 }
 
@@ -100,7 +109,7 @@ function updateHomeStats() {
   const correct = entries.reduce((sum, entry) => sum + entry.correct, 0);
   const now = new Date().toISOString();
   const due = entries.filter((entry) => entry.dueAt <= now).length;
-  const mistakes = entries.filter((entry) => entry.lastCorrect === false).length;
+  const mistakes = state.recentMistakeIds.length;
 
   document.querySelector('#learned-count').textContent = String(entries.length);
   document.querySelector('#accuracy-value').textContent = attempts ? `${Math.round((correct / attempts) * 100)}%` : '—';
@@ -113,17 +122,40 @@ function updateHomeStats() {
 function beginSession(kind) {
   clearError();
   const mode = elements.sessionMode.value;
-  let exercises;
-  if (kind === 'flashcards') {
-    exercises = selectSession(flashcards, state.progress, mode, 10);
+  if (mode === 'reviews') {
+    const daily = ensureDailySeries(
+      state.dailyReviews,
+      content.exercises,
+      state.progress,
+      10,
+      Math.random,
+      new Date(),
+      state.recentMistakeIds,
+    );
+    currentSeries = daily.series;
+    state.dailyReviews = daily.snapshot;
   } else {
-    currentSeries = ensureSeries(currentSeries, content.exercises, state.progress, mode, 10);
-    exercises = currentSeries.exercises;
+    currentSeries = ensureSeries(
+      currentSeries,
+      content.exercises,
+      state.progress,
+      mode,
+      10,
+      Math.random,
+      new Date(),
+      state.recentMistakeIds,
+    );
+  }
+  let exercises = currentSeries.exercises;
+  if (kind === 'flashcards') {
+    exercises = selectSeriesFlashcards(currentSeries.exercises, flashcards);
   }
   if (exercises.length < 10) {
     showError(`Ten tryb wymaga 10 zadań, a dostępnych jest ${exercises.length}.`);
     return;
   }
+  state.currentSeries = serializeSeries(currentSeries);
+  saveState();
 
   activeSession = {
     kind,
@@ -192,6 +224,11 @@ function renderChoice() {
       activeSession.score += result.correct ? 1 : 0;
       activeSession.results.push({ exercise, correct: result.correct });
       state.progress = recordResult(state.progress, exercise.id, result.correct);
+      state.recentMistakeIds = recordRecentMistake(
+        state.recentMistakeIds,
+        exercise.id,
+        result.correct,
+      );
       saveState();
 
       options.querySelectorAll('button').forEach((candidate) => {
@@ -255,6 +292,11 @@ function renderFlashcard() {
       activeSession.score += correct ? 1 : 0;
       activeSession.results.push({ exercise: flashcard, correct });
       state.progress = recordResult(state.progress, flashcard.id, correct);
+      state.recentMistakeIds = recordRecentMistake(
+        state.recentMistakeIds,
+        flashcard.exerciseId,
+        correct,
+      );
       saveState();
       activeSession.index += 1;
       if (activeSession.index >= activeSession.exercises.length) finishSession();
@@ -376,6 +418,11 @@ function renderMatching({ preserveViewport = false } = {}) {
     activeSession.results = result.items.map((item) => ({ exercise: item.exercise, correct: item.correct }));
     result.items.forEach((item) => {
       state.progress = recordResult(state.progress, item.exercise.id, item.correct);
+      state.recentMistakeIds = recordRecentMistake(
+        state.recentMistakeIds,
+        item.exercise.id,
+        item.correct,
+      );
     });
     saveState();
     finishSession();
@@ -396,9 +443,8 @@ function renderMatching({ preserveViewport = false } = {}) {
 }
 
 function finishSession() {
-  if (activeSession.kind !== 'flashcards') {
-    currentSeries = completeSeriesKind(currentSeries, activeSession.kind);
-  }
+  currentSeries = completeSeriesKind(currentSeries, activeSession.kind);
+  state.currentSeries = serializeSeries(currentSeries);
   const historyEntry = {
     finishedAt: new Date().toISOString(),
     kind: activeSession.kind,
@@ -468,9 +514,12 @@ async function importProgress(file) {
   if (file.size > MAX_IMPORT_BYTES) throw new Error('Plik kopii jest zbyt duży (maksymalnie 1 MB).');
   const parsed = JSON.parse(await file.text());
   const validIds = new Set([...content.exercises, ...flashcards].map((item) => item.id));
-  const candidate = validateImportedState(parsed, validIds, MAX_HISTORY);
+  const validSeriesIds = new Set(content.exercises.map((exercise) => exercise.id));
+  const candidate = validateImportedState(parsed, validIds, MAX_HISTORY, validSeriesIds);
   saveState(candidate, true);
   state = candidate;
+  currentSeries = restoreSeries(state.currentSeries, content.exercises);
+  if (currentSeries) elements.sessionMode.value = currentSeries.mode;
   updateHomeStats();
 }
 
@@ -483,10 +532,24 @@ async function init() {
     if (errors.length) throw new Error(`Błąd banku ćwiczeń: ${errors[0]}`);
     flashcards = buildFlashcards(content.dictionary, content.examples);
     const validIds = new Set([...content.exercises, ...flashcards].map((item) => item.id));
+    const validSeriesIds = new Set(content.exercises.map((exercise) => exercise.id));
     try {
-      state = validateImportedState({ version: 1, ...state }, validIds, MAX_HISTORY);
+      state = validateImportedState(
+        { version: 1, ...state },
+        validIds,
+        MAX_HISTORY,
+        validSeriesIds,
+      );
+      currentSeries = restoreSeries(state.currentSeries, content.exercises);
+      if (currentSeries) elements.sessionMode.value = currentSeries.mode;
     } catch {
-      state = { progress: {}, history: [] };
+      state = {
+        progress: {},
+        history: [],
+        recentMistakeIds: [],
+        currentSeries: null,
+        dailyReviews: null,
+      };
       if (saveState()) {
         showError('Uszkodzone dane lokalne zostały zresetowane. Możesz rozpocząć nową sesję.');
       }

@@ -83,6 +83,15 @@ export function buildFlashcards(dictionary, examples) {
   return [...wordCards, ...exampleCards];
 }
 
+export function selectSeriesFlashcards(exercises, flashcards) {
+  const byId = new Map(flashcards.map((flashcard) => [flashcard.id, flashcard]));
+  const selected = exercises.map((exercise) => {
+    const flashcard = byId.get(`flash-example-${exercise.sourceExampleId}`);
+    return flashcard ? { ...flashcard, exerciseId: exercise.id } : null;
+  });
+  return selected.some((flashcard) => !flashcard) ? [] : selected;
+}
+
 export function buildChoiceTask(exercise, pool, optionCount = 4, rng = Math.random) {
   if (!exercise?.id) throw new Error('Exercise is required');
   if (optionCount < 2) throw new Error('At least two options are required');
@@ -174,6 +183,11 @@ export function recordResult(progress, exerciseId, wasCorrect, now = new Date())
   };
 }
 
+export function recordRecentMistake(recentMistakeIds, exerciseId, wasCorrect, limit = 10) {
+  if (wasCorrect) return [...recentMistakeIds];
+  return [...recentMistakeIds.filter((id) => id !== exerciseId), exerciseId].slice(-limit);
+}
+
 export function selectSession(
   exercises,
   progress,
@@ -181,7 +195,16 @@ export function selectSession(
   count = 10,
   rng = Math.random,
   now = new Date(),
+  recentMistakeIds = [],
 ) {
+  if (mode === 'mistakes' && recentMistakeIds.length) {
+    const byId = new Map(exercises.map((exercise) => [exercise.id, exercise]));
+    const recent = [...recentMistakeIds].reverse().map((id) => byId.get(id)).filter(Boolean);
+    const recentIds = new Set(recent.map((exercise) => exercise.id));
+    const remainder = shuffled(exercises.filter((exercise) => !recentIds.has(exercise.id)), rng);
+    return [...recent, ...remainder].slice(0, count);
+  }
+
   const due = (exercise) => {
     const entry = progress[exercise.id];
     return entry && entry.dueAt <= now.toISOString();
@@ -204,8 +227,9 @@ export function selectMatchingSession(
   count = 10,
   rng = Math.random,
   now = new Date(),
+  recentMistakeIds = [],
 ) {
-  const ordered = selectSession(exercises, progress, mode, exercises.length, rng, now);
+  const ordered = selectSession(exercises, progress, mode, exercises.length, rng, now, recentMistakeIds);
   const selected = [];
   const usedAnswers = new Set();
   for (const exercise of ordered) {
@@ -225,13 +249,14 @@ export function ensureSeries(
   count = 10,
   rng = Math.random,
   now = new Date(),
+  recentMistakeIds = [],
 ) {
-  if (currentSeries?.mode === mode && currentSeries.completedKinds.length < 2) {
+  if (currentSeries?.mode === mode) {
     return currentSeries;
   }
   return {
     mode,
-    exercises: selectMatchingSession(exercises, progress, mode, count, rng, now),
+    exercises: selectMatchingSession(exercises, progress, mode, count, rng, now, recentMistakeIds),
     completedKinds: [],
   };
 }
@@ -241,6 +266,59 @@ export function completeSeriesKind(series, kind) {
   return {
     ...series,
     completedKinds: [...new Set([...series.completedKinds, kind])],
+  };
+}
+
+export function serializeSeries(series) {
+  if (!series) return null;
+  return {
+    mode: series.mode,
+    exerciseIds: series.exercises.map((exercise) => exercise.id),
+    completedKinds: [...series.completedKinds],
+  };
+}
+
+export function restoreSeries(snapshot, exercises) {
+  if (!snapshot || !Array.isArray(snapshot.exerciseIds)) return null;
+  const byId = new Map(exercises.map((exercise) => [exercise.id, exercise]));
+  const selected = snapshot.exerciseIds.map((id) => byId.get(id));
+  if (selected.length !== 10 || selected.some((exercise) => !exercise)) return null;
+  return {
+    mode: snapshot.mode,
+    exercises: selected,
+    completedKinds: Array.isArray(snapshot.completedKinds) ? [...snapshot.completedKinds] : [],
+  };
+}
+
+function localDateKey(date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+export function ensureDailySeries(
+  snapshot,
+  exercises,
+  progress,
+  count = 10,
+  rng = Math.random,
+  now = new Date(),
+  recentMistakeIds = [],
+) {
+  const date = localDateKey(now);
+  if (snapshot?.date === date) {
+    const restored = restoreSeries({
+      mode: 'reviews',
+      exerciseIds: snapshot.exerciseIds,
+      completedKinds: [],
+    }, exercises);
+    if (restored) return { series: restored, snapshot };
+  }
+  const series = ensureSeries(null, exercises, progress, 'reviews', count, rng, now, recentMistakeIds);
+  return {
+    series,
+    snapshot: { date, exerciseIds: series.exercises.map((exercise) => exercise.id) },
   };
 }
 
@@ -259,7 +337,12 @@ function isIsoDate(value) {
   return !Number.isNaN(parsed.getTime()) && parsed.toISOString() === value;
 }
 
-export function validateImportedState(payload, validExerciseIds, maxHistory = 100) {
+export function validateImportedState(
+  payload,
+  validExerciseIds,
+  maxHistory = 100,
+  validSeriesExerciseIds = validExerciseIds,
+) {
   const fail = (section) => {
     throw new Error(`Plik zawiera nieprawidłowe dane ${section}.`);
   };
@@ -284,14 +367,59 @@ export function validateImportedState(payload, validExerciseIds, maxHistory = 10
   const history = payload.history.map((entry) => {
     if (!isPlainObject(entry)
       || !isIsoDate(entry.finishedAt)
-      || !['choice', 'matching'].includes(entry.kind)
+      || !['choice', 'matching', 'flashcards'].includes(entry.kind)
       || !isNonNegativeInteger(entry.score)
       || !Number.isInteger(entry.total)
       || entry.total <= 0
       || entry.score > entry.total) fail('historii');
     return { ...entry };
   });
-  return { progress, history };
+
+  const recentMistakeIds = payload.recentMistakeIds ?? [];
+  if (!Array.isArray(recentMistakeIds)
+    || recentMistakeIds.length > 10
+    || new Set(recentMistakeIds).size !== recentMistakeIds.length
+    || recentMistakeIds.some((id) => !validSeriesExerciseIds.has(id))) fail('ostatnich błędów');
+
+  const validateExerciseIds = (ids, section) => {
+    if (!Array.isArray(ids)
+      || ids.length !== 10
+      || new Set(ids).size !== ids.length
+      || ids.some((id) => !validSeriesExerciseIds.has(id))) fail(section);
+    return [...ids];
+  };
+
+  let currentSeries = null;
+  if (payload.currentSeries != null) {
+    const snapshot = payload.currentSeries;
+    if (!isPlainObject(snapshot)
+      || !['mixed', 'reviews', 'new', 'mistakes'].includes(snapshot.mode)
+      || !Array.isArray(snapshot.completedKinds)
+      || snapshot.completedKinds.some((kind) => !['choice', 'matching', 'flashcards'].includes(kind))) fail('serii');
+    currentSeries = {
+      mode: snapshot.mode,
+      exerciseIds: validateExerciseIds(snapshot.exerciseIds, 'serii'),
+      completedKinds: [...new Set(snapshot.completedKinds)],
+    };
+  }
+
+  let dailyReviews = null;
+  if (payload.dailyReviews != null) {
+    const snapshot = payload.dailyReviews;
+    if (!isPlainObject(snapshot) || !/^\d{4}-\d{2}-\d{2}$/.test(snapshot.date)) fail('zadań na dziś');
+    dailyReviews = {
+      date: snapshot.date,
+      exerciseIds: validateExerciseIds(snapshot.exerciseIds, 'zadań na dziś'),
+    };
+  }
+
+  return {
+    progress,
+    history,
+    recentMistakeIds: [...recentMistakeIds],
+    currentSeries,
+    dailyReviews,
+  };
 }
 
 export { shuffled };
