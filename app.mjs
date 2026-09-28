@@ -16,7 +16,7 @@ import {
   unassignTile,
   validateExerciseBank,
   validateImportedState,
-} from './logic.mjs?v=1.2.1';
+} from './logic.mjs?v=1.2.2';
 
 const STORAGE_KEY = 'slowka-progress-v1';
 const MAX_HISTORY = 100;

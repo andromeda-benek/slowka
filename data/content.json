@@ -1,8 +1,8 @@
 {
   "stats": {
-    "words": 67,
-    "examples": 201,
-    "exercises": 201
+    "words": 75,
+    "examples": 225,
+    "exercises": 225
   },
   "dictionary": [
     {
@@ -1522,6 +1522,207 @@
         "przysłówek"
       ],
       "powtorki": []
+    },
+    {
+      "id": "podvizhnyy",
+      "haslo": "подвижный",
+      "akcent": "подви́жный",
+      "tlumaczenia": [
+        "ruchliwy",
+        "ruchomy",
+        "mobilny"
+      ],
+      "gramatyka": "przymiotnik; forma подви́жны to krótka forma liczby mnogiej",
+      "rodzina": [
+        {
+          "ru": "подви́жность",
+          "pl": "ruchliwość; mobilność"
+        },
+        {
+          "ru": "дви́гаться",
+          "pl": "poruszać się"
+        }
+      ],
+      "tagi": [
+        "przymiotnik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "sozdavat",
+      "haslo": "создавать",
+      "akcent": "создава́ть",
+      "tlumaczenia": [
+        "tworzyć",
+        "stwarzać",
+        "zakładać"
+      ],
+      "gramatyka": "czasownik niedokonany",
+      "rodzina": [
+        {
+          "ru": "созда́ть",
+          "pl": "stworzyć; założyć"
+        },
+        {
+          "ru": "созда́ние",
+          "pl": "tworzenie; dzieło; istota"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt niedokonany"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "udachnyy",
+      "haslo": "удачный",
+      "akcent": "уда́чный",
+      "tlumaczenia": [
+        "udany",
+        "pomyślny",
+        "trafny"
+      ],
+      "gramatyka": "przymiotnik",
+      "rodzina": [
+        {
+          "ru": "уда́ча",
+          "pl": "szczęście; powodzenie"
+        },
+        {
+          "ru": "уда́чно",
+          "pl": "pomyślnie; z powodzeniem"
+        }
+      ],
+      "tagi": [
+        "przymiotnik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "sravnivat",
+      "haslo": "сравнивать",
+      "akcent": "сра́внивать",
+      "tlumaczenia": [
+        "porównywać",
+        "zestawiać"
+      ],
+      "gramatyka": "czasownik niedokonany; konstrukcja сра́внивать что́ с чем",
+      "rodzina": [
+        {
+          "ru": "сравни́ть",
+          "pl": "porównać"
+        },
+        {
+          "ru": "сравне́ние",
+          "pl": "porównanie"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt niedokonany"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "lichno",
+      "haslo": "лично",
+      "akcent": "ли́чно",
+      "tlumaczenia": [
+        "osobiście",
+        "we własnej osobie",
+        "bezpośrednio"
+      ],
+      "gramatyka": "przysłówek",
+      "rodzina": [
+        {
+          "ru": "ли́чный",
+          "pl": "osobisty; prywatny"
+        },
+        {
+          "ru": "ли́чность",
+          "pl": "osobowość; osoba"
+        }
+      ],
+      "tagi": [
+        "przysłówek"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "pochemu-to",
+      "haslo": "почему-то",
+      "akcent": "почему́-то",
+      "tlumaczenia": [
+        "z jakiegoś powodu",
+        "nie wiadomo dlaczego"
+      ],
+      "gramatyka": "przysłówek nieokreślony; pisany z łącznikiem",
+      "rodzina": [
+        {
+          "ru": "почему́",
+          "pl": "dlaczego"
+        }
+      ],
+      "tagi": [
+        "przysłówek"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "obrashchatsya",
+      "haslo": "обращаться",
+      "akcent": "обраща́ться",
+      "tlumaczenia": [
+        "zwracać się",
+        "kontaktować się",
+        "obchodzić się",
+        "traktować"
+      ],
+      "gramatyka": "czasownik zwrotny niedokonany",
+      "rodzina": [
+        {
+          "ru": "обрати́ться",
+          "pl": "zwrócić się; skontaktować się"
+        },
+        {
+          "ru": "обраще́ние",
+          "pl": "zwrócenie się; apel; sposób traktowania"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt niedokonany",
+        "zwrotny"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "shtuchka",
+      "haslo": "штучка",
+      "akcent": "шту́чка",
+      "tlumaczenia": [
+        "rzecz",
+        "drobiazg",
+        "gadżet",
+        "sztuka"
+      ],
+      "gramatyka": "rzeczownik rodzaju żeńskiego; zdrobnienie od шту́ка",
+      "rodzina": [
+        {
+          "ru": "шту́ка",
+          "pl": "rzecz; sztuka; egzemplarz"
+        },
+        {
+          "ru": "шту́чный",
+          "pl": "jednostkowy; na sztuki"
+        }
+      ],
+      "tagi": [
+        "rzeczownik",
+        "potoczne"
+      ],
+      "powtorki": []
     }
   ],
   "examples": [
@@ -2931,6 +3132,174 @@
       "haslo": "постепе́нно",
       "ru": "температу́ра постепе́нно повыша́ется",
       "pl": "temperatura stopniowo rośnie"
+    },
+    {
+      "id": "ex0202",
+      "haslo_id": "podvizhnyy",
+      "haslo": "подви́жный",
+      "ru": "де́ти о́чень подви́жны",
+      "pl": "dzieci są bardzo ruchliwe"
+    },
+    {
+      "id": "ex0203",
+      "haslo_id": "podvizhnyy",
+      "haslo": "подви́жный",
+      "ru": "э́ти дета́ли подви́жны",
+      "pl": "te części są ruchome"
+    },
+    {
+      "id": "ex0204",
+      "haslo_id": "podvizhnyy",
+      "haslo": "подви́жный",
+      "ru": "суста́вы ещё подви́жны",
+      "pl": "stawy są jeszcze ruchome"
+    },
+    {
+      "id": "ex0205",
+      "haslo_id": "sozdavat",
+      "haslo": "создава́ть",
+      "ru": "создава́ть усло́вия",
+      "pl": "stwarzać warunki"
+    },
+    {
+      "id": "ex0206",
+      "haslo_id": "sozdavat",
+      "haslo": "создава́ть",
+      "ru": "создава́ть но́вый прое́кт",
+      "pl": "tworzyć nowy projekt"
+    },
+    {
+      "id": "ex0207",
+      "haslo_id": "sozdavat",
+      "haslo": "создава́ть",
+      "ru": "не создава́ть пробле́м",
+      "pl": "nie stwarzać problemów"
+    },
+    {
+      "id": "ex0208",
+      "haslo_id": "udachnyy",
+      "haslo": "уда́чный",
+      "ru": "уда́чный вы́бор",
+      "pl": "trafny wybór"
+    },
+    {
+      "id": "ex0209",
+      "haslo_id": "udachnyy",
+      "haslo": "уда́чный",
+      "ru": "уда́чный де́нь",
+      "pl": "udany dzień"
+    },
+    {
+      "id": "ex0210",
+      "haslo_id": "udachnyy",
+      "haslo": "уда́чный",
+      "ru": "уда́чная шу́тка",
+      "pl": "udany żart"
+    },
+    {
+      "id": "ex0211",
+      "haslo_id": "sravnivat",
+      "haslo": "сра́внивать",
+      "ru": "сра́внивать це́ны",
+      "pl": "porównywać ceny"
+    },
+    {
+      "id": "ex0212",
+      "haslo_id": "sravnivat",
+      "haslo": "сра́внивать",
+      "ru": "не сра́внивай себя́ с други́ми",
+      "pl": "nie porównuj się z innymi"
+    },
+    {
+      "id": "ex0213",
+      "haslo_id": "sravnivat",
+      "haslo": "сра́внивать",
+      "ru": "сра́внивать две́ ве́рсии",
+      "pl": "porównywać dwie wersje"
+    },
+    {
+      "id": "ex0214",
+      "haslo_id": "lichno",
+      "haslo": "ли́чно",
+      "ru": "я ли́чно ду́маю ина́че",
+      "pl": "osobiście uważam inaczej"
+    },
+    {
+      "id": "ex0215",
+      "haslo_id": "lichno",
+      "haslo": "ли́чно",
+      "ru": "встре́титься ли́чно",
+      "pl": "spotkać się osobiście"
+    },
+    {
+      "id": "ex0216",
+      "haslo_id": "lichno",
+      "haslo": "ли́чно",
+      "ru": "ли́чно прове́рить докуме́нты",
+      "pl": "osobiście sprawdzić dokumenty"
+    },
+    {
+      "id": "ex0217",
+      "haslo_id": "pochemu-to",
+      "haslo": "почему́-то",
+      "ru": "мне почему́-то гру́стно",
+      "pl": "z jakiegoś powodu jest mi smutno"
+    },
+    {
+      "id": "ex0218",
+      "haslo_id": "pochemu-to",
+      "haslo": "почему́-то",
+      "ru": "о́н почему́-то ушёл",
+      "pl": "on z jakiegoś powodu wyszedł"
+    },
+    {
+      "id": "ex0219",
+      "haslo_id": "pochemu-to",
+      "haslo": "почему́-то",
+      "ru": "э́то почему́-то не рабо́тает",
+      "pl": "to z jakiegoś powodu nie działa"
+    },
+    {
+      "id": "ex0220",
+      "haslo_id": "obrashchatsya",
+      "haslo": "обраща́ться",
+      "ru": "обраща́ться к врачу́",
+      "pl": "zwracać się do lekarza"
+    },
+    {
+      "id": "ex0221",
+      "haslo_id": "obrashchatsya",
+      "haslo": "обраща́ться",
+      "ru": "обраща́ться с про́сьбой",
+      "pl": "zwracać się z prośbą"
+    },
+    {
+      "id": "ex0222",
+      "haslo_id": "obrashchatsya",
+      "haslo": "обраща́ться",
+      "ru": "хорошо́ обраща́ться с живо́тными",
+      "pl": "dobrze traktować zwierzęta"
+    },
+    {
+      "id": "ex0223",
+      "haslo_id": "shtuchka",
+      "haslo": "шту́чка",
+      "ru": "э́та шту́чка о́чень поле́зна",
+      "pl": "ten drobiazg jest bardzo przydatny"
+    },
+    {
+      "id": "ex0224",
+      "haslo_id": "shtuchka",
+      "haslo": "шту́чка",
+      "ru": "купи́ две шту́чки",
+      "pl": "kup dwie sztuki"
+    },
+    {
+      "id": "ex0225",
+      "haslo_id": "shtuchka",
+      "haslo": "шту́чка",
+      "ru": "она́ та ещё шту́чка",
+      "pl": "niezłe z niej ziółko"
     }
   ],
   "exercises": [
@@ -6349,6 +6718,414 @@
         "b1-auto-ex0114",
         "b1-auto-ex0129",
         "b1-auto-ex0041"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0202",
+      "lemmaId": "podvizhnyy",
+      "sourceExampleId": "ex0202",
+      "level": "B1",
+      "sentenceRu": "На переме́не де́ти о́чень подви́жны и не мо́гут споко́йно сиде́ть на ме́сте.",
+      "sentenceGap": "На переме́не _____ и не мо́гут споко́йно сиде́ть на ме́сте.",
+      "translationPl": "Na przerwie dzieci są bardzo ruchliwe i nie potrafią spokojnie siedzieć w miejscu.",
+      "answer": "де́ти о́чень подви́жны",
+      "lemma": "подви́жный",
+      "lemmaTranslation": "ruchliwy; ruchomy; mobilny",
+      "choiceDistractorIds": [
+        "b1-auto-ex0028",
+        "b1-auto-ex0095",
+        "b1-auto-ex0176"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0203",
+      "lemmaId": "podvizhnyy",
+      "sourceExampleId": "ex0203",
+      "level": "B1",
+      "sentenceRu": "В э́том механи́зме э́ти дета́ли подви́жны, поэ́тому их ну́жно регуля́рно сма́зывать.",
+      "sentenceGap": "В э́том механи́зме _____, поэ́тому их ну́жно регуля́рно сма́зывать.",
+      "translationPl": "W tym mechanizmie te części są ruchome, dlatego trzeba je regularnie smarować.",
+      "answer": "э́ти дета́ли подви́жны",
+      "lemma": "подви́жный",
+      "lemmaTranslation": "ruchliwy; ruchomy; mobilny",
+      "choiceDistractorIds": [
+        "b1-auto-ex0138",
+        "b1-auto-ex0182",
+        "b1-otritsat-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0204",
+      "lemmaId": "podvizhnyy",
+      "sourceExampleId": "ex0204",
+      "level": "B1",
+      "sentenceRu": "По́сле лече́ния суста́вы ещё подви́жны, но пацие́нту ну́жно продолжа́ть упражне́ния.",
+      "sentenceGap": "По́сле лече́ния _____, но пацие́нту ну́жно продолжа́ть упражне́ния.",
+      "translationPl": "Po leczeniu stawy nadal zachowują ruchomość, ale pacjent musi kontynuować ćwiczenia.",
+      "answer": "суста́вы ещё подви́жны",
+      "lemma": "подви́жный",
+      "lemmaTranslation": "ruchliwy; ruchomy; mobilny",
+      "choiceDistractorIds": [
+        "b1-auto-ex0099",
+        "b1-auto-ex0123",
+        "b1-auto-ex0150"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0205",
+      "lemmaId": "sozdavat",
+      "sourceExampleId": "ex0205",
+      "level": "B1",
+      "sentenceRu": "Хоро́ший руководи́тель до́лжен создава́ть усло́вия, в кото́рых сотру́дники мо́гут споко́йно развива́ться.",
+      "sentenceGap": "Хоро́ший руководи́тель до́лжен _____, в кото́рых сотру́дники мо́гут споко́йно развива́ться.",
+      "translationPl": "Dobry kierownik powinien stwarzać warunki, w których pracownicy mogą spokojnie się rozwijać.",
+      "answer": "создава́ть усло́вия",
+      "lemma": "создава́ть",
+      "lemmaTranslation": "tworzyć; stwarzać; zakładać",
+      "choiceDistractorIds": [
+        "b1-auto-ex0091",
+        "b1-auto-ex0096",
+        "b1-auto-ex0139"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0206",
+      "lemmaId": "sozdavat",
+      "sourceExampleId": "ex0206",
+      "level": "B1",
+      "sentenceRu": "На́ша кома́нда начала́ создава́ть но́вый прое́кт для молоды́х специа́листов из ра́зных го́родов.",
+      "sentenceGap": "На́ша кома́нда начала́ _____ для молоды́х специа́листов из ра́зных го́родов.",
+      "translationPl": "Nasz zespół zaczął tworzyć nowy projekt dla młodych specjalistów z różnych miast.",
+      "answer": "создава́ть но́вый прое́кт",
+      "lemma": "создава́ть",
+      "lemmaTranslation": "tworzyć; stwarzać; zakładać",
+      "choiceDistractorIds": [
+        "b1-auto-ex0145",
+        "b1-auto-ex0150",
+        "b1-auto-ex0181"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0207",
+      "lemmaId": "sozdavat",
+      "sourceExampleId": "ex0207",
+      "level": "B1",
+      "sentenceRu": "Мы стара́емся не создава́ть пробле́м сосе́дям и зара́нее предупрежда́ем их о ремо́нте.",
+      "sentenceGap": "Мы стара́емся _____ сосе́дям и зара́нее предупрежда́ем их о ремо́нте.",
+      "translationPl": "Staramy się nie stwarzać problemów sąsiadom i wcześniej uprzedzamy ich o remoncie.",
+      "answer": "не создава́ть пробле́м",
+      "lemma": "создава́ть",
+      "lemmaTranslation": "tworzyć; stwarzać; zakładać",
+      "choiceDistractorIds": [
+        "b1-auto-ex0032",
+        "b1-auto-ex0039",
+        "b1-auto-ex0138"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0208",
+      "lemmaId": "udachnyy",
+      "sourceExampleId": "ex0208",
+      "level": "B1",
+      "sentenceRu": "По мне́нию всей на́шей кома́нды, удалённая рабо́та — уда́чный вы́бор для э́того прое́кта.",
+      "sentenceGap": "По мне́нию всей на́шей кома́нды, удалённая рабо́та — _____ для э́того прое́кта.",
+      "translationPl": "Zdaniem całego naszego zespołu praca zdalna jest trafnym wyborem dla tego projektu.",
+      "answer": "уда́чный вы́бор",
+      "lemma": "уда́чный",
+      "lemmaTranslation": "udany; pomyślny; trafny",
+      "choiceDistractorIds": [
+        "b1-auto-ex0034",
+        "b1-auto-ex0037",
+        "b1-auto-ex0060"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0209",
+      "lemmaId": "udachnyy",
+      "sourceExampleId": "ex0209",
+      "level": "B1",
+      "sentenceRu": "Для прогу́лки по го́роду мы вы́брали уда́чный де́нь без дождя́ и си́льного ве́тра.",
+      "sentenceGap": "Для прогу́лки по го́роду мы вы́брали _____ без дождя́ и си́льного ве́тра.",
+      "translationPl": "Na spacer po mieście wybraliśmy udany dzień bez deszczu i silnego wiatru.",
+      "answer": "уда́чный де́нь",
+      "lemma": "уда́чный",
+      "lemmaTranslation": "udany; pomyślny; trafny",
+      "choiceDistractorIds": [
+        "b1-pryamo-001",
+        "b1-auto-ex0002",
+        "b1-auto-ex0003"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0210",
+      "lemmaId": "udachnyy",
+      "sourceExampleId": "ex0210",
+      "level": "B1",
+      "sentenceRu": "Его́ уда́чная шу́тка помогла́ всем рассла́биться пе́ред ва́жным разгово́ром.",
+      "sentenceGap": "Его́ _____ помогла́ всем рассла́биться пе́ред ва́жным разгово́ром.",
+      "translationPl": "Jego udany żart pomógł wszystkim rozluźnić się przed ważną rozmową.",
+      "answer": "уда́чная шу́тка",
+      "lemma": "уда́чный",
+      "lemmaTranslation": "udany; pomyślny; trafny",
+      "choiceDistractorIds": [
+        "b1-auto-ex0004",
+        "b1-auto-ex0019",
+        "b1-auto-ex0046"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0211",
+      "lemmaId": "sravnivat",
+      "sourceExampleId": "ex0211",
+      "level": "B1",
+      "sentenceRu": "Пе́ред поку́пкой поле́зно сра́внивать це́ны в не́скольких магази́нах и чита́ть отзы́вы.",
+      "sentenceGap": "Пе́ред поку́пкой поле́зно _____ в не́скольких магази́нах и чита́ть отзы́вы.",
+      "translationPl": "Przed zakupem warto porównywać ceny w kilku sklepach i czytać opinie.",
+      "answer": "сра́внивать це́ны",
+      "lemma": "сра́внивать",
+      "lemmaTranslation": "porównywać; zestawiać",
+      "choiceDistractorIds": [
+        "b1-auto-ex0074",
+        "b1-auto-ex0076",
+        "b1-auto-ex0086"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0212",
+      "lemmaId": "sravnivat",
+      "sourceExampleId": "ex0212",
+      "level": "B1",
+      "sentenceRu": "Тре́нер ча́сто повторя́ет: «не сра́внивай себя́ с други́ми, оце́нивай то́лько свой прогре́с».",
+      "sentenceGap": "Тре́нер ча́сто повторя́ет: «_____, оце́нивай то́лько свой прогре́с».",
+      "translationPl": "Trener często powtarza: „nie porównuj się z innymi, oceniaj tylko własne postępy”.",
+      "answer": "не сра́внивай себя́ с други́ми",
+      "lemma": "сра́внивать",
+      "lemmaTranslation": "porównywać; zestawiać",
+      "choiceDistractorIds": [
+        "b1-auto-ex0120",
+        "b1-auto-ex0122",
+        "b1-auto-ex0168"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0213",
+      "lemmaId": "sravnivat",
+      "sourceExampleId": "ex0213",
+      "level": "B1",
+      "sentenceRu": "Пе́ред встре́чей аналити́к до́лжен сра́внивать две́ ве́рсии догово́ра и отмеча́ть все разли́чия.",
+      "sentenceGap": "Пе́ред встре́чей аналити́к до́лжен _____ догово́ра и отмеча́ть все разли́чия.",
+      "translationPl": "Przed spotkaniem analityk powinien porównywać dwie wersje umowy i zaznaczać wszystkie różnice.",
+      "answer": "сра́внивать две́ ве́рсии",
+      "lemma": "сра́внивать",
+      "lemmaTranslation": "porównywać; zestawiać",
+      "choiceDistractorIds": [
+        "b1-auto-ex0200",
+        "b1-obratnaya-svyaz-001",
+        "b1-ustroitsya-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0214",
+      "lemmaId": "lichno",
+      "sourceExampleId": "ex0214",
+      "level": "B1",
+      "sentenceRu": "В э́той ситуа́ции я ли́чно ду́маю ина́че, потому́ что у меня́ был совсе́м друго́й о́пыт.",
+      "sentenceGap": "В э́той ситуа́ции _____, потому́ что у меня́ был совсе́м друго́й о́пыт.",
+      "translationPl": "W tej sytuacji osobiście uważam inaczej, ponieważ miałem zupełnie inne doświadczenie.",
+      "answer": "я ли́чно ду́маю ина́че",
+      "lemma": "ли́чно",
+      "lemmaTranslation": "osobiście; we własnej osobie; bezpośrednio",
+      "choiceDistractorIds": [
+        "b1-auto-ex0177",
+        "b1-auto-ex0179",
+        "b1-razdrazhat-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0215",
+      "lemmaId": "lichno",
+      "sourceExampleId": "ex0215",
+      "level": "B1",
+      "sentenceRu": "Нам лу́чше встре́титься ли́чно и споко́йно обсуди́ть все усло́вия сотру́дничества.",
+      "sentenceGap": "Нам лу́чше _____ и споко́йно обсуди́ть все усло́вия сотру́дничества.",
+      "translationPl": "Lepiej spotkajmy się osobiście i spokojnie omówmy wszystkie warunki współpracy.",
+      "answer": "встре́титься ли́чно",
+      "lemma": "ли́чно",
+      "lemmaTranslation": "osobiście; we własnej osobie; bezpośrednio",
+      "choiceDistractorIds": [
+        "b1-auto-ex0017",
+        "b1-auto-ex0020",
+        "b1-auto-ex0022"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0216",
+      "lemmaId": "lichno",
+      "sourceExampleId": "ex0216",
+      "level": "B1",
+      "sentenceRu": "Дире́ктор реши́л ли́чно прове́рить докуме́нты, пре́жде чем подписыва́ть ва́жный догово́р.",
+      "sentenceGap": "Дире́ктор реши́л _____, пре́жде чем подписыва́ть ва́жный догово́р.",
+      "translationPl": "Dyrektor postanowił osobiście sprawdzić dokumenty, zanim podpisze ważną umowę.",
+      "answer": "ли́чно прове́рить докуме́нты",
+      "lemma": "ли́чно",
+      "lemmaTranslation": "osobiście; we własnej osobie; bezpośrednio",
+      "choiceDistractorIds": [
+        "b1-auto-ex0081",
+        "b1-auto-ex0097",
+        "b1-auto-ex0143"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0217",
+      "lemmaId": "pochemu-to",
+      "sourceExampleId": "ex0217",
+      "level": "B1",
+      "sentenceRu": "Сего́дня мне почему́-то гру́стно, хотя́ всё идёт по пла́ну и нет пробле́м.",
+      "sentenceGap": "Сего́дня _____, хотя́ всё идёт по пла́ну и нет пробле́м.",
+      "translationPl": "Dzisiaj z jakiegoś powodu jest mi smutno, chociaż wszystko idzie zgodnie z planem.",
+      "answer": "мне почему́-то гру́стно",
+      "lemma": "почему́-то",
+      "lemmaTranslation": "z jakiegoś powodu; nie wiadomo dlaczego",
+      "choiceDistractorIds": [
+        "b1-auto-ex0065",
+        "b1-auto-ex0144",
+        "b1-auto-ex0012"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0218",
+      "lemmaId": "pochemu-to",
+      "sourceExampleId": "ex0218",
+      "level": "B1",
+      "sentenceRu": "Сосе́д сказа́л, что о́н почему́-то ушёл до оконча́ния ва́жного собра́ния.",
+      "sentenceGap": "Сосе́д сказа́л, что _____ до оконча́ния ва́жного собра́ния.",
+      "translationPl": "Sąsiad powiedział, że on z jakiegoś powodu wyszedł przed końcem ważnego zebrania.",
+      "answer": "о́н почему́-то ушёл",
+      "lemma": "почему́-то",
+      "lemmaTranslation": "z jakiegoś powodu; nie wiadomo dlaczego",
+      "choiceDistractorIds": [
+        "b1-auto-ex0093",
+        "b1-auto-ex0168",
+        "b1-auto-ex0177"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0219",
+      "lemmaId": "pochemu-to",
+      "sourceExampleId": "ex0219",
+      "level": "B1",
+      "sentenceRu": "По́сле обновле́ния э́то почему́-то не рабо́тает, хотя́ вчера́ програ́мма запуска́лась без оши́бок.",
+      "sentenceGap": "По́сле обновле́ния _____, хотя́ вчера́ програ́мма запуска́лась без оши́бок.",
+      "translationPl": "Po aktualizacji to z jakiegoś powodu nie działa, chociaż wczoraj program uruchamiał się bez błędów.",
+      "answer": "э́то почему́-то не рабо́тает",
+      "lemma": "почему́-то",
+      "lemmaTranslation": "z jakiegoś powodu; nie wiadomo dlaczego",
+      "choiceDistractorIds": [
+        "b1-auto-ex0027",
+        "b1-auto-ex0092",
+        "b1-auto-ex0107"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0220",
+      "lemmaId": "obrashchatsya",
+      "sourceExampleId": "ex0220",
+      "level": "B1",
+      "sentenceRu": "Е́сли бо́ль ча́сто возвраща́ется, ну́жно обраща́ться к врачу́, а не лечи́ться самому́.",
+      "sentenceGap": "Е́сли бо́ль ча́сто возвраща́ется, ну́жно _____, а не лечи́ться самому́.",
+      "translationPl": "Jeśli ból często wraca, trzeba zgłaszać się do lekarza, a nie leczyć się samemu.",
+      "answer": "обраща́ться к врачу́",
+      "lemma": "обраща́ться",
+      "lemmaTranslation": "zwracać się; kontaktować się; obchodzić się; traktować",
+      "choiceDistractorIds": [
+        "b1-otkazat-001",
+        "b1-otritsat-001",
+        "b1-podval-001"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0221",
+      "lemmaId": "obrashchatsya",
+      "sourceExampleId": "ex0221",
+      "level": "B1",
+      "sentenceRu": "В сло́жной ситуа́ции к колле́гам мо́жно обраща́ться с про́сьбой о по́мощи.",
+      "sentenceGap": "В сло́жной ситуа́ции к колле́гам мо́жно _____ о по́мощи.",
+      "translationPl": "W trudnej sytuacji można zwrócić się do kolegów z prośbą o pomoc.",
+      "answer": "обраща́ться с про́сьбой",
+      "lemma": "обраща́ться",
+      "lemmaTranslation": "zwracać się; kontaktować się; obchodzić się; traktować",
+      "choiceDistractorIds": [
+        "b1-auto-ex0138",
+        "b1-auto-ex0143",
+        "b1-auto-ex0182"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0222",
+      "lemmaId": "obrashchatsya",
+      "sourceExampleId": "ex0222",
+      "level": "B1",
+      "sentenceRu": "Роди́тели должны́ учи́ть дете́й хорошо́ обраща́ться с живо́тными и уважа́ть их грани́цы.",
+      "sentenceGap": "Роди́тели должны́ учи́ть дете́й _____ и уважа́ть их грани́цы.",
+      "translationPl": "Rodzice powinni uczyć dzieci dobrze traktować zwierzęta i szanować ich granice.",
+      "answer": "хорошо́ обраща́ться с живо́тными",
+      "lemma": "обраща́ться",
+      "lemmaTranslation": "zwracać się; kontaktować się; obchodzić się; traktować",
+      "choiceDistractorIds": [
+        "b1-v-tselom-001",
+        "b1-auto-ex0033",
+        "b1-auto-ex0054"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0223",
+      "lemmaId": "shtuchka",
+      "sourceExampleId": "ex0223",
+      "level": "B1",
+      "sentenceRu": "В доро́ге э́та шту́чка о́чень поле́зна, потому́ что мо́жет заряди́ть телефо́н без ро́зетки.",
+      "sentenceGap": "В доро́ге _____, потому́ что мо́жет заряди́ть телефо́н без ро́зетки.",
+      "translationPl": "W podróży ten gadżet jest bardzo przydatny, ponieważ może naładować telefon bez gniazdka.",
+      "answer": "э́та шту́чка о́чень поле́зна",
+      "lemma": "шту́чка",
+      "lemmaTranslation": "rzecz; drobiazg; gadżet; sztuka",
+      "choiceDistractorIds": [
+        "b1-auto-ex0112",
+        "b1-auto-ex0045",
+        "b1-auto-ex0119"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0224",
+      "lemmaId": "shtuchka",
+      "sourceExampleId": "ex0224",
+      "level": "B1",
+      "sentenceRu": "Для ка́ждого го́стя купи́ две шту́чки э́того пиро́жного и положи́ их на таре́лку.",
+      "sentenceGap": "Для ка́ждого го́стя _____ э́того пиро́жного и положи́ их на таре́лку.",
+      "translationPl": "Dla każdego gościa kup dwie sztuki tego ciastka i połóż je na talerzu.",
+      "answer": "купи́ две шту́чки",
+      "lemma": "шту́чка",
+      "lemmaTranslation": "rzecz; drobiazg; gadżet; sztuka",
+      "choiceDistractorIds": [
+        "b1-auto-ex0014",
+        "b1-auto-ex0068",
+        "b1-auto-ex0133"
+      ]
+    },
+    {
+      "id": "b1-auto-ex0225",
+      "lemmaId": "shtuchka",
+      "sourceExampleId": "ex0225",
+      "level": "B1",
+      "sentenceRu": "Все зна́ют, что она́ та ещё шту́чка и уме́ет добива́ться своего́.",
+      "sentenceGap": "Все зна́ют, что _____ и уме́ет добива́ться своего́.",
+      "translationPl": "Wszyscy wiedzą, że niezłe z niej ziółko i że umie postawić na swoim.",
+      "answer": "она́ та ещё шту́чка",
+      "lemma": "шту́чка",
+      "lemmaTranslation": "rzecz; drobiazg; gadżet; sztuka",
+      "choiceDistractorIds": [
+        "b1-auto-ex0033",
+        "b1-auto-ex0054",
+        "b1-auto-ex0130"
       ]
     }
   ]
