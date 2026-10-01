@@ -24,7 +24,7 @@ export function validateExerciseBank(exercises) {
   const required = [
     'id',
     'lemmaId',
-    'sourceExampleId',
+    'sourceWordId',
     'level',
     'sentenceRu',
     'sentenceGap',
@@ -67,26 +67,20 @@ export function validateExerciseBank(exercises) {
   return errors;
 }
 
-export function buildFlashcards(dictionary, examples) {
-  const wordCards = dictionary.map((word) => ({
+export function buildFlashcards(dictionary) {
+  return dictionary.map((word) => ({
     id: `flash-word-${word.id}`,
     sourceType: 'word',
+    sourceWordId: word.id,
     promptPl: word.tlumaczenia.join('; '),
     answerRu: word.akcent,
   }));
-  const exampleCards = examples.map((example) => ({
-    id: `flash-example-${example.id}`,
-    sourceType: 'example',
-    promptPl: example.pl,
-    answerRu: example.ru,
-  }));
-  return [...wordCards, ...exampleCards];
 }
 
 export function selectSeriesFlashcards(exercises, flashcards) {
   const byId = new Map(flashcards.map((flashcard) => [flashcard.id, flashcard]));
   const selected = exercises.map((exercise) => {
-    const flashcard = byId.get(`flash-example-${exercise.sourceExampleId}`);
+    const flashcard = byId.get(`flash-word-${exercise.sourceWordId}`);
     return flashcard ? { ...flashcard, exerciseId: exercise.id } : null;
   });
   return selected.some((flashcard) => !flashcard) ? [] : selected;

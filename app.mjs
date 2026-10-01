@@ -16,7 +16,7 @@ import {
   unassignTile,
   validateExerciseBank,
   validateImportedState,
-} from './logic.mjs?v=1.2.2';
+} from './logic.mjs?v=1.3.0';
 
 const STORAGE_KEY = 'slowka-progress-v1';
 const MAX_HISTORY = 100;
@@ -482,10 +482,10 @@ function finishSession() {
         elements.reviewList.append(item);
         return;
       }
-      const sourceExample = content.examples.find((example) => example.id === exercise.sourceExampleId);
+      const sourceWord = content.dictionary.find((word) => word.id === exercise.sourceWordId);
       const meaning = document.createElement('span');
       meaning.className = 'translation';
-      meaning.textContent = `Znaczenie: ${sourceExample?.pl || exercise.lemmaTranslation}`;
+      meaning.textContent = `Znaczenie: ${sourceWord?.tlumaczenia.join('; ') || exercise.lemmaTranslation}`;
       item.append(verdict, sentence, translation, meaning);
       elements.reviewList.append(item);
     });
@@ -530,7 +530,7 @@ async function init() {
     content = await response.json();
     const errors = validateExerciseBank(content.exercises);
     if (errors.length) throw new Error(`Błąd banku ćwiczeń: ${errors[0]}`);
-    flashcards = buildFlashcards(content.dictionary, content.examples);
+    flashcards = buildFlashcards(content.dictionary);
     const validIds = new Set([...content.exercises, ...flashcards].map((item) => item.id));
     const validSeriesIds = new Set(content.exercises.map((exercise) => exercise.id));
     try {
