@@ -1,8 +1,8 @@
 {
   "stats": {
-    "words": 84,
-    "examples": 252,
-    "exercises": 84
+    "words": 93,
+    "examples": 279,
+    "exercises": 93
   },
   "dictionary": [
     {
@@ -1943,6 +1943,207 @@
         "przysłówek"
       ],
       "powtorki": []
+    },
+    {
+      "id": "ochered",
+      "haslo": "очередь",
+      "akcent": "о́чередь",
+      "tlumaczenia": [
+        "kolejka",
+        "kolejność",
+        "tura"
+      ],
+      "gramatyka": "rzeczownik rodzaju żeńskiego; forma о́череди może reprezentować kilka przypadków liczby pojedynczej lub liczbę mnogą",
+      "rodzina": [
+        {
+          "ru": "очередно́й",
+          "pl": "kolejny; zwyczajny"
+        },
+        {
+          "ru": "внеочередно́й",
+          "pl": "nadzwyczajny; poza kolejnością"
+        }
+      ],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "po-blatu",
+      "haslo": "по блату",
+      "akcent": "по бла́ту",
+      "tlumaczenia": [
+        "po znajomości",
+        "dzięki układom",
+        "przez protekcję"
+      ],
+      "gramatyka": "potoczne wyrażenie przysłówkowe; często ma wydźwięk krytyczny",
+      "rodzina": [
+        {
+          "ru": "бла́т",
+          "pl": "znajomości; układy; protekcja"
+        }
+      ],
+      "tagi": [
+        "wyrażenie",
+        "potoczne"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "uchastok",
+      "haslo": "участок",
+      "akcent": "уча́сток",
+      "tlumaczenia": [
+        "działka",
+        "odcinek",
+        "rejon",
+        "obwód",
+        "posterunek"
+      ],
+      "gramatyka": "rzeczownik rodzaju męskiego",
+      "rodzina": [
+        {
+          "ru": "участко́вый",
+          "pl": "dzielnicowy; rejonowy"
+        }
+      ],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "umerit",
+      "haslo": "умерить",
+      "akcent": "уме́рить",
+      "tlumaczenia": [
+        "ograniczyć",
+        "złagodzić",
+        "poskromić"
+      ],
+      "gramatyka": "czasownik dokonany",
+      "rodzina": [
+        {
+          "ru": "умеря́ть",
+          "pl": "ograniczać; łagodzić; poskramiać"
+        },
+        {
+          "ru": "ме́ра",
+          "pl": "miara"
+        }
+      ],
+      "tagi": [
+        "czasownik",
+        "aspekt dokonany"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "rezko",
+      "haslo": "резко",
+      "akcent": "ре́зко",
+      "tlumaczenia": [
+        "gwałtownie",
+        "nagle",
+        "ostro",
+        "stanowczo"
+      ],
+      "gramatyka": "przysłówek",
+      "rodzina": [
+        {
+          "ru": "ре́зкий",
+          "pl": "gwałtowny; ostry; nagły"
+        },
+        {
+          "ru": "ре́зкость",
+          "pl": "ostrość; szorstkość"
+        }
+      ],
+      "tagi": [
+        "przysłówek"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "insult",
+      "haslo": "инсульт",
+      "akcent": "инсу́льт",
+      "tlumaczenia": [
+        "udar mózgu",
+        "udar"
+      ],
+      "gramatyka": "rzeczownik rodzaju męskiego",
+      "rodzina": [],
+      "tagi": [
+        "rzeczownik",
+        "medycyna"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "vryad-li",
+      "haslo": "вряд ли",
+      "akcent": "вря́д ли",
+      "tlumaczenia": [
+        "raczej nie",
+        "mało prawdopodobne",
+        "wątpliwe, żeby"
+      ],
+      "gramatyka": "stała partykuła modalna; zapisywana rozdzielnie",
+      "rodzina": [],
+      "tagi": [
+        "partykuła",
+        "wyrażenie"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "osnovnoy",
+      "haslo": "основной",
+      "akcent": "основно́й",
+      "tlumaczenia": [
+        "główny",
+        "podstawowy",
+        "zasadniczy"
+      ],
+      "gramatyka": "przymiotnik; forma основны́е to liczba mnoga",
+      "rodzina": [
+        {
+          "ru": "осно́ва",
+          "pl": "podstawa; baza"
+        },
+        {
+          "ru": "основно́й",
+          "pl": "główny; podstawowy"
+        }
+      ],
+      "tagi": [
+        "przymiotnik"
+      ],
+      "powtorki": []
+    },
+    {
+      "id": "obshchestvo",
+      "haslo": "общество",
+      "akcent": "о́бщество",
+      "tlumaczenia": [
+        "społeczeństwo",
+        "towarzystwo",
+        "stowarzyszenie"
+      ],
+      "gramatyka": "rzeczownik rodzaju nijakiego; forma о́бщества może być dopełniaczem liczby pojedynczej albo mianownikiem lub biernikiem liczby mnogiej",
+      "rodzina": [
+        {
+          "ru": "обще́ственный",
+          "pl": "społeczny; publiczny"
+        }
+      ],
+      "tagi": [
+        "rzeczownik"
+      ],
+      "powtorki": []
     }
   ],
   "examples": [
@@ -3709,6 +3910,195 @@
       "haslo": "приме́рно",
       "ru": "я приме́рно понима́ю, о чём речь",
       "pl": "mniej więcej rozumiem, o co chodzi"
+    },
+    {
+      "id": "ex0253",
+      "haslo_id": "ochered",
+      "haslo": "о́чередь",
+      "ru": "стоя́ть в о́череди",
+      "pl": "stać w kolejce"
+    },
+    {
+      "id": "ex0254",
+      "haslo_id": "ochered",
+      "haslo": "о́чередь",
+      "ru": "жда́ть свое́й о́череди",
+      "pl": "czekać na swoją kolej"
+    },
+    {
+      "id": "ex0255",
+      "haslo_id": "ochered",
+      "haslo": "о́чередь",
+      "ru": "без о́череди",
+      "pl": "bez kolejki; poza kolejnością"
+    },
+    {
+      "id": "ex0256",
+      "haslo_id": "po-blatu",
+      "haslo": "по бла́ту",
+      "ru": "устро́иться на рабо́ту по бла́ту",
+      "pl": "dostać pracę po znajomości"
+    },
+    {
+      "id": "ex0257",
+      "haslo_id": "po-blatu",
+      "haslo": "по бла́ту",
+      "ru": "доста́ть биле́ты по бла́ту",
+      "pl": "zdobyć bilety dzięki znajomościom"
+    },
+    {
+      "id": "ex0258",
+      "haslo_id": "po-blatu",
+      "haslo": "по бла́ту",
+      "ru": "его́ взя́ли по бла́ту",
+      "pl": "przyjęli go dzięki układom"
+    },
+    {
+      "id": "ex0259",
+      "haslo_id": "uchastok",
+      "haslo": "уча́сток",
+      "ru": "земе́льный уча́сток",
+      "pl": "działka gruntu"
+    },
+    {
+      "id": "ex0260",
+      "haslo_id": "uchastok",
+      "haslo": "уча́сток",
+      "ru": "избира́тельный уча́сток",
+      "pl": "lokal wyborczy; obwód wyborczy"
+    },
+    {
+      "id": "ex0261",
+      "haslo_id": "uchastok",
+      "haslo": "уча́сток",
+      "ru": "уча́сток доро́ги",
+      "pl": "odcinek drogi"
+    },
+    {
+      "id": "ex0262",
+      "haslo_id": "umerit",
+      "haslo": "уме́рить",
+      "ru": "уме́рить аппети́т",
+      "pl": "poskromić apetyt"
+    },
+    {
+      "id": "ex0263",
+      "haslo_id": "umerit",
+      "haslo": "уме́рить",
+      "ru": "уме́рить пы́л",
+      "pl": "ostudzić zapał; poskromić temperament"
+    },
+    {
+      "id": "ex0264",
+      "haslo_id": "umerit",
+      "haslo": "уме́рить",
+      "ru": "уме́рить тре́бования",
+      "pl": "ograniczyć wymagania"
+    },
+    {
+      "id": "ex0265",
+      "haslo_id": "rezko",
+      "haslo": "ре́зко",
+      "ru": "ре́зко останови́ться",
+      "pl": "gwałtownie się zatrzymać"
+    },
+    {
+      "id": "ex0266",
+      "haslo_id": "rezko",
+      "haslo": "ре́зко",
+      "ru": "температу́ра ре́зко упа́ла",
+      "pl": "temperatura gwałtownie spadła"
+    },
+    {
+      "id": "ex0267",
+      "haslo_id": "rezko",
+      "haslo": "ре́зко",
+      "ru": "ре́зко отве́тить",
+      "pl": "odpowiedzieć ostro"
+    },
+    {
+      "id": "ex0268",
+      "haslo_id": "insult",
+      "haslo": "инсу́льт",
+      "ru": "ишеми́ческий инсу́льт",
+      "pl": "udar niedokrwienny"
+    },
+    {
+      "id": "ex0269",
+      "haslo_id": "insult",
+      "haslo": "инсу́льт",
+      "ru": "перенести́ инсу́льт",
+      "pl": "przejść udar"
+    },
+    {
+      "id": "ex0270",
+      "haslo_id": "insult",
+      "haslo": "инсу́льт",
+      "ru": "восстановле́ние по́сле инсу́льта",
+      "pl": "rehabilitacja po udarze"
+    },
+    {
+      "id": "ex0271",
+      "haslo_id": "vryad-li",
+      "haslo": "вря́д ли",
+      "ru": "о́н вря́д ли придёт",
+      "pl": "on raczej nie przyjdzie"
+    },
+    {
+      "id": "ex0272",
+      "haslo_id": "vryad-li",
+      "haslo": "вря́д ли",
+      "ru": "э́то вря́д ли возмо́жно",
+      "pl": "to raczej nie jest możliwe"
+    },
+    {
+      "id": "ex0273",
+      "haslo_id": "vryad-li",
+      "haslo": "вря́д ли",
+      "ru": "вря́д ли мы успе́ем",
+      "pl": "raczej nie zdążymy"
+    },
+    {
+      "id": "ex0274",
+      "haslo_id": "osnovnoy",
+      "haslo": "основно́й",
+      "ru": "основны́е причи́ны",
+      "pl": "główne przyczyny"
+    },
+    {
+      "id": "ex0275",
+      "haslo_id": "osnovnoy",
+      "haslo": "основно́й",
+      "ru": "основны́е пра́вила",
+      "pl": "podstawowe zasady"
+    },
+    {
+      "id": "ex0276",
+      "haslo_id": "osnovnoy",
+      "haslo": "основно́й",
+      "ru": "основны́е зада́чи",
+      "pl": "główne zadania"
+    },
+    {
+      "id": "ex0277",
+      "haslo_id": "obshchestvo",
+      "haslo": "о́бщество",
+      "ru": "разви́тие о́бщества",
+      "pl": "rozwój społeczeństwa"
+    },
+    {
+      "id": "ex0278",
+      "haslo_id": "obshchestvo",
+      "haslo": "о́бщество",
+      "ru": "совреме́нное о́бщество",
+      "pl": "współczesne społeczeństwo"
+    },
+    {
+      "id": "ex0279",
+      "haslo_id": "obshchestvo",
+      "haslo": "о́бщество",
+      "ru": "ра́зные о́бщества",
+      "pl": "różne społeczeństwa lub stowarzyszenia"
     }
   ],
   "exercises": [
@@ -5134,6 +5524,159 @@
       "answer": "приме́рно",
       "lemma": "приме́рно",
       "lemmaTranslation": "około; mniej więcej; w przybliżeniu",
+      "choiceDistractorIds": [
+        "word-vsyo-taki",
+        "word-v-tselom",
+        "word-protivorechivo"
+      ]
+    },
+    {
+      "id": "word-osnovnoy",
+      "lemmaId": "osnovnoy",
+      "sourceWordId": "osnovnoy",
+      "level": "B1",
+      "sentenceRu": "Из всех вопро́сов э́то основно́й: без него́ нельзя́ реши́ть остальны́е.",
+      "sentenceGap": "Из всех вопро́сов э́то _____: без него́ нельзя́ реши́ть остальны́е.",
+      "translationPl": "Ze wszystkich kwestii ta jest główna: bez niej nie da się rozstrzygnąć pozostałych.",
+      "answer": "основно́й",
+      "lemma": "основно́й",
+      "lemmaTranslation": "główny; podstawowy; zasadniczy",
+      "choiceDistractorIds": [
+        "word-otritsatelnyy",
+        "word-protivnyy",
+        "word-zhadnyy"
+      ]
+    },
+    {
+      "id": "word-umerit",
+      "lemmaId": "umerit",
+      "sourceWordId": "umerit",
+      "level": "B1",
+      "sentenceRu": "Ему́ пора́ уме́рить свой гнев, то есть сде́лать его́ слабе́е.",
+      "sentenceGap": "Ему́ пора́ _____ свой гнев, то есть сде́лать его́ слабе́е.",
+      "translationPl": "Powinien poskromić swój gniew, czyli go osłabić.",
+      "answer": "уме́рить",
+      "lemma": "уме́рить",
+      "lemmaTranslation": "ograniczyć; złagodzić; poskromić",
+      "choiceDistractorIds": [
+        "word-obmanut",
+        "word-otritsat",
+        "word-razodrat"
+      ]
+    },
+    {
+      "id": "word-obshchestvo",
+      "lemmaId": "obshchestvo",
+      "sourceWordId": "obshchestvo",
+      "level": "B1",
+      "sentenceRu": "Совреме́нное о́бщество бы́стро меня́ется под влия́нием но́вых техноло́гий.",
+      "sentenceGap": "Совреме́нное _____ бы́стро меня́ется под влия́нием но́вых техноло́гий.",
+      "translationPl": "Współczesne społeczeństwo szybko zmienia się pod wpływem nowych technologii.",
+      "answer": "о́бщество",
+      "lemma": "о́бщество",
+      "lemmaTranslation": "społeczeństwo; towarzystwo; stowarzyszenie",
+      "choiceDistractorIds": [
+        "word-cherta",
+        "word-uroven",
+        "word-proshchenie"
+      ]
+    },
+    {
+      "id": "word-ochered",
+      "lemmaId": "ochered",
+      "sourceWordId": "ochered",
+      "level": "B1",
+      "sentenceRu": "У ка́ссы уже́ стои́т дли́нная о́чередь из десяти́ челове́к.",
+      "sentenceGap": "У ка́ссы уже́ стои́т дли́нная _____ из десяти́ челове́к.",
+      "translationPl": "Przy kasie stoi już długa kolejka złożona z dziesięciu osób.",
+      "answer": "о́чередь",
+      "lemma": "о́чередь",
+      "lemmaTranslation": "kolejka; kolejność; tura",
+      "choiceDistractorIds": [
+        "word-cherta",
+        "word-uroven",
+        "word-proshchenie"
+      ]
+    },
+    {
+      "id": "word-uchastok",
+      "lemmaId": "uchastok",
+      "sourceWordId": "uchastok",
+      "level": "B1",
+      "sentenceRu": "Мы купи́ли уча́сток недалеко́ от реки́ и ле́са.",
+      "sentenceGap": "Мы купи́ли _____ недалеко́ от реки́ и ле́са.",
+      "translationPl": "Kupiliśmy działkę niedaleko rzeki i lasu.",
+      "answer": "уча́сток",
+      "lemma": "уча́сток",
+      "lemmaTranslation": "działka; odcinek; rejon; obwód; posterunek",
+      "choiceDistractorIds": [
+        "word-cherta",
+        "word-uroven",
+        "word-proshchenie"
+      ]
+    },
+    {
+      "id": "word-rezko",
+      "lemmaId": "rezko",
+      "sourceWordId": "rezko",
+      "level": "B1",
+      "sentenceRu": "По́сле обе́да температу́ра упа́ла не ме́дленно, а ре́зко — на пять гра́дусов.",
+      "sentenceGap": "По́сле обе́да температу́ра упа́ла не ме́дленно, а _____ — на пять гра́дусов.",
+      "translationPl": "Po obiedzie temperatura spadła nie powoli, lecz gwałtownie — o pięć stopni.",
+      "answer": "ре́зко",
+      "lemma": "ре́зко",
+      "lemmaTranslation": "gwałtownie; nagle; ostro; stanowczo",
+      "choiceDistractorIds": [
+        "word-vsyo-taki",
+        "word-v-tselom",
+        "word-protivorechivo"
+      ]
+    },
+    {
+      "id": "word-insult",
+      "lemmaId": "insult",
+      "sourceWordId": "insult",
+      "level": "B1",
+      "sentenceRu": "Врач сказа́л, что инсу́льт тре́бует неме́дленной по́мощи.",
+      "sentenceGap": "Врач сказа́л, что _____ тре́бует неме́дленной по́мощи.",
+      "translationPl": "Lekarz powiedział, że udar wymaga natychmiastowej pomocy.",
+      "answer": "инсу́льт",
+      "lemma": "инсу́льт",
+      "lemmaTranslation": "udar mózgu; udar",
+      "choiceDistractorIds": [
+        "word-cherta",
+        "word-uroven",
+        "word-proshchenie"
+      ]
+    },
+    {
+      "id": "word-vryad-li",
+      "lemmaId": "vryad-li",
+      "sourceWordId": "vryad-li",
+      "level": "B1",
+      "sentenceRu": "Рабо́ты ещё на два часа́, поэ́тому он вря́д ли успе́ет до ве́чера.",
+      "sentenceGap": "Рабо́ты ещё на два часа́, поэ́тому он _____ успе́ет до ве́чера.",
+      "translationPl": "Pracy zostało jeszcze na dwie godziny, dlatego raczej nie zdąży do wieczora.",
+      "answer": "вря́д ли",
+      "lemma": "вря́д ли",
+      "lemmaTranslation": "raczej nie; mało prawdopodobne; wątpliwe, żeby",
+      "choiceDistractorIds": [
+        "word-vsyo-taki",
+        "word-v-tselom",
+        "word-protivorechivo"
+      ]
+    },
+    {
+      "id": "word-po-blatu",
+      "lemmaId": "po-blatu",
+      "sourceWordId": "po-blatu",
+      "level": "B1",
+      "sentenceRu": "Благодаря́ знако́мым, то есть по бла́ту, он получи́л э́ту рабо́ту.",
+      "sentenceGap": "Благодаря́ знако́мым, то есть _____, он получи́л э́ту рабо́ту.",
+      "translationPl": "Dzięki znajomościom, czyli po znajomości, dostał tę pracę.",
+      "answer": "по бла́ту",
+      "lemma": "по бла́ту",
+      "lemmaTranslation": "po znajomości; dzięki układom; przez protekcję",
       "choiceDistractorIds": [
         "word-vsyo-taki",
         "word-v-tselom",

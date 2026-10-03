@@ -1,10 +1,10 @@
-const CACHE = 'slowka-v1.3.0';
+const CACHE = 'slowka-v1.3.1';
 const ASSETS = [
   './',
   './index.html',
-  './styles.css?v=1.3.0',
-  './app.mjs?v=1.3.0',
-  './logic.mjs?v=1.3.0',
+  './styles.css?v=1.3.1',
+  './app.mjs?v=1.3.1',
+  './logic.mjs?v=1.3.1',
   './manifest.webmanifest',
   './icon.svg',
   './icon-192.png',
